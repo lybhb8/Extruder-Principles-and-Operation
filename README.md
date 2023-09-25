@@ -15,7 +15,7 @@
 
 # 开源
 
-本书中文版（Extruder-Principles-and-Operation-cn项目）以[GPL-3.0 license](/LICENSE) 开源。
+本书中文版（Extruder-Principles-and-Operation项目）以[GPL-3.0 license](/LICENSE) 开源。
 
 # 电子书
 
