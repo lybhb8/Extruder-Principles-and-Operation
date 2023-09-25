@@ -15,11 +15,11 @@
 
 # 开源
 
-本书中文版（Extruder-Principles-and-Operation项目）以[GPL-3.0 license](/LICENSE) 开源。
+本书中文版（Extruder-Principles-and-Operation项目）以[GPL-3.0 license](/LICENSE)协议开源。
 
 # 电子书
 
-[中文版(ReadTheDocs)]()
+[中文版(ReadTheDocs)](https://extruder-principles-and-operation.readthedocs.io/en/latest/#)
 
-[中文版(wiki)](https://github.com/lybhb8/Extruder-Principles-and-Operation-cn/wiki)
+[中文版(wiki)](https://github.com/lybhb8/Extruder-Principles-and-Operation/wiki)
 
