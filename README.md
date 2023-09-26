@@ -23,3 +23,4 @@
 
 [中文版(wiki)](https://github.com/lybhb8/Extruder-Principles-and-Operation/wiki)
 
+[英文 1995 年第二版](https://www.aliyundrive.com/s/UkTJ9axrtRQ)
