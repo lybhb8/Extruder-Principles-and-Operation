@@ -34,7 +34,7 @@
 
 .. list-table::
    :header-rows: 1
-   :widths: 30 40 50
+   :widths: 35 45 60
    
    * - 简称
      - 中文
@@ -77,46 +77,72 @@
      - 苯乙烯-丙烯腈
      - styrene-acrylonitrile 
 
+   * - UPVC
+     - 未增塑（硬质）聚氯乙烯
+     - unplasticized (rigid) polyvinyl chloride 
 
 
-UPVC 
-PPVC 
-HIPS 
-POM 
-EVAC 
-PA 
-PETP 
-PBTP 
-LOPE 
-LLOPE 
-HOPE 
-PP 
-PEEK 
-PTFE 
-Base polymer 
-AMORPHOUS 
+   * - PPVC
+     - 增塑（软质）聚氯乙烯
+     - plasticized (flexible) polyvinyl chloride 
+
+   * - PPVC
+     - 高抗冲聚苯乙烯（橡胶增韧）
+     - high impact polystyrene (rubber-toughened) 
+
+
+   * - 半结晶性塑料：
+     - 
+     - 
+
+   * - POM 
+     - 聚甲醛（聚缩醛）
+     - polyformaldehyde (polyacetal)  
+
+   * - EVAC
+     - 乙烯醋酸乙烯酯共聚物
+     - ethylene vinyl acetate copolymer  
+
+   * - PA
+     - 聚甲醛（聚缩醛）
+     - polyamide (nylon)  
+
+   * - PETP
+     - 聚对苯二甲酸乙二醇酯（饱和聚酯）
+     - polyethylene terephthalate (saturated polyester) 
  
+   * - PBTP 
+     - 聚对苯二甲酸乙二醇酯（饱和聚酯）
+     - polybutylene terephthalate 
 
-  
+   * - LDPE
+     - 低密度聚乙烯
+     - low density polyethylene
 
+   * - LLDPE
+     - 线性低密度聚乙烯
+     - linear low density polyethylene 
 
+   * - HDPE
+     - 高密度聚乙烯
+     - high density polyethylene
 
+   * - HDPE
+     - 高密度聚乙烯
+     - high density polyethylene 
 
-unplasticized (rigid) polyvinyl chloride 
-plasticized (flexible) polyvinyl chloride 
-high impact polystyrene (rubber-toughened) 
-SEMI-CRYSTALLINE 
-polyoxymethylene; polyformaldehyde (polyacetal) 
-ethylene vinyl acetate copolymer . 
-polyamide (nylon) 
-polyethylene terephthalate (saturated polyester) 
-polybutylene terephthalate 
-low density polyethylene 
-linear low density polyethylene 
-high density polyethylene 
-polypropylene (homo- and copolymers) 
-polyether ether ketone 
-polytetrafluoroethylene (ram extrusion only)
+   * - PP
+     - 聚丙烯（均聚物和共聚物）
+     - polypropylene (homo- and copolymers) 
+     
+   * - PEEK 
+     - 聚醚醚酮
+     - polyether ether ketone 
+
+   * - PTFE
+     - 聚四氟乙烯（仅限冲压挤压）
+     - polytetrafluoroethylene (ram extrusion only)
+
 
 挤出机执行许多其他功能，这些功能可以用于主要或偶然地在广泛的专业应用中。 挤出机本质上适合连续运行； 然而，它被广泛用于许多吹塑机和大多数注塑机
 间歇性工作。 尽管必须考虑到本书中介绍的其他因素，但它在这种模式下的表现却出奇地好。 
