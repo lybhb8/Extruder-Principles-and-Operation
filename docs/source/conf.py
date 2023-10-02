@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Extruder Principles and Operations/中文版'
-copyright = '2021, Bobolin'
+copyright = '2023, Bobolin'
 author = 'Bobolin'
 
 release = '1.0'
@@ -18,7 +18,8 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'myst_parser',
-    'sphinx_copybutton',
+    #'sphinx_copybutton',
+    'sphinx.ext.autosectionlabel',
     
 ]
 
@@ -36,3 +37,10 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+
+# Prefix document path to section labels, to use:
+# `path/to/file:heading` instead of just `heading`
+autosectionlabel_prefix_document = True
+
+autosectionlabel_maxdepth = 1 
