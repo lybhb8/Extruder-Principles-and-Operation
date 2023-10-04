@@ -4,6 +4,7 @@
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    3.1 粘度
+   3.2 剪切流动
