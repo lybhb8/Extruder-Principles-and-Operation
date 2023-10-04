@@ -44,3 +44,5 @@ epub_show_urls = 'footnote'
 autosectionlabel_prefix_document = True
 
 autosectionlabel_maxdepth = 1 
+
+myst_enable_extensions = ["colon_fence"]
