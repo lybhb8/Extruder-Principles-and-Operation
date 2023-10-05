@@ -141,8 +141,28 @@
 得出了与流速和模头尺寸相关的壁面剪切速率。
 
 
-3.2.3 无边界狭缝（牛顿模型）
+3.2.3 无边界平缝（牛顿模型）
 --------------------------------
 
-根据与毛细管相同的假设，无限狭缝宽 T 深 H，其中 T>>H，因此端面的阻力可以忽略不计，因此流动是一维的，速度只在 H 方向变化。下标为 y、h 和 X，其中 X = H /2，表示从中心线测量的相应尺寸（图 3.8）。通过对从中心开始以 y 为轴的 Twide 区域进行力平衡：
+根据与毛细管相同的假设，无限狭缝宽 T 深 H，其中 T>>H，因此端面的阻力可以忽略不计，因此流动是一维的，速度只在 H 方向变化。下标为 y、h 和 X，其中 X = H /2，表示从中心线测量的相应尺寸（图 3.8）。
+
+.. figure:: /images/slit_flow.png
+    :width: 80%
+    :align: center
+
+    图 3.8 平缝流动
+
+
+通过对从中心开始以 y 为轴的 T 宽区域进行力平衡：
+
+        :math:`\mathrm{d}P y T = \tau _{y} \mathrm{d}L` ``-                               (3.25)``
+
+那么：
+
+        :math:`\begin{eqnarray}\frac{\mathrm{d} P}{\mathrm{d} L} \bullet y & = & \tau _{y}  \\ & = & - \eta \dot{\gamma } _{y}  \\ & = & - \eta \frac{\mathrm{d} V_{y} }{\mathrm{d} y} \end{eqnarray}` ``-                         (3.26)``
+
+同样，剪应力与中心距离和压力梯度成正比，与流体性质无关。有：
+
+        :math:`\begin{eqnarray}\mathrm{d}V_{y} & = & -\frac{\tau _{y} }{\eta } \mathrm{d}y  \\ & = & -\frac{1}{\eta } \bullet \frac{\mathrm{d} P}{\mathrm{d} L} y\mathrm{d}y \end{eqnarray}` ``-                       (3.27)``
+
 
