@@ -122,3 +122,27 @@
             :math:`\mathrm{d}Q_{r} = V_{r} \bullet 2\pi r\mathrm{d}r` ``-                      (3.21)``
 
 和总容积流量：
+
+
+            :math:`\begin{eqnarray}Q & = & \frac{2\pi }{4\eta } \bullet \frac{\mathrm{d} P}{\mathrm{d} L} \int_{0}^{R} \left (R^{2} - r^{2}   \right ) r\mathrm{d}r \\ & = & \frac{\pi R^{4} }{8\eta } \bullet \frac{\mathrm{d} P}{\mathrm{d} L} \end{eqnarray}` ``-     (3.22)``
+
+
+调整为：
+
+
+            :math:`\mathrm{d}P = \frac{8\eta Q\mathrm{d}L }{\pi R^{4} }` ``-                              (3.23)``
+
+
+将公式 (3.15) 用作毛细管壁的剪切率，并代入公式 (3.22) 中的 dP/dL：
+
+
+            :math:`\begin{eqnarray}\dot{\gamma } & = & \frac{\mathrm{d} P}{\mathrm{d} L} \bullet \frac{R}{2\eta } \\ & = & \frac{4Q}{\pi R^{3} } \end{eqnarray}` ``-                            (3.24)``
+
+得出了与流速和模头尺寸相关的壁面剪切速率。
+
+
+3.2.3 无边界狭缝（牛顿模型）
+--------------------------------
+
+根据与毛细管相同的假设，无限狭缝宽 T 深 H，其中 T>>H，因此端面的阻力可以忽略不计，因此流动是一维的，速度只在 H 方向变化。下标为 y、h 和 X，其中 X = H /2，表示从中心线测量的相应尺寸（图 3.8）。通过对从中心开始以 y 为轴的 Twide 区域进行力平衡：
+
