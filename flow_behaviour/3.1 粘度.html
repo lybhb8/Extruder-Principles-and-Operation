@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3.1 粘度 &mdash; Extruder Principles and Operations/中文版 1.0 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="3.2 剪切流动" href="3.2%20%E5%89%AA%E5%88%87%E6%B5%81%E5%8A%A8.html" />
+    <link rel="prev" title="3 挤出的相关流动特性" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Extruder Principles and Operations/中文版
+          </a>
+              <div class="version">
+                1.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">1 介绍</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../process/index.html">2 实用挤出工艺及要求</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">3 挤出的相关流动特性</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">3.1 粘度</a></li>
+<li class="toctree-l2"><a class="reference internal" href="3.2%20%E5%89%AA%E5%88%87%E6%B5%81%E5%8A%A8.html">3.2 剪切流动</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Extruder Principles and Operations/中文版</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">3 挤出的相关流动特性</a></li>
+      <li class="breadcrumb-item active">3.1 粘度</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/flow_behaviour/3.1 粘度.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>3.1 粘度<a class="headerlink" href="#id1" title="Permalink to this heading"></a></h1>
+<p>当液体受到应力时，只要施加应力，它就会持续变形，这与完美固体不同，后者的变形量是固定的，与时间无关。当应力消除时，液体仍保持其变形状态，而弹性固体则瞬间完全恢复其原始尺寸（图 3.1）。因此，作为应力和变形（应变）之间关系的刚度或模量对于固体来说是唯一的，但对于液体来说则与时间有关，因此并不能定义材料的属性。然而，在恒定应力下，随时间变化的变形率是恒定的，其比率就是粘度。在直接应力 σ（拉伸、压缩）作用下， <strong>伸长/原长</strong> 之比被定义为应变 （图 3.2），  <strong>应力/应变</strong> 之比被定义为弹性模量 E。</p>
+<p>对于液体，应变率为</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(\frac{d\epsilon}{dt} = {ε} = \frac{1}{L}.\frac{dL}{dt}\)</span> <code class="docutils literal notranslate"><span class="pre">-</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">(3.1)</span></code></p>
+</div></blockquote>
+<p>和拉伸粘度：</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(\frac{σ}{ε} = {Λ}\)</span> <code class="docutils literal notranslate"><span class="pre">-</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">(3.2)</span></code></p>
+</div></blockquote>
+<figure class="align-center" id="id2">
+<a class="reference internal image-reference" href="../_images/stress.png"><img alt="../_images/stress.png" src="../_images/stress.png" style="width: 80%;" /></a>
+<figcaption>
+<p><span class="caption-text">图 3.1 受力变形</span><a class="headerlink" href="#id2" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id3">
+<a class="reference internal image-reference" href="../_images/strain.png"><img alt="../_images/strain.png" src="../_images/strain.png" style="width: 80%;" /></a>
+<figcaption>
+<p><span class="caption-text">图 3.2 拉伸应变</span><a class="headerlink" href="#id3" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id4">
+<a class="reference internal image-reference" href="../_images/shear_strain.png"><img alt="../_images/shear_strain.png" src="../_images/shear_strain.png" style="width: 80%;" /></a>
+<figcaption>
+<p><span class="caption-text">图 3.3 剪切应变</span><a class="headerlink" href="#id4" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<p>在剪切过程中，应力 τ 会导致应力方向上的变形 dx，但剪切应变的定义（图 3.3）为：</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(\frac{\mathrm{d} x}{\mathrm{d} y} = \tan \gamma \approx \gamma\)</span> <code class="docutils literal notranslate"><span class="pre">-</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">(3.3)</span></code></p>
+</div></blockquote>
+<p>为小应变。对于液体，应变速率为：</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(\begin{eqnarray}\frac{\mathrm{d} \gamma }{\mathrm{d} t} &amp; = &amp; \dot{\gamma }  \\ &amp; = &amp; \frac{\mathrm{d}}{\mathrm{d} t} \left (\frac{\mathrm{d} x}{\mathrm{d} y}   \right ) \\ &amp; = &amp; \frac{\mathrm{d}}{\mathrm{d} y} \left (\frac{\mathrm{d} x}{\mathrm{d} t}   \right ) \\ &amp; = &amp; \frac{\mathrm{d} w}{\mathrm{d} y} \\\end{eqnarray}\)</span>   <code class="docutils literal notranslate"><span class="pre">-</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">(3.4)</span></code></p>
+</div></blockquote>
+<p>其中，w = dx/dt 为速度。剪切粘度为:</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(\frac{\tau }{\dot{\gamma } } = \eta\)</span>  <code class="docutils literal notranslate"><span class="pre">-</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">(3.5)</span></code></p>
+</div></blockquote>
+<p>应变是一个纯比率，因此是无量纲的。因此应力和模量的单位都是 Nm<sup>-2</sup> 应变率的单位是 1/时间，用 s<sup>-1</sup> 表示，因此粘度的单位是 Nsm<sup>-2</sup>。
+在牛顿流体中，剪切应力和剪切应变率之间的关系是线性的（图 3.4），即粘度是恒定 的，与应力值和应变（剪切）率无关，但与温度有关。
+许多熔融聚合物或多或少都具有非牛顿性，即剪切速率不再与剪切应力成正比，粘度通常随剪切应力或剪切速率的增加而降低，此时它们被称为假塑性聚合物（图 3.4）。
+粘度的定义（公式 (3.5)）仍在使用，但现在是剪切应力或剪切速率以及温度的函数。</p>
+<figure class="align-center" id="id5">
+<a class="reference internal image-reference" href="../_images/shear_rate.png"><img alt="../_images/shear_rate.png" src="../_images/shear_rate.png" style="width: 60%;" /></a>
+<figcaption>
+<p><span class="caption-text">图 3.4 剪切粘度</span><a class="headerlink" href="#id5" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<p>一种常用的近似方法是将剪切应力表示为剪切速率的简单幂：</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(\tau = \eta \dot{\gamma } ^n\)</span>  <code class="docutils literal notranslate"><span class="pre">-</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">(3.6)</span></code></p>
+</div></blockquote>
+<p>其中 K 是特定材料和温度下的常数。将方程 (3.6) 和 (3.5) 结合起来可以得出:</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(\begin{eqnarray}\eta \propto  \dot{\gamma } ^{n-1} \propto \tau ^{(n-1)/n} \end{eqnarray}\)</span>  <code class="docutils literal notranslate"><span class="pre">-</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">(3.7)</span></code></p>
+</div></blockquote>
+<p>其中，对于假弹性流体，n &lt; 1，显然牛顿行为等同于 n = 1。这两种近似值都有助于数学分析，但必须认识到 “幂律 “几乎没有物理基础；它只是在有限剪切速率范围内的一种方便近似值。</p>
+<p>指数 n 被称为假塑性指数，其值从统一值降至零表明进一步偏离了牛顿关系，即剪切应力随剪切速率的上升更慢。图 3.4 显示，在很高的剪切速率下，剪切应力趋于极限值，粘度持续下降，曲线与图 3.5 相似（对数/对数标度）。如果将粘度与剪切速率作图，则曲线的负斜率为 n - 1（等式（3.7），按对数/对数标度，当 n = O 时，最大值为-1（45°）。如图 3.5 所示，许多聚合物熔体在很低的剪切速率下就能达到这种状态，即通常所说的 零剪切粘度。</p>
+<figure class="align-center" id="id6">
+<a class="reference internal image-reference" href="../_images/viscosity_curves.png"><img alt="../_images/viscosity_curves.png" src="../_images/viscosity_curves.png" style="width: 80%;" /></a>
+<figcaption>
+<p><span class="caption-text">图 3.5 典型的粘度曲线</span><a class="headerlink" href="#id6" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<p>粘度（假塑性流动的固定剪切速率下）随温度升高而降低；最佳近似值可能是Arrhenius关系：</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(\eta = A exp^{(E/ER)}\)</span> <code class="docutils literal notranslate"><span class="pre">-</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">(3.8)</span></code></p>
+</div></blockquote>
+<p>其中 A 和 E 是常数，后者是以 Jmol<sup>-1</sup> 为单位的流动活化能，R 是以 JK<sup>-1</sup> mol<sup>-1</sup> 为单位的气体常数，T 是以开尔文为单位的自转温度。在有限的温度范围内使用的其他近似值有:</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(\eta = B exp^{(-bT)}\)</span> <code class="docutils literal notranslate"><span class="pre">-</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">(3.9)</span></code></p>
+</div></blockquote>
+<p>并</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(\eta = \eta _{0} \left [ 1-\beta  \left (  T-T_{0}\right )  \right ]\)</span> <code class="docutils literal notranslate"><span class="pre">-</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">(3.10)</span></code></p>
+</div></blockquote>
+<p>等式 (3.8) 意味着 log’f/ 与 log i 的曲线是平行的，即温度的影响与剪切速率无关。对于许多实际聚合物来说，情况并非如此，要么 n 必须随温度变化而变化，要么 E 必须是剪切速率的函数；这将导致复杂的数学方程，而就目前的目的而言，在涉及微小变化时，在大多数情况下使用方程 (3.7) 和 (3.10) 以及在适当剪切速率和温度下的实验平均值就足够了。对于任何有用的计算来说，重要的是要获得这些数据，最好是所使用材料等级的粘度与剪切速率和温度的关系数据。这些数据可向原料供应商索取，但为了进行有用的工艺控制，加工商应具备自行获取数据 的能力（见第 11.4 节）。Cogswell (1981) 中给出了一些常见聚合物的典型流动曲线。关于压力对粘度的影响，已公布的数据数量有限（Westover，1961 年）；聚苯乙烯在高压下的粘度会显著增加，但聚烯烃在正常挤出压力下的粘度可能会被忽略。</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="3 挤出的相关流动特性" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="3.2%20%E5%89%AA%E5%88%87%E6%B5%81%E5%8A%A8.html" class="btn btn-neutral float-right" title="3.2 剪切流动" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Bobolin.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
