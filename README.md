@@ -1,8 +1,3 @@
-
-<h1 align="center">挤出原理和实操(Extruder Principles and Operation)</h1>
-
-<img align="center" src="https://img.thriftbooks.com/api/images/m/a436824a5385bfab43688a2261a000ec8f49c0f9.jpg" alt="首页_img">
-
 是由**M. J. Stevens**与**J. A. Covas**共同编著，第一版 1985，1995 年第二版。
 
 本书中文版以**1995 年第二版**英文版为摹本，结合国内现代塑料挤出行业的技术规范实现的中文翻译。在这一过程中，运用了**谷歌翻译**等AI工具，难免会有专业术语不当之处，请多谅解。
@@ -19,8 +14,5 @@
 
 # 链接
 
-[中文(ReadTheDocs)](https://extruder-principles-and-operation.readthedocs.io/en/latest/#)
-
-[中文(wiki)](https://github.com/lybhb8/Extruder-Principles-and-Operation/wiki)
-
+[中文(ReadTheDocs)](https://extruder-principles-and-operation.readthedocs.io/en/latest/#)\
 [英文1995第二版下载](https://www.aliyundrive.com/s/UkTJ9axrtRQ)
