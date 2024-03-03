@@ -21,6 +21,4 @@
 
 [中文(ReadTheDocs)](https://extruder-principles-and-operation.readthedocs.io/en/latest/#)
 
-[中文(wiki)](https://github.com/lybhb8/Extruder-Principles-and-Operation/wiki)
-
 [英文1995第二版下载](https://www.aliyundrive.com/s/UkTJ9axrtRQ)
