@@ -8,3 +8,5 @@
 
    3.1 粘度
    3.2 剪切流动
+   3.2.3
+   3.2.4 Strain energy in shear
