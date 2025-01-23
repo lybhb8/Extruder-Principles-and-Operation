@@ -166,3 +166,455 @@
         :math:`\begin{eqnarray}\mathrm{d}V_{y} & = & -\frac{\tau _{y} }{\eta } \mathrm{d}y  \\ & = & -\frac{1}{\eta } \bullet \frac{\mathrm{d} P}{\mathrm{d} L} y\mathrm{d}y \end{eqnarray}` ``-                       (3.27)``
 
 
+综合:
+
+        :math:`\int_{0}^{h}\mathbf{d}V=-\frac{1}{\eta}\cdot\frac{\mathbf{d}P}{\mathbf{d}L}\int_{0}^{h}y\,\mathbf{d}y` ``-                      (3.28)``
+
+给:
+
+:math:`V_{h}-V_{0}=-\frac{h^{2}}{2\eta}\cdot\frac{\mathrm{d}P}{\mathrm{d}L}` ``-                      (3.29)``
+
+但是 :math:`V_{X}=0` . 那么:
+
+:math:`\begin{array}{r}{V_{0}=\cfrac{X^{2}}{2\eta}\cdot\cfrac{\mathrm{d}P}{\mathrm{d}L}}\\ {=\cfrac{H^{2}}{8\eta}\cdot\cfrac{\mathrm{d}P}{\mathrm{d}L}}\end{array}` ``-                      (3.30)``
+
+及
+
+:math:`\begin{array}{l}{\displaystyle V_{h}=\frac{1}{2\eta}\cdot\frac{\mathrm{d}P}{\mathrm{d}L}\left(X^{2}-h^{2}\right)}\\ {\displaystyle\qquad=\frac{1}{8\eta}\cdot\frac{\mathrm{d}P}{\mathrm{d}L}\left(H^{2}-4h^{2}\right)}\end{array}` ``-                      (3.31)``
+
+得出抛物线速度曲线（在 :math:`T` 方向上均匀）。
+
+在距离中心 :math:`\pmb{h}` 处，厚度为 :math:`\mathbf{d}h`
+的薄片中的体积流量为：
+
+和总体积流量：
+
+:math:`\mathrm{d}Q_{h}=V_{h}T\,\mathrm{d}h` ``-                      (3.32)``
+
+:math:`\begin{array}{l}{{Q=2\displaystyle\int_{0}^{X}\frac{T}{2\eta}\cdot\frac{\mathrm{d}P}{\mathrm{d}L}\left(X^{2}-h^{2}\right)\mathrm{d}h}}\\ {{\ }}\\ {{\displaystyle{=\frac{T}{\eta}\cdot\frac{\mathrm{d}P}{\mathrm{d}L}\left[X^{2}h-\frac{h^{3}}{3}\right]_{0}^{X}}}}\\ {{\ }}\\ {{\displaystyle{=\frac{2T}{3\eta}\cdot\frac{\mathrm{d}P}{\mathrm{d}L}\,X^{3}}}}\\ {{\ }}\\ {{\displaystyle{=\frac{T H^{3}}{12\eta}\cdot\frac{\mathrm{d}P}{\mathrm{d}L}}}}\end{array}` ``-                      (3.33)``
+
+其中 :math:`H=2X` 。重新排列：
+
+壁面剪切率为
+
+:math:`\mathbf{d}P={\frac{12\eta Q\,\mathrm{d}L}{T H^{3}}}` ``-                      (3.34)``
+
+:math:`\begin{array}{l}{\dot{\gamma}_{X}=-\frac{X}{\eta}\cdot\frac{\mathrm{d}P}{\mathrm{d}L}}\\ {\quad=-\frac{H}{2\eta}\cdot\frac{\mathrm{d}P}{\mathrm{d}L}}\\ {\quad=\frac{6Q}{T H^{2}}}\end{array}` ``-                      (3.35)``
+
+表 3.1 流量方程汇总表
+
+.. figure:: /images/table3.1.png
+    :width: 80%
+    :align: center
+
+表 3.1 列出了这两种压力流的结果，以及幂律流体的相应结果。从公式 (3.23)
+中可以看出，在半径恒定的毛细管中，如果粘度不依赖于压力，则压力梯度
+:math:`/\mathbf{d}P/\mathbf{d}L`\ 恒定且等于 :math:`P/L`\ 。公式 (3.22)
+可以重写：
+
+:math:`Q=\frac{\pi R^{4}}{8\eta}\cdot\frac{P}{L}` ``-                      (3.36)``
+
+或者，把 :math:`K=\pi R^{4}/8L` 放在恒定维数的模中：
+
+:math:`Q=\frac{K P}{\eta}` ``-                      (3.37)``
+
+流量方程 (3.22) 和 (3.33) 以及相应的幂律方程（表
+3.1）可用于确定不同尺寸对压力流量的影响。对于两个串联的毛细管，如阶梯模中的毛细管，每个部分的容积流量显然是相同的。那么对于牛顿流体，根据公式
+(3.22)
+
+:math:`\frac{\pi R_{2}^{4}}{8\eta}\cdot\frac{\mathrm{d}P_{2}}{\mathrm{d}L}=\frac{\pi R_{1}^{4}}{8\eta}\cdot\frac{\mathrm{d}P_{1}}{\mathrm{d}L}` 
+
+或者
+
+:math:`{\cfrac{{\mathrm{d}}P_{2}}{{\mathrm{d}}L}}=\left({\cfrac{R_{1}}{R_{2}}}\right)^{4}.{\cfrac{{\mathrm{d}}P_{1}}{{\mathrm{d}}L}}` ``-                      (3.38)``
+
+如果 例如 :math:`R_{2}=0.95R_{1}`
+
+:math:`{\cfrac{{\mathrm{d}}P_{2}}{{\mathrm{d}}L}}=1.228~{\frac{{\mathrm{d}}P_{1}}{{\mathrm{d}}L}}` ``-                      (3.39)``
+
+即半径减少 :math:`5\%`\ ，压力梯度增加 :math:`22.8\%`\ 。
+对于假塑性幂律流体，表 3.1 给出了壁面剪切率：
+
+:math:`\dot{\gamma}_{\mathrm{w}2}=\frac{R_{1}^{3}}{R_{2}^{3}}\:\dot{\gamma}_{\mathrm{w}1}` ``-                      (3.40)``
+
+与
+
+:math:`\eta_{\mathrm{w}2}=\bigg(\frac{R_{1}}{R_{2}}\bigg)^{3n-3}\cdot\eta_{\mathrm{w}1}` ``-                      (3.41)``
+
+那么在流量 :math:`Q` 相等的情况下:
+
+:math:`\begin{array}{l}{\displaystyle\frac{\mathrm{d}P_{2}}{\mathrm{d}L}\!=\!\frac{\mathrm{d}P_{1}}{\mathrm{d}L}\cdot\left(\frac{R_{1}}{R_{2}}\right)^{4}\left(\frac{R_{1}}{R_{2}}\right)^{3n-3}}\\ {\displaystyle=\frac{\mathrm{d}P_{1}}{\mathrm{d}L}\cdot\left(\frac{R_{1}}{R_{2}}\right)^{3n+1}}\end{array}` ``-                      (3.42)``
+
+然后在 :math:`R_{2}=0.95R_{1}` 和 :math:`n=0.3`
+
+:math:`{\frac{{\mathrm{d}}P_{2}}{{\mathrm{d}}L}}=1.102\,{\frac{{\mathrm{d}}P_{1}}{{\mathrm{d}}L}}` ``-                      (3.43)``
+
+也就是说，对于高度假塑性的流体，半径减少\ :math:`5\%`
+会导致压力梯度增加\ :math:`10.2\%`\ 。
+
+对于宽度为 :math:`_T` 的均匀狭缝，如果深度 :math:`\pmb{H}` 减少 5
+美元/%$，则相应的值分别为 :math:`16.6\%` 和 :math:`8.5\%`\ （对于
+:math:`n=1` 和 :math:`n=0.3`\ ）。
+
+对于两个平行的等长毛细管，如多线模中的毛细管，每个毛细管上的压降和压力梯度是相同的。那么对于牛顿流体，根据公式
+(3.23):
+
+:math:`\frac{8\eta Q_{2}}{\pi R_{2}^{4}}\,{=}\,\frac{8\eta Q_{1}}{\pi R_{1}^{4}}`
+
+或者
+
+:math:`Q_{2}=Q_{1}\left({\frac{R_{2}}{R_{1}}}\right)^{4}`  ``-                      (3.44)``
+
+如 :math:`R_{2}=0.95R_{1}` ,
+
+:math:`Q_{2}=0.814Q_{1}` ``-                      (3.45)``
+
+即半径减小 5%，流速减小 18.6%。平均流速 :math:`Q/\pi R^{2}` 降低了
+9.75%。例如，这对于多股分支模头进行普通分流非常重要。
+对于伪塑性幂律(pseudoplastic power-law)流体，表3.1给出了：
+
+:math:`\begin{array}{r l r}{{\dot{\gamma}_{\mathrm{w2}}=-\frac{1}{\eta_{\mathrm{w2}}}\cdot\frac{R_{2}}{2}\cdot\frac{\mathrm{d}P}{\mathrm{d}L}}} \\&{}&{=\dot{\gamma}_{\mathrm{w1}}\,\frac{\eta_{\mathrm{w1}}}{\eta_{\mathrm{w2}}}\cdot\frac{R_{2}}{R_{1}}}\end{array}` ``-                      (3.46)``
+
+但 根据公式 (3.7):
+
+:math:`\eta_{\mathrm{w}2}=\eta_{\mathrm{w}1}\left(\frac{\dot{\gamma}_{\mathrm{w}2}}{\dot{\gamma}_{\mathrm{w}1}}\right)^{n-1}` ``-                      (3.47)``
+
+因此
+
+:math:`\frac{\dot{\gamma}_{\mathrm{w}2}}{\dot{\gamma}_{\mathrm{w}1}}=\frac{R_{2}}{R_{1}}\,\left(\frac{\dot{\gamma}_{\mathrm{w}2}}{\dot{\gamma}_{\mathrm{w}1}}\right)^{1-n}`
+
+或
+
+:math:`\frac{\dot{\gamma}_{\mathrm{w}2}}{\dot{\gamma}_{\mathrm{wl}}}=\left(\frac{R_{2}}{R_{1}}\right)^{1/n}` ``-                      (3.48)``
+
+及
+
+:math:`\eta_{\mathrm{w}2}=\eta_{\mathrm{w}1}\left(\frac{R_{2}}{R_{1}}\right)^{(n-1)/n}` ``-                      (3.49)``
+
+那么
+
+:math:`\begin{array}{l}{{\displaystyle Q_{2}=Q_{1}\left(\frac{R_{2}}{R_{1}}\right)^{4}\left(\frac{R_{2}}{R_{1}}\right)^{(1-n)/n}}}\\ {{\mathrm{}}}\\ {{\displaystyle=Q_{1}\left(\frac{R_{2}}{R_{1}}\right)^{(3+1/n)}}}\end{array}` ``-                      (3.50)``
+
+如果 :math:`R_{2}=0.95R_{1}` 和 :math:`n=0.3` ，
+
+:math:`Q_{2}=0.723Q_{1}` ``-                      (3.51)``
+
+也就是说，半径减小\ :math:`5\%`\ ，流速减小\ :math:`27.7\%`\ ，平均速度减小\ :math:`19.9\%`–比牛顿情况下的数值更大。对于两个平行的等宽缝隙
+:math:`T`\ ，其中一个的深度 :math:`H_{2}` 为
+:math:`0.95H_{1}`\ ，则相应的数值为：在 :math:`n=1` 和 :math:`n=0.3`
+时，流速分别降低 :math:`14.3%` 和 :math:`23.9%`\ 。对于这两个
+:math:`\pmb{n}` 值，平均流速的降低比例与圆形毛细管相同。
+
+这些计算对实际挤压模具公差的影响将在第 5
+章中讨论。除了毛细管内的压力损失外，还经常会有入口损失，特别是方形入口模头，在低剪切速率下，入口损失可能相当于增加
+:math:`4L/R` 至 :math:`6L/R`
+的模头长度，在较高剪切速率下，入口损失会增加；这将在第 3.5 节中讨论。
+
+剪切流的一个难点是剪切同时在多个方向上进行。这种情况出现在挤出机螺杆的通道中，聚合物熔体沿通道同时受到剪切，其净流速取决于背压，而穿过通道时的净流速为零。其结果在大小和方向上都会发生变化，这就产生了冗长的牛顿流体方程（见第
+8.4
+节）。对于非牛顿流体，计算结果过于复杂，无法用于工业运行分析。另一种情况是在螺杆的输送端安装了一个混合装置，例如涂抹头或
+Dulmage
+头。该装置的旋转会造成横向于轴线的简单剪切流（线性速度分布），而有用的输出则由轴向压力流表示，就像在狭窄的缝隙中一样（等式（3.33）），从而产生弯曲的速度分布，例如抛物线速度分布；其结果在大小和方向上也是不同的。有学者指出，某点的有效粘度（假定为各向同性）受该点的最大剪切速率控制。Cogswell
+（Cogswell 和 Lamb，1970
+年）对低密度聚乙烯进行的实验表明，当旋转头的速度增加时，在旋转头之后的模头中的粘度会降低；这归因于可能是这种聚合物特有的暂时性链解缠。
+
+
+3.2.4 剪切应变能
+------------------
+
+(Strain energy in shear)
+
+参考图3.6，考虑平行于剪切应力方向并以速度w移动的层厚。然后，作用在该层与速度为
+:math:`w+\mathbf{d}w` 的相邻层之间的界面上的剪切力为：
+
+.. math::
+
+
+   F=\tau x z \tag{3.52}
+
+这在时间 :math:`t` 上起作用的距离是：
+
+.. math::
+
+
+   [(w+\mathbf{d}w)-w]t\tag{3.53}
+
+在时间 :math:`t` 内完成的工作：
+
+.. math::
+
+
+   F t[(w+\mathbf{d}w)-w]=\tau x z\,t\,\,\mathrm{d}w\tag{3.54}
+
+但薄片的体积为 :math:`x z\,{\mathsf{d}}y` ，因此单位体积在 :math:`t`
+时间内所做的功为：
+
+.. math::
+
+
+   {\frac{\tau x z\,t\,\,{\mathrm{d}}w}{x z\,{\mathrm{d}}y}}=\tau\,{\frac{{\mathrm{d}}w}{{\mathrm{d}}y}}\;t\tag{3.55}
+
+以及单位体积的应变能：
+
+.. math::
+
+
+   \tau\,\frac{\mathsf{d}w}{\mathsf{d}y}=\tau\dot{\gamma}\,\mathsf{N}\,\mathsf{s}^{-1}\,\mathsf{m}^{-2}\tag{3.56}
+
+将粘度代入方程 (3.5) 即可得出：
+
+.. math::
+
+
+   {\begin{array}{r l}&{{\mathrm{Strain~energy~per~unit~volume(单位体积的应变能)}}={\frac{\tau^{2}}{\eta}}}\\ &{\qquad\qquad\qquad\qquad\qquad=\eta\;{\dot{\gamma}}^{2}\,{\mathrm{N\,s}}^{-1}\,{\mathrm{m}}^{-2}{\mathrm{~or~}}{\mathrm{W\,m}}^{-3}}\end{array}}
+
+在简单剪切的情况下，代入公式 (3.11) 即可得出：
+
+.. math::
+
+
+   {\mathrm{Strain~energy~per~unit~volume}}={\frac{\eta W^{2}}{h^{2}}}\,\mathbf{W}\,\mathbf{m}^{-3}\tag{3.58}
+
+or
+
+.. math::
+
+
+   {\mathrm{Strain~energy~per~unit~volume}}={\frac{\eta W^{2}}{h^{}}}\,\mathbf{W}\,\mathbf{m}^{-2}(\mathrm{simple~shear})\tag{3.59}
+
+对于幂律流体，将方程（3.6）代入方程（3.56）得到：
+
+.. math::
+
+
+   \begin{array}{r l}&{\mathrm{~Strain~energy~per~unit~volume}=K\dot{\gamma}^{n+1}}\\ &{\qquad\qquad\qquad\qquad\qquad=K\left(\cfrac{W}{h}\right)^{n+1}(\mathrm{simple~shear})}\end{array}
+
+在圆形毛细管中，根据方程式（3.15）：
+
+.. math::
+
+
+   \dot{\gamma}_{r}=-\frac{\mathrm{d}P}{\mathrm{d}L}\,\cdot\,\frac{r}{2\eta}\tag{3.61}
+
+然后，对于牛顿流体，结合方程（3.57）和（3.61），环空 :math:`r` 到
+:math:`r+\mathbf{d}r` 的应变能为：
+
+.. math::
+
+
+   \left({\frac{\mathrm{d}P}{\mathrm{d}L}}\right)^{2}{\frac{r^{2}}{4\eta}}\cdot2\pi r L\,\mathrm{d}r={\frac{\pi L}{2\eta}}\left({\frac{\mathrm{d}P}{\mathrm{d}L}}\right)^{2}\cdot r^{3}\,\mathrm{d}r\tag{3.62}
+
+毛细管中的总应变能为：
+
+.. math::
+
+
+   {\frac{\pi L}{2\eta}}\,\left({\frac{\mathrm{d}P}{\mathrm{d}L}}\right)^{2}\int_{0}^{R}r^{3}\,\mathrm{d}r={\frac{\pi L}{8\eta}}\,\left({\frac{\mathrm{d}P}{\mathrm{d}L}}\right)^{2}\cdot R^{4}\tag{3.63}
+
+毛细管中局部应变能的分布由方程（3.62）给出，如图3.9所示。
+
+根据流量方程（3.22）进行替换：
+
+.. math::
+
+
+   \begin{array}{r l}{{\mathrm{Total~strain~energy}=\frac{8\eta L Q^{2}}{\pi R^{4}}}}\\ &{\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,=Q\,\mathrm{d}P\mathrm{~(in~circular~capillary)}}\end{array}
+
+其中 :math:`\mathbf{d}P` 是长度 :math:`L` 上的压降。
+
+同样，在无限狭缝中，根据方程式（3.26）：
+
+.. math::
+
+
+   \dot{\gamma}_{h}=-\frac{\mathrm{d}P}{\mathrm{d}L}\cdot\frac{h}{\eta}\tag{3.64}
+
+
+.. figure:: /images/d205e3d614757d8440b1012e68f7f1f65fe7a5358f80faa624f1d5be97585780.jpg
+
+     :width: 80%
+     :align: center
+
+层流h至h+dh的应变能为：
+
+.. math::
+
+
+   \left({\frac{\mathrm{d}P}{\mathrm{d}L}}\right)^{2}{\frac{h^{2}}{\eta}}\cdot T L\;\mathrm{d}h={\frac{T L}{\eta}}\left({\frac{\mathrm{d}P}{\mathrm{d}L}}\right)^{2}\cdot h^{2}\,\mathrm{d}h\tag{3.65}
+
+总应变能为：
+
+ :math:`{\begin{array}{r}{{\frac{2T L}{\eta}}\left({\frac{\mathrm{d}P}{\mathrm{d}L}}\right)^{2}\!\int_{0}^{X}h^{2}\,\mathrm{d}h={\frac{2T L}{3\eta}}\,\left({\frac{\mathrm{d}P}{\mathrm{d}L}}\right)^{2}\!X^{3}}\\ {={\cfrac{T L}{12\eta}}\,\left({\frac{\mathrm{d}P}{\mathrm{d}L}}\right)^{2}\!H^{3}}\end{array}}`  ``-            (3.66)``
+
+如图3.8所示，\ :math:`X=H/2`\ 。根据流量方程（3.33）进行替换：
+
+ :math:`\begin{array}{r l}&{\mathrm{Total~strain~energy}=\frac{12\eta Q^{2}L}{T H^{3}}}\\ &{\qquad\qquad\qquad\qquad\qquad=Q\,\mathrm{d}P\,\mathrm{~(in~infinite~slit)}}\end{array}` ``-            (3.67)``
+
+其中\ :math:`\mathbf{d}P`\ 是长度\ :math:`\pmb{L}`\ 的压降。
+
+由方程（3.65）给出的宽狭缝中局部应变能的分布也绘制在图3.9中。下面的例子说明了应变能量和粘性加热的数量级。在直径为\ :math:`100\,\mathrm{mm}`\ 的挤出机螺杆中，通道宽度为\ :math:`100\,\mathrm{mm}`\ ，转速为\ :math:`1\,\mathbf{rps},`\ 速度约为\ :math:`0.3\,\mathbf{m}\,\mathbf{s}^{-1}`
+。如果通道深度为10mm，剪切速率W/h约为\ :math:`0.3/0.01=30\,\mathrm{s}^{-1}`
+。
+
+然后从 第6章，阻力流速由下式给出：
+
+    :math:`\begin{array}{l}{{Q_{\mathbf{D}}=\cfrac{W b h}{2}}}\\ {{\qquad=\cfrac{\pi\times0.1\times0.1\times0.01}{2}}}\\ {{\qquad=1.57\times10^{-4}\,\mathrm{m^{3}\,s^{-1}}}}\end{array}` ``-            (6.9)``
+
+假设粘度为\ :math:`10^{3}\,\mathrm{N}\,\mathrm{s}\,\mathrm{m}^{-2}`
+。然后仅考虑下游流速，在阻力流中为简单剪切：
+
+.. math::
+
+
+   \begin{array}{r l}{\mathrm{Strain\ energy}=\eta\stackrel{.}{\gamma}^{2}}&{}\\ {=10^{3}\times30^{2}}\\ {}&{=9\times10^{5}\,\mathbf{W\,m}^{-3}}\end{array}
+
+及
+
+.. math::
+
+
+   \begin{array}{c}{{\mathrm{Volume~of~one~turn}\simeq\pi D b h}}\\ {{=\pi0.1\times0.1\times0.01}}\\ {{\simeq3\times10^{-4}\,\mathrm{m}^{3}}}\end{array}
+
+然后
+
+.. math::
+
+
+   \begin{array}{r}{\mathrm{Strain\ energy\ per\ turn}=9\times10^{5}\times3\times10^{-4}}\\ {=2.7\times10^{2}\,\mathrm{W}\qquad\qquad\qquad}\end{array}
+
+根据表4.1，密度和比热为 :math:`750\,\mathbf{kg}\,\mathbf{m}^{-3}` and
+:math:`2500\,\bar{{\bf J}}\,\bar{{\bf k}}{\bf g}^{-1}\,{\bf K}^{-1}` ,
+加热速率为：
+
+.. math::
+
+
+   \begin{array}{l}{\displaystyle\frac{\mathrm{d}T}{\mathrm{d}t}\,{=}\,\frac{9\times10^{5}}{750\times2500}}\\ {\displaystyle\simeq0.5^{\circ}\mathrm{C\,s}^{-1}}\end{array}
+
+在毛细管中，假设一个直径为\ :math:`5\,\mathrm{mm}`\ 、长为\ :math:`10\,\mathrm{mm}`\ 的模具，并测量流速。\ :math:`Q^{-}\,{=}\,0.1\times\,\mathrm{i}0^{-4}\,\mathrm{m}^{3}\,\mathrm{s}^{-1}`\ ，牛顿粘度为\ :math:`10^{3}\,\mathrm{N}\,\mathrm{s}\,\mathrm{m}^{-2}`
+
+.. math::
+
+
+   \begin{array}{l}{\displaystyle\mathrm{d}P=\frac{8\eta Q\mathrm{d}L}{\pi R^{4}}}\\ {\displaystyle\qquad=\frac{8\times10^{3}\times0.1\times10^{-4}\times0.01}{\pi(2.5)^{4}\times10^{-12}}}\\ {\displaystyle\qquad=6.5\times10^{6}\,\mathrm{N\,m^{-2}}}\end{array}
+
+边界剪切速率为：
+
+.. math::
+
+
+   \begin{array}{l}{{\dot{\gamma}_{R}=\displaystyle\frac{4Q}{\pi R^{3}}~~}}\\ {{\qquad=\displaystyle\frac{4\times0.1\times10^{-4}}{\pi\times2.5^{3}\times10^{-9}}}}\\ {{\qquad=815\,\mathrm{s}^{-1}}}\end{array}
+
+模头的容积
+
+.. math::
+
+
+   =\pi\times2.5^{2}\times10^{-6}\times0.01
+
+通过模头时消耗的能量为
+
+.. math::
+
+
+   \begin{array}{c}{{Q\cdot{\bf d}P=0.1\times10^{-4}\times6.5\times10^{6}}}\\ {{=65\,{\bf W}}}\end{array}
+
+然后
+
+.. math::
+
+
+   \begin{array}{r l}{{\mathrm{Strain~energy}=\frac{65}{19.6\times10^{-8}}}} \\ {=3.32\times10^{8}\,\mathrm{W\,m}^{-3}}\end{array}
+
+请注意，这是\ :math:`\eta\dot{\gamma}_{R}^{2}`
+给出的一半，也就是说，如果壁上的应变能在整个毛细管上持续存在，见图3.9。通过的时间是：
+
+.. math::
+
+
+   {\frac{19.6\times10^{-8}}{0.1\times10^{-4}}}=19.6\,\mathrm{ms}
+
+及加热速率为:
+
+.. math::
+
+
+   \begin{array}{c}{\displaystyle{\frac{\mathrm{d}T}{\mathrm{d}t}\!=\!\frac{3.32\times10^{8}}{750\times2500}}}\\ {\displaystyle{=177^{\circ}\mathrm{C\,s}^{-1}}}\end{array}
+
+因此，通过模头的温升为：
+
+.. math::
+
+
+   \begin{array}{l}{{\bf d}T=177\times19.6\times10^{-3}}\\ {~~~~~~=3.97^{\circ}{\bf C}}\end{array}
+
+为了将这些剪切应变能与纵向流动中的剪切应变能进行比较，考虑一个直径从\ :math:`50\,\mathrm{mm}`\ 减小到
+:math:`5\,\mathrm{mm}`\ 、长度为\ :math:`20\,\mathrm{mm}`
+的模具入口——一个尖锐的锥形，以夸大纵向分量。显然，由于平均剪切速率较低，锥形入口的剪切应变能将小于毛细管。现在
+
+.. math::
+
+
+   {\begin{array}{r l}&{{\mathrm{Volume~of~entrance}}={\frac{\pi}{3}}\times25^{2}\times10^{-6}\times20\times10^{-3}}\\ &{\qquad\qquad\qquad\qquad\qquad=13.09\times10^{-6}\,{\mathrm{m}}^{3}}\\ &{\qquad\qquad\qquad\qquad\qquad\qquad=13.09\times10^{-6}\,{\mathrm{m}}^{3}}\\ &{\qquad\qquad\mathrm{Half~angle~of~taper}=\tan^{-1}\left({\frac{50-5}{2\times20}}\right)}\\ &{\qquad\qquad\qquad\qquad\qquad\qquad=\tan^{-1}1.125}\\ &{\qquad\qquad\qquad\qquad\qquad\qquad=48.4^{\circ}}\end{array}}
+
+根据方程式（3.69），我们得到：
+
+.. math::
+
+
+   \begin{array}{c}{{\mathrm{Elongational~strain}=\log_{\mathrm{e}}\left(\displaystyle{\frac{50}{5}}\right)^{2}}}\\ {{=4.605}}\end{array}
+
+如前所述，流速为：
+
+.. math::
+
+
+   Q=0.1\times10^{-4}\,\mathrm{m}^{3}\,\mathrm{s}^{-1}
+
+通过锥度的时间为：
+
+.. math::
+
+
+   \frac{{\mathrm{Volume}}}{Q}\,{=}\,\frac{13.09\times10^{-6}}{0.1\times10^{-4}}
+
+则平均应变率由下式给出：
+
+.. math::
+
+
+   \begin{array}{l}{\dot{\varepsilon}\equiv\frac{\mathrm{d}\varepsilon}{\mathrm{d}t}}\\ {\quad=\frac{4.605}{1.309}}\\ {\quad=3.518\,\mathrm{s}^{-1}}\end{array}
+
+假设拉伸粘度为：
+
+.. math::
+
+
+   \begin{array}{l}{\Lambda=3\eta}\\ {\qquad=3\times10^{3}\,{\mathrm{N}}\,{\mathrm{s}}\,{\mathrm{m}}^{-2}}\end{array}
+
+通过与剪切应变能类比，拉伸应变能由下式给出：
+
+.. math::
+
+
+   \begin{array}{c}{{\Lambda\dot{\varepsilon}^{2}=3\times10^{3}\times3.518^{2}}}\\ {{=37.1\times10^{3}\,\mathbf{W\,m}^{-3}}}\end{array}
+
+请注意，模具中的剪切应变能约为该拉伸能的\ :math:`10^{4}`\ 倍。存储在锥度中的拉伸能为：
+
+.. math::
+
+
+   37.1\times10^{3}\times13.09\times10^{-6}=0.486\,\mathbf{W}
+
+大部分能量以弹性方式储存，并在模具出口处通过弹性恢复释放，从而在长度上产生横向膨胀和收缩。然而，如果这种能量通过平行通道中的内摩擦消散，例如在非常长的模具中，温度上升的速度将为
+
+.. math::
+
+
+   \begin{array}{r}{\frac{\mathrm{d}T}{\mathrm{d}t}\!=\!\frac{37.1\times10^{3}}{750\times2500}}\\ {=\!0.0198^{\circ}\!\mathrm{C}\,\mathrm{s}^{-1}}\end{array}
+
+与毛细管中的剪切力相比，这可以忽略不计。
+
+在更复杂的情况下，可以推导出应变能和粘性加热，其中剪切速率（或剪切应力）和粘度（在非等温或非牛顿情况下）有分析表达式。第8.4节研究了阻力和压力流的组合。
+
+

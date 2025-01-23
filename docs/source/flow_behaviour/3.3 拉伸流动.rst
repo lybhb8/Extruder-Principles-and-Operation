@@ -1,0 +1,63 @@
+============
+3.3 拉伸流动
+============
+
+EXTENSIONAL FLOW
+
+具有自由表面的拉伸流动发生在许多下游过程中，如纤维拉丝、吹膜和吹瓶。这些以及相关的形态变化，如应变诱导结晶和单轴或双轴取向，超出了本书的范围，读者可以参考大量文献。在稳定的操作条件下，挤出机螺杆通道内的拉伸流可能会被阻力和压力剪切流掩盖。在由实体边界定义的几何形状内的拉伸流动发生在螺杆和模具之间的模具适配器中以及模具的收敛部分内。在这些情况下，由于边界摩擦，它伴随着剪切（毛细管）流动，这两种流动的能量都来自纵向压力梯度。根据方程式（3.57）的类比，应变能为每单位体积的\ :math:`\Lambda\dot{\varepsilon}^{2}`\ ，除非转变非常快（当可能发生非轴向流动时），否则拉伸应变率是适中的。如第46页所述，大部分拉伸应变能弹性地储存在聚合物中，一旦从模具的约束中释放出来，就会恢复，导致挤出物膨胀和长度收缩。然而，由于熔体仅具有部分弹性，能量的平衡通过模具内的粘性耗散转化为热量；在模具中的停留时间越长，例如通过增加模具长度，耗散越大，模具膨胀越小（图3.10）。
+
+对于圆形收敛通道，恒定体积V下的拉伸应变（图3.2）为：
+
+:math:`\begin{array}{r l}&{\varepsilon\!=\!\frac{L+\Phi L}{L}-1}\\ &{\quad\!=\!\frac{V}{\pi r^{2}}\!\cdot\!\frac{\pi(r+\Phi r)^{2}}{V}\!-\!1}\\ &{\quad\!=\!\frac{(r+\Phi r)^{2}}{r^{2}}-1}\\ &{\quad\!\simeq\!\frac{2\Phi r}{r}}\end{array}` ``-                      (3.68)``
+
+:math:`\boldsymbol{r}_{0}` and :math:`r_{1}` 之间的总应变由下式给出：
+
+:math:`\begin{array}{l}{\displaystyle\varepsilon_{\mathrm{total}}=2\int_{r_{0}}^{r_{1}}\frac{\mathrm{d}r}{r}}\\ {\displaystyle=\left[2\log e\,r\right]_{r_{0}}^{r_{1}}}\\ {\displaystyle=\log_{e}\left(\frac{r_{1}}{r_{0}}\right)^{2}}\end{array}\tag{3.69}` ``-                      (3.69)``
+
+如果体积流量为\ :math:`Q\,\mathbf{m}^{3}\,\mathbf{s}^{-1}`\ ，通道半径r处的速度为：
+
+.. math::
+
+
+   {\frac{\mathsf{d}L}{\mathsf{d}t}}\!=\!{\frac{Q}{\pi r^{2}}}\tag{3.70}
+
+那么
+
+.. math::
+
+
+   \begin{array}{r l}&{Q\,\mathrm{d}t=\pi r^{2}\,\mathrm{d}L}\\ &{\qquad=\pi[\left(r+\mathrm{d}r\right)^{2}-r^{2}]\,L}\\ &{\qquad=2\pi r\,L\,\mathrm{d}r}\end{array}
+
+或
+
+.. math::
+
+
+   \frac{{\mathrm{d}}r}{{\mathrm{d}}t}\!=\!\frac{\mathrm{~.~}Q}{2\pi r L}\tag{3.71}
+
+但总时间表示为：
+
+.. math::
+
+
+   {\frac{\mathrm{Volume~of~channel}}{\mathrm{Volumetric~flow~rate}}}\!=\!{\frac{V}{Q}}\tag{3.72}
+
+因此，平均拉伸应变率由下式给出：
+
+.. math::
+
+
+   {\dot{\varepsilon}}={\frac{Q}{V}}\log_{\mathrm{e}}\left({\frac{r_{1}}{r_{0}}}\right)^{2}\tag{3.73}
+
+.. note:: 请注意，恒定应变率和恒定拉伸应力需要抛物线而不是线性收敛，在实践中，前者最好通过一系列递减的锥角来近似，如第5章所述。
+
+Powell（1974）根据出口处的剪切速率给出了由于拉伸流动引起的收敛通道中的压降：
+
+.. math::
+
+
+   \mathrm{d}P_{\mathrm{Ec}}=\frac{\Lambda\dot{\gamma}F_{3}(R_{0}-R_{1})}{3\,\mathrm{d}L}\tag{3.74}
+
+其中 :math:`\Lambda` 是拉伸粘度（方程式（3.2））和
+:math:`F_{3}=1-(R_{1}/R_{0})^{3}`
+。他还指出，对于小锥角，这种拉伸压降很小。理论上，拉伸粘度通常取零剪切粘度的三倍。对于许多聚合物熔体，除了LDPE（Cogswell，1968）外，实验表明拉伸粘度与应力或应变率无关。Powell（1974）还指出，在剪切流和伸展流同时存在的情况下，如锥形通道中，它们可以分开处理，总压降将是两者的总和。
