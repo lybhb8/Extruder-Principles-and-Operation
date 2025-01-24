@@ -1,0 +1,153 @@
+=====================
+4.2 热传导
+=====================
+
+thermal conduction
+
+
+一维稳态热传导由傅里叶方程给出：
+
+.. math::
+
+
+   {\boldsymbol{q}}=-k{\boldsymbol{A}}\;{\frac{\mathrm{d}T}{\mathrm{d}x}}\tag{4.1}
+
+其中 :math:`\pmb q` 是热流率（W）， :math:`k` 是热导率 :math:`(\mathbf{W}\,\mathbf{m}^{-1}\,\mathbf{K}^{-1})` ， :math:`\pmb{A}` 是导热的横截面 :math:`(\mathbf{m}^{2})` ， :math:`-\mathrm{d}T/\mathrm{d}x` 是热流方向上的温度梯度 :math:`(\mathbf{K}\,\mathbf{m}^{-1})` ，负号表示热量沿温度下降的方向流动。
+该方程表明，热流必然伴随着温度梯度，并且与温度梯度成正比。它也与电导率成正比，因此聚合物的低热导率意味着小的热流和/或大的温度梯度。
+在给定的热流下，温差随着传热距离（厚度）的增加而增加，因此通过厚的挤出机筒，温差可能是可观的。
+在恒定温差下厚度的增加意味着热流较小，因此冷却通道在注塑和吹塑模具中保持靠近模具表面。
+当热量通过两种或多种不同导电性的材料层传导时，热流是恒定的，因此：
+
+:math:`\begin{array}{r}{q=-k_{1}A_{1}\;\frac{\mathrm{d}T_{1}}{\mathrm{d}x_{1}}}\\ {\;}\\ {=-k_{2}A_{2}\;\frac{\mathrm{d}T_{2}}{\mathrm{d}x_{2}}}\end{array}` ``-                         (4.2)``
+
+如果横截面相同，则热通量表示为：
+
+:math:`\begin{array}{r}{\frac{q}{A}=-k_{1}\,\frac{\mathrm{d}T_{1}}{\mathrm{d}x_{1}}}\\ {=-k_{2}\,\frac{\mathrm{d}T_{2}}{\mathrm{d}x_{2}}}\end{array}` ``-                         (4.3)``
+
+然后:
+
+.. math::
+
+
+   \frac{{\sf d}T_{1}/{\sf d}x_{1}}{{\sf d}T_{2}/{\sf d}x_{2}}\!=\!\frac{k_{2}}{k_{1}}\tag{4.4}
+
+
+也就是说，温度梯度与电导率成反比。将界面温度设为 :math:`T^{\prime}` ，可以改写为：
+
+
+.. math::
+
+
+   {\frac{T_{1}-T^{\prime}}{T^{\prime}-T_{2}}}\!=\!{\frac{k_{2}\,\mathrm{d}x_{1}}{k_{1}\,\mathrm{d}x_{2}}}\tag{4.5}
+
+
+使得总温差 :math:`T_{1}-T_{2}` 被细分为与相应的厚度 :math:`\mathbf{d}x_{1},\mathbf{d}x_{2}` 成比例并且与电导率成反比。 
+
+如果热量从筒式加热器通过 :math:`30\,\mathrm{mm}` 厚的筒体（钢的 :math:`\boldsymbol{k}` 为 :math:`50\,\mathbf{W}\,\mathbf{m}^{-1}\,\mathbf{K}^{-1}` ）和5毫米厚的LDPE（ :math:`5\,\mathrm{mm}` ）传导，总温差为 :math:`100^{\circ}\mathbf{C}` ，则筒体和聚合物之间的温差分别为 :math:`5.7^{\circ}\mathbf{C}` 和 :math:`94.3^{\circ}\mathbf{C}_{\mathrm{{i}}}`。
+二维或三维的热传导通常需要数字计算，这在稳态挤压中很少被证明是合理的。然而，在通过长度为L的圆柱体（例如挤出机筒）进行径向传导的特定情况下，热流q是恒定的，但面积与半径成正比，因此温度梯度必须向中心增加。
+内半径 Rl 和外半径 R2 之间的方程式（4.1）的积分给出：
+
+.. math::
+
+
+   q={\frac{2\pi k L(T_{2}-T_{1})}{\log_{\mathrm{e}}\left(R_{2}/R_{1}\right)}}\tag{4.6}
+
+在瞬态传导中，就像机器的初始预热一样，每个元件同时获得（或损失）热量，并通过它传导到相邻元件之间。
+前者改变元件的温度，进而改变决定传导的温度梯度。通过使用进入和离开元件的瞬时传导的传导方程（4.1）和热平衡，
+其中这些方程的差值等于元件获得（或损失）的显热，在没有内部热量产生（如化学反应或内部剪切）的情况下，得到以下方程：
+
+.. math::
+
+
+   {\frac{\mathbf{d}T}{\mathbf{d}t}}=\alpha\,{\frac{\mathbf{d}^{2}T}{\mathbf{d}x^{2}}}\tag{4.7}
+
+
+其中 :math:`t` 是时间， :math:`x` 是热传导方向上的距离， 热扩散率（Thermal Diffusivity） :math:`\alpha={k}/{\rho C_{\mathfrak{p}}}` :math:`(\mathbf{m}^{2}\,\mathbf{s}^{-1})` .
+
+
+一种常见的情况是，处于均匀温度的 :math:`T_{\mathfrak{b}}` 固体突然与处于均匀恒定温度 :math:`T_{\mathbf{a}}` 的周围环境接触。
+就未完成的温度变化而言，时间 :math:`T` 处的温度 :math:`t` 和距离厚度/直径为 :math:`2r_{\mathrm{m}}` 的物体中心的距离 :math:`r` 的图形解是可用的（McAdams，1954，第33页及以下）
+
+.. math::
+
+
+   Y={\frac{T_{\mathrm{a}}-T}{T_{\mathrm{a}}-T_{\mathrm{b}}}}
+
+相对时间
+
+.. math::
+
+
+   X=\frac{\alpha t}{r_{\mathrm{m}}^{2}}
+
+阻力比 （a resistance ratio）
+
+.. math::
+
+
+   m={\frac{k}{h r_{\mathrm{m}}}}
+
+以及半径比
+
+.. math::
+
+
+   n=\frac{r}{r_{\mathrm{m}}}
+
+
+在无限板的特殊情况下，表面传热系数 :math:`h^{*}` 非常大（阻力可以忽略不计） :math:`m\simeq0` 和
+
+.. math::
+
+
+   {\frac{T_{\mathrm{a}}-T}{T_{\mathrm{a}}-T_{\mathrm{b}}}}={\frac{4}{\pi}}\left(\mathrm{e}^{-a_{1}X}\sin{\frac{\pi x}{2r_{\mathrm{m}}}}+{\frac{1}{3}}\,\mathrm{e}^{-9a_{1}X}\sin{\frac{3\pi x}{2r_{\mathrm{m}}}}+{\frac{1}{5}}\,\mathrm{e}^{-25a_{1}X}\sin{\frac{5\pi x}{2r_{\mathrm{m}}}}+\cdots\right)\tag{4.8}
+
+其中 :math:`\boldsymbol{a}_{1}` 等于 :math:`\left(\pi/2\right)^{2}`
+(来自 McAdams 1954, 方程式 (3.3)). 
+
+在时间 :math:`t` 之前，物体吸收的总热量 :math:`Q=2r_{\mathrm{m}}A\rho C_{\mathrm{p}}(T_{\mathrm{avg}}-T_{\mathrm{b}})`
+, 由空间平均温升 :math:`T_{\mathsf{a v g}}-T_{\mathsf{b}}` 给出，其中：
+
+.. math::
+
+
+   {\frac{T_{\mathrm{avg}}-T_{\flat}}{T_{\mathfrak{a}}-T_{\flat}}}=1-{\frac{8}{\pi^{2}}}\left(\mathrm{e}^{-a_{1}X}+{\frac{1}{9}}\,\mathrm{e}^{-9a_{1}X}+{\frac{1}{25}}\,\mathrm{e}^{-25a_{1}X}+\cdot\cdot\cdot\right)\tag{4.9}
+
+
+
+（摘自McAdams 1954，方程式（3.4））。应该注意的是，在这种情况下，固体的表面温度瞬间上升到周围环境的 :math:`T_{\mathbf{a}}` ，
+向中心的上升逐渐变小和变慢。
+
+通过对一维方法进行近似校正（McAdams 1954，第40-43页），
+可以避免简单固体形状中二维或三维瞬态的复杂性。
+
+当表面传热系数 :math:`h` 较小 :math:`(m\rightarrow\infty)` 且表面阻力控制热流时，
+给定时间固体中的温度升高将明显较小。
+
+.. note:: 符号h是常规符号，但必须与第6、7和8章中的螺槽深度区分开来。
+
+如果忽略固体中的温度梯度，对于无限大的板坯，固体的温度作为一个函数时间由下式给出：
+
+.. math::
+
+
+   -\log_{\epsilon}Y={\frac{X}{m}}\tag{4.10}
+
+
+
+（McAdams 1954，方程式（3.5）），传递的热量显然是 :math:`(T-T_{\mathsf{b}})` 乘以板坯的质量和比热。
+
+对于上述分析关系未涵盖的条件，可以使用数值或图形方法。附录C.5中给出了由于螺棱间隙中高剪切热产生导致的挤出机筒体瞬态局部加热的数值方法和解析方法的示例。
+
+热辐射在薄膜和片材的冷却中可能很重要；在挤出机中，它对料筒和模头外表面的热损失贡献很小，要记住加热器的温度可能会在额定料筒或模头温度上波动。
+
+关于“黑体”辐射的Stefan Boltzmann定律是：
+
+.. math::
+
+
+   W=\sigma T^{4}\tag{4.11}
+
+
+其中 :math:`W` 是辐射功率 :math:`(\mathbf{W}\mathbf{m}^{-2})` ， :math:`T` 是绝对温度（K）和Stefan-Boltzmann常数 :math:`\sigma=\bar{5.67}\times10^{-8}\,\mathrm{W\,m^{-2}\,K^{-4}}` 。
+该方程用作表 C.1 中数值计算的一部分。对于较小的温差，从 :math:`T_{1}` 处的物体到 :math:`T_{0}` 处的周围环境的辐射热传递可以近似与 :math:`T_{1}-T_{0}` 成正比。
