@@ -50,8 +50,7 @@
 
 .. figure:: /images/bfeed4aeea2a66ca308ad278e7e1ec759f1837863abe3b6f459d118e0dd4740d.jpg
 
-    :width: 60%
-    :align: center
+
 
 图 4.3 剪切流中的分布混合
 

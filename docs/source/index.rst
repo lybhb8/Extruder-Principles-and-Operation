@@ -1,7 +1,8 @@
 ================
 挤出原理与实践
 ================
-.. note:: 是由M. J. Stevens与J. A. Covas共同编著，第一版 1985，1995 年第二版。本书中文版以1995 年第二版英文版为摹本，结合国内现代塑料挤出行业的技术规范实现的中文翻译。在这一过程中，大量运用谷歌翻译手段，难免会有专业术语不当之处，请您谅解。
+
+.. note:: 本书是由M. J. Stevens与J. A. Covas共同编著，第一版 1985，1995 年第二版。本书中文版以1995 年第二版英文版为摹本，结合国内现代塑料挤出行业的技术规范实现的中文翻译。在这一过程中，大量运用了 `谷歌翻译 <https://translate.google.com.hk/?hl=zh-CN&sourceid=cnhp&sl=auto&tl=zh-CN&op=translate>`_  手段，难免会有专业术语上的不当之处，还请谅解。
 
 
 前言
@@ -27,3 +28,4 @@ M. J. 史蒂文斯 J. A. 科瓦斯
    process/index
    flow_behaviour/index
    thermal and energy/index
+   extrusion dies/index

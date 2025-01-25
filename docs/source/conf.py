@@ -18,7 +18,8 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'myst_parser',
-    #'sphinx_copybutton',
+    'sphinx_copybutton',
+    "sphinx_design",
     'sphinx.ext.autosectionlabel',
     
 ]
@@ -29,6 +30,29 @@ intersphinx_mapping = {
 }
 intersphinx_disabled_domains = ['std']
 
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
+
+myst_enable_extensions = [
+    "amsmath",
+    "attrs_inline",
+    "colon_fence",
+    "deflist",
+    "dollarmath",
+    "fieldlist",
+    "html_admonition",
+    "html_image",
+    "linkify",
+    "replacements",
+    "smartquotes",
+    "strikethrough",
+    "substitution",
+    "tasklist",
+]
+
 templates_path = ['_templates']
 
 # -- Options for HTML output
@@ -36,13 +60,14 @@ templates_path = ['_templates']
 html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
+
 epub_show_urls = 'footnote'
 
 
 # Prefix document path to section labels, to use:
 # `path/to/file:heading` instead of just `heading`
+
 autosectionlabel_prefix_document = True
 
 autosectionlabel_maxdepth = 1 
 
-myst_enable_extensions = ["colon_fence"]
