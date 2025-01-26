@@ -10,11 +10,11 @@ python:
   install:
     - requirements: docs/requirements.txt
 
-    - method: pip
-        path: .
-        extra_requirements:
-          - linkify
-          - rtd
+    # - method: pip
+    #     path: .
+    #     extra_requirements:
+    #       - linkify
+    #       - rtd
 
 
 sphinx:
