@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Extruder Principles and Operations/中文版'
-copyright = '2023, Bobolin'
+copyright = '2023, 宁波双紫信息科技有限公司'
 author = 'Bobolin'
 
 release = '1.0'
