@@ -24,9 +24,11 @@ M. J. 史蒂文斯 J. A. 科瓦斯
 .. toctree::
    :maxdepth: 3
 
-   introduction/index
-   process/index
-   flow_behaviour/index
-   thermal and energy/index
-   extrusion dies/index
-   extruder flow/index
+   1_introduction/index
+   2_process/index
+   3_flow_behaviour/index
+   4_thermal and energy/index
+   5_extrusion dies/index
+   6_extruder flow/index
+   7_convey and melt/index
+   8_energy_balance
