@@ -32,3 +32,10 @@ M. J. 史蒂文斯 J. A. 科瓦斯
    6_extruder flow/index
    7_convey and melt/index
    8_energy_balance
+   9_operation/index
+   10_twin_screw/index
+   11_total_process/index
+   12_individual_machine/index
+   appendix_a/index
+   appendix_d/index
+   references/index
