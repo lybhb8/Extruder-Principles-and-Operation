@@ -43,7 +43,7 @@
 3. 熔体输送段内聚合物中的热传导(包括残留的固体颗粒)；
 
 ![](../images/img_0111.jpg)  
-<a id="figure-11-1"></a>
+(figure-11-1)=
 图11.1 熔化段中的流速。
 
 4. 筒体和螺杆金属中的局部多轴向及整体纵向热扩散；
@@ -79,7 +79,7 @@
 作者为确定影响温度变化的因素而进行的实验——诚然，实验中并未对操作条件进行精确控制——使用了一台50毫米挤出机，其螺杆后方延伸出一段直径为50毫米的机筒，该机筒延伸部分连接至一个可调节的挤出头。 第一步是评估温度测量的可靠性；将一根3毫米的Pyrotenax\*热电偶放置在延伸段中心，并将一根简单的热电偶焊接在金属壁上。 挤出机在预计会产生较大径向温度波动的条件下运行，并在对筒体延伸段进行不同程度加热的情况下进行了读数。结果发现，在 25 毫米的距离处，浸入式热电偶的读数往往与壁面热电偶的读数一致，而非与熔体温度一致。 当筒体延伸段未加热但外部包裹保温层时，其温度似乎与浸入式热电偶的读数无关——具体数值高低取决于挤出条件；虽然这不能证明温度读数的绝对准确性， 但由条件变化引起的温差至少应大致正确。随后，在螺杆尖端下游50毫米处，沿不同半径布置了一组热电偶，并配有一组可在整个范围内调节的热电偶([图11.2](#figure-11-2))。 挤出机以LDPE为原料运行，螺杆转速范围为20至100 rpm。使用了三根L/D比为16:1的螺杆：恒定深度6.3 mm($\frac{1}{4}$ in)； 螺杆深度从9.5毫米($\frac{1}{8}$英寸)逐渐减小至3.2毫米($\frac{1}{8}$英寸)，覆盖16个螺杆直径，压缩比为2.6:1； 10个直径范围内的锥度，从9.5毫米($\frac{1}{16}$英寸)到3.2毫米($\frac{1}{8}$英寸)，加上6个直径深度均为1.6毫米($\frac{1}{16}$英寸)——压缩比为5.0:1。 研究发现，在运行过程中，可调热电偶与同一半径处(包括壁面处)的固定热电偶的读数始终保持在1 °C的误差范围内。 发现每根螺钉都呈现出一种特征性的温度分布：第一根螺钉的中心温度较高，向壁面逐渐降低；而第三根螺钉的壁面温度较高，向中心逐渐降低。 第 2 根螺钉则呈现出“胡须”状分布曲线，壁面和中心温度较高，半径中点处的温度较低。在 20 转/分钟时，第 1 根和第 3 根螺钉的温度变化约为 5 °C，第 2 根螺钉约为 2 °C。 随着转速的增加，这三根螺杆都保持了其特征曲线，但温差逐渐增大，直到转速达到 100 转/分时，螺杆 1 和 3 的总体温差高达 50 °C，螺杆 2 的温差约为 30 °C。 由于热电偶的质量和响应时间，这些读数代表的是时间平均温度； 一位同事在类似的机器上使用快速响应热电偶和记录仪获得了读数，结果表明，在看似稳定的运行状态下，温度仍存在量级相近的快速波动——另见Tadmor和Klein(1970)以及第362页。 必须谨慎对待这些结果；在某些方面(如转速的影响)，它们与前述理论一致，但值得注意的是，最浅螺杆(3)的温度波动比螺杆2更大，这可能是由于计量段中剪切加热过强所致。
 
 ![](../images/img_0112.jpg)  
-<a id="figure-11-2"></a>
+(figure-11-2)=
 图11.2 螺杆末端的径向温度分布。
 
 马歇尔、克莱因和乌尔(1965)也检测到了温度随时间的变化，但明确指出这些变化源于熔化段，并在熔体输送段中趋于减小。 他们还表明，这些波动会随着螺杆转速的增加而显著增大，而随后的减小过程则需要更长的距离，导致螺杆末端残留的波动增大。当然，这些结果并未区分本章中讨论的各种机制所产生的影响。
@@ -91,7 +91,7 @@
 需要注意的是，流量和压力的方程(方程(6.15)、(6.53)和(6.58))均为线性方程，因此其解(由工作点表示，例如图6.18中的A或B)是单值的。 描述机械功率输入 E 的方程 (8.9) 对粘度(温度)和输出 Q 呈线性关系，因此为单值(图 8.10)。 方程 (8.29) 表明，随着背压的增加，比功率输入 E/Q 是 Q/Wbh 的线性(倒数)函数，因此是单值函数。 从方程(8.9)来看，如果将 Q 视为常量，则给定功率 E 值将对应两个转速值(与 W 成正比)； 然而，Q与W之间存在关联(由方程(6.15)和(6.53)的解可知)，若将W和Q/Wbh视为独立变量(其中Q/Wbh由压力梯度dP/dz决定，或在特定情况下由模头常数K决定)，则会得到单一值。 当加热器输入 H 处于给定值时，转速 N 会出现双重值(图 8.12)；这似乎表明，若加热器输入被预先确定，转速 N(以及随之而来的输出 Q 和压力 P)可能会发生不稳定。 实际上，驱动电机的功率/转速特性会抑制这种现象，且笔者在加热器负荷恒定的实验机上未观察到此类振荡。在通常情况下，加热器输入被控制以达到所需的料筒温度，因此熔体泵送段中不存在导致不稳定性的机制。 因此，波动的根源通常归因于熔化段；在第 7 章中，这是由于固体床周期性“堵塞”导致熔池中断所致。此前已观察到，在给定温度下，熔化所需的长度随转速 N(以及产量 Q)的增加而增加。 由此可以合理推断，在给定的转速和温度下，熔化长度越短，熔化速率就越低。 对于熔体泵送段，图 11.3(源自图 6.18 和方程 (6.15))显示，随着泵送长度 Z 的增加，输出量 Q 和压力 P 也会随之增加。 在稳定条件下，熔化长度与泵送长度的总和是恒定的，且 $Q_{melting} = Q_{pumping}$。然而，假设在短时间内泵送速率超过熔化速率，则该差值只能通过部分排空泵送段起始处的螺杆通道来弥补(第 6.6 节)。 当螺杆通道不再充满熔体时，无法产生压力，有效泵送段的起始位置便会向模具方向移动。随着这一变化，泵送速率(及压力)将下降，在某些情况下甚至降至零，从而低于熔化速率。 此时，多余的熔体开始重新填满螺杆通道，可用通道长度的增加会提高熔化速率。随着熔体重新填满通道，泵送长度再次增加，产量和压力随之上升，从而缩短熔化所需的长度，进而降低熔化速率。 当泵送速率再次超过熔化速率时，通道将重新排空，该循环将无限期重复。由于螺杆通道的熔体容积以及额外熔化以重新填满通道所需的时间，这一循环过程需要有限的时间。 随着螺杆转速的增加，该现象的频率和严重程度往往会增加；笔者发现其周期通常为螺杆的5–15转，这大致相当于与熔体输送段体积相等的排量；在极端情况下，产量曾暂时完全停止，但随后又以看似完全熔化的聚合物重新开始。 据称，对于阶梯式螺杆，凝胶点实际上是由通道深度的快速变化所预先决定的； 确实，如果泵送长度超过“计量”长度，超出部分对总压力的贡献微乎其微(图6.10中Q/Wbh值较低时)，因此近似最大输出量和压力是固定的； 然而，这会缩短熔融过程的长度，而在另一极端情况下，计量段的有效长度和产量仍可能因部分排空而进一步减少。 阶梯式螺杆可能会发生冲程现象，通俗的解释是：计量段将自身抽空，然后等待熔融过程(在此情况下主要通过传导)将其重新填满，以便重新开始输送。 显然，在此情况下，熔融速率将与可用长度(机筒表面积)以及机筒与聚合物之间的温差呈正相关，这表明熔融段温度较高。 当熔化主要依靠机械剪切时——据信，这适用于锥形螺杆所适用的聚合物——较低的筒体温度和较高的机械功率输入应能提高熔化速率(参见[表 9.8](9_Operation_of_single-screw_extruders.md#table-9-8])，延缓固体床的破碎，并降低此类波动的发生概率。
 
 ![](../images/img_0110.jpg)  
-<a id="figure-11-3"></a>
+(figure-11-3)=
 图11.3 熔体长度对产量的影响。
 
 Kirby(1962)推导出了描述熔体泵送段对外部扰动稳定性的方程，而Fisher(1976)得出结论：增加模头压力或延长熔体泵送长度均可提高稳定性。 虽然附录 D 认同这些结论，但也指出柯比的方程同时表明，降低通道深度也会提高稳定性；当然，这些改变并不能消除不稳定性的根源。 如第 6.5 和 6.6 节所述，传统排气螺杆的后半部分往往容易发生波动，这是由于泵送率随填充程度发生非线性变化，也可能由于排气口下方区域的聚合物流动不连续所致；在此情况下，减少最终沟槽深度似乎也能减少波动。
@@ -105,7 +105,7 @@ Kirby(1962)推导出了描述熔体泵送段对外部扰动稳定性的方程，
 尽管严格来说位于挤出机外部，但驱动系统的稳定性也会影响挤出机的性能。 图8.12以及方程(8.7)和(8.16)表明，在恒定温度下，螺杆在熔体输送段吸收的功率随其转速的增加而略微超过其转速的比值，具体取决于聚合物的剪切速率/粘度特性。
 
 ![](../images/img_0108.jpg)  
-<a id="figure-11-4"></a>
+(figure-11-4)=
 图11.4 驱动器的转速稳定性。
 
 因此，来自该来源的螺杆扭矩与E/N成正比，并将随转速增加而增大；对于牛顿流体而言，这种增大呈线性关系。 因此，总扭矩也将随转速增加，因为由进料和熔化产生的扭矩至少是恒定的(功率与转速成正比)。除低速情况外(例如交流换向器电动机)，电动机的扭矩-转速特性通常呈下降趋势，而静压电动机的扭矩则基本恒定。 因此，如果转速低于设定值([图 11.4](#figure-11-4))，则会有过剩的扭矩用于加速；而由于(例如)暂时性负载减轻导致的转速增加，则会导致扭矩不足，从而趋于降低转速，从而形成一个稳定的系统。 在通常通过减速齿轮传动的高速电机中，存在显著的旋转惯性，这会趋于抑制此类转速波动。 对于那些即使在挤出机需求发生变化时仍需要非常稳定转速的应用，可采用带转速发电机反馈的直流并联电机晶闸管控制，其功率可达数百千瓦，且随着技术日益精进(成本也随之增加)，从零负载到满负载的转速保持精度可提高至0.25%。
@@ -138,7 +138,7 @@ $$
 \frac {Z}{h} <   \frac {W Z}{h w _ {y}} <   \infty\tag{11.3}
 $$
 
-<a id="figure-6-7"></a>
+(figure-6-7)=
 图6.7显示，横向速度和剪切速率均为非线性；在速度最大(向右)的位置，剪切速率为零，因此该位置不会产生横向剪切，尽管可以推测，当该体积元在靠近筒体处向左移动时，会经历相当大的剪切。 因此，通道中的聚合物会受到多种多样的剪切应变作用；如果剪切降解是故意的，那么假设最终产品经过混合后能达到可接受的均匀性能，则取某种平均值是合理的。 如果要将降解降至最低，则最大剪切应变才是正确的标准，但图6.6和图6.7显示，在螺杆根部附近，聚合物理论上既没有向前速度也没有横向速度，这表明停留时间是无限的；螺杆冷却往往会增加这一滞留层的厚度。 传统上，采用高背压来改善混合效果，这会产生纵向方向上的最大相对速度，并因输出降低而延长停留时间； 然而，随着压力的升高和 $Q / Wbh \rightarrow 0$ ，系统将趋近于图6.6(a)所示的纵向速度分布，此时会出现第二个双向速度均为零的点。因此，在高压背压下，第二层在两个方向上都经历相当大的剪切速率，但停留时间却非常长。 剪切历史的进一步分散，是由于在螺杆间隙中，只有一小部分流体在短时间内承受了非常高的剪切速率。 这强调了单螺杆挤出机本身并不太适合进行有意剪切；显然，最佳条件是长而浅的计量段、低转速以及相当高的背压，从而产生较低的产量。 对于对热或剪切敏感的材料，如橡胶和 UPVC，最好使用短而深的螺杆，以适中的速度运行，并保持较低的背压(这也能最大限度地减少功率输入)，实际上，这种做法也很常见。 单螺杆挤出机作为分配式混合机表现相当不错这一事实表明，在 y(径向)方向上存在某种混合机制(而不仅仅是如图 6.7 所示的螺杆面处的循环)，这是简化的流动分析未能揭示的。 如果这种机制较弱或根本不存在——正如挤出物超薄切片中发现的条纹所暗示的那样(第 20 页)——那么在熔体输送段内安装径向混合装置就有其必要性； 否则，更可取的做法是尽量减少螺杆中的剪切应变，并加装混合装置——该装置最好能提供均匀的剪切力和停留时间，且针对特定用途和聚合物进行专门设计。
 
 当挤出机施加剧烈剪切力时，该剪切力会转化为热量，从而提高聚合物温度，进而降低剪切应力和压力梯度。如果采用冷却措施来抑制温度升高，这往往会导致功率输入和剪切应力增加，因此会在一定程度上适得其反。 这还会导致温度和速度分布发生畸变(第4.3节和[图9.3](9_Operation_of_single-screw_extruders.md#figure-9-3))，从而既不利于冷却，也不利于均匀性。 如果聚合物的升温能够抵消剪切生热，那么挤出机便是一种实现这一目标的简便手段；但无论如何，高粘度材料的冷却都难以均匀实现，单螺杆挤出机也不例外。 当仅需适度的剪切作用时，必须承认剪切力不会在聚合物料体中均匀分布，只有通过试验才能达到可接受的水平。表9.7和表9.9说明了如何获得有利于混合和温度均匀的条件。
@@ -183,40 +183,40 @@ $$
 
 由伪塑性指数 n 所表示的、对剪切速率的非牛顿响应发生变化，将改变模头内(高剪切速率)与螺杆通道内(低剪切速率)的粘度之间的关系。 例如，当分子量分布变窄导致材料趋向于牛顿流体行为($n \rightarrow 1$)时，在螺杆粘度保持不变的情况下，模头内的粘度会增加。 根据式(6.53)，这相当于模具常数 K 的值减小，图 6.18 显示工作点将发生位移，例如从 A 移至 C，或从 B 移至 D，从而在更高压力下产生较低的产量。 方程(6.58)也说明了这一点：其中K的减小会导致因子$1 + B/K$增大，或者如第153页所示，$\eta_{Die}$的增大将使因子$1 + B\eta_{Die}/K\eta_{Screw}$ 增大，从而导致在给定转速下产出减少。 方程(8.7)展示了这对机械功率的影响，即产出减少会导致功率输入增加；由于该功率由较小的聚合物流量吸收，温度将趋于升高。这与第260页讨论的背压增大效应类似。 高剪切速率下粘度的增加也会增加螺杆螺纹间隙中吸收的功率，从而导致总功率和熔体温度升高。然而，这也会增加螺纹间隙对总功率的贡献比例，以及由此产生的对通道功率的温度影响(第8.5节)。 这还可能加剧模头处的温度波动，进而降低产品质量。熔体弹性的变化会改变膨胀比，同时受挤出机中剪切历史伴随变化的影响，从而导致拉伸行为发生变化；或者，当拉伸效应可忽略不计时，则会导致产品尺寸发生变化。 上述内容说明了聚合物熔体性能变化的影响、通过材料测试预先了解这些变化的必要性，以及将这些影响纳入在线计算机控制所需工艺算法所面临的困难。 为了增强[表11.1](#table-11-1)的参考价值，文中针对速度、温度和机械功率输入的不同控制程度给出了建议限值。 需要指出的是，[表11.1](#table-11-1)中给出的这些数据及其他数据仅作为一般性指导，在具体情况下需要进行调整；笔者相信这些数据与加工者的实际经验不会相去甚远，至少可作为有用的起点。
 
-| Process | Screw diameter (relative) | Screw length L/D ratio | Screw type | Metering depth | Screw speed (relative) | Melt temperature | Degree of control | Comments |  |  |  |
+| 工艺 | 螺杆直径（相对值） | 螺杆长径比 | 螺杆类型 | 计量段深度 | 螺杆转速（相对值） | 熔体温度 | 控制程度 | 说明 |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Speed | Temperature | Mechanical power |  |  |  |  |  |  |  |  |  |
-| Rod/section and profiles | High | 20/24 | PE, PP | T | Shallow | Low | Medium | × × | × × | × × × | Output relative to haul-off speed, for dimensions. Minimum elastic memory. Medium temperature for rigidity while cooling. Add screens to promote mixing. |
+| 速度 | 温度 | 机械功率 |  |  |  |  |  |  |  |  |  |
+| 棒材/型材和异型材 | 高 | 20/24 | PE, PP | T | 浅 | 低 | 中 | × × | × × | × × × | 产量相对于牵引速度，用于确定尺寸。最小弹性记忆。中等温度以在冷却时保持刚性。加装滤网以促进混合。 |
 | 15/20 | PVC | T |  |  |  |  |  |  |  |  |  |
 | 20/24 | Nylon | S |  |  |  |  |  |  |  |  |  |
-| Tube | High | 20/24 | PE, PP | T | Medium | Medium | Medium except die | × × | × × | × × | Minimum elastic memory. High die temperature for gloss. Medium temperature for drawdown of small tubes. |
+| 管材 | 高 | 20/24 | PE, PP | T | 中 | 中 | 中（除口模外） | × × | × × | × × | 最小弹性记忆。高口模温度以获得光泽。中等温度用于小管的拉伸。 |
 | 15/20 | PVC | T |  |  |  |  |  |  |  |  |  |
 | 20/24 | Nylon | S |  |  |  |  |  |  |  |  |  |
-| Wire covering/ sheathing | Low | 20/24 | PE, PP | T | Shallow | High | High | × × | × | × | High temperature for good drawing and avoiding melt fracture. High pressure for thin insulation. Output relative to haul-off speed for thickness |
+| 电线包覆/护套 | 低 | 20/24 | PE, PP | T | 浅 | 高 | 高 | × × | × | × | 高温以获得良好的拉伸效果并避免熔体断裂。高压用于薄绝缘层。产量相对于牵引速度以控制厚度 |
 | 15/20 | PVC | T |  |  |  |  |  |  |  |  |  |
 | 20/24 | Nylon | S |  |  |  |  |  |  |  |  |  |
-| Sheet/laminating (including continuous vacuum forming) | High | 20/24 | PE, PP | T | Medium | Medium | Medium | × × | × × | × × | Medium speed is compromise for high output and uniformity of Q and T. Steady output to avoid ripples. High output for thick sheet. Uniform temperature for die distribution. Medium temperature for drawdown. |
+| 片材/层压（包括连续真空成型） | 高 | 20/24 | PE, PP | T | 中 | 中 | 中 | × × | × × | × × | 中等速度是高产量和Q与T均匀性的折中。稳定产量以避免波纹。高产量用于厚片材。均匀温度以实现口模分布。中等温度用于拉伸。 |
 | 15/20 | PVC | T |  |  |  |  |  |  |  |  |  |
 | 20/24 | Nylon | S |  |  |  |  |  |  |  |  |  |
-| Flat film | Medium | 24/28 | PE, PP | T | Shallow | Medium | High | × × × | × × × | × × × | High temperature for drawdown. High pressure for die. Medium speed for uniform elastic memory. Uniform output for thickness. |
+| 平膜 | 中 | 24/28 | PE, PP | T | 浅 | 中 | 高 | × × × | × × × | × × × | 高温用于拉伸。高压用于口模。中等速度以获得均匀弹性记忆。均匀产量以控制厚度。 |
 | 20 | PVC | T |  |  |  |  |  |  |  |  |  |
-| Paper coating | Medium | 24/28 | PE,PP | T | Shallow | Medium | High | × × × | × × × | × | Output relative to drum/haul-off speed for thickness. Medium output for rapid cooling. Very high temperature for flow and surface finish. |
-| Tapes | Medium | 20/24 | PE,PP | T | Medium | Medium | Medium | × × × | × × × | × × | Medium temperature for crystallization and drawdown. Uniform output for dimensions and crystallization. Uniform temperature for dimensions. |
-| Filament/fibres | Medium | 20/24 | PE,PP | T | Shallow | Medium | High | × × × | × × × | × | High temperature for drawing. |
-| Tubular film | Medium | 20/24 | PE,PP | T | Shallow | Medium | Medium | × × × | × × × | × × × | High pressure for die. Medium temperature for drawing and blowing. Medium speed for uniform elastic memory. |
-| Foam | Medium | 20/24 |  | T | Medium | Low | Low | × | × × | × × | Temperature depends on blowing agent. Low shear heating for decomposition. Medium pressure and mixing for uniform distribution and pore size. |
-| Compounding/ blending | Medium/high | 24/28 | PE,PP | T | Deep | Medium | Low | × | × × | × × | Deep screw at high pressure for mixing. Large diameter and medium speed for high output. Low temperature for mixing and heat history. |
+| 纸张涂覆 | 中 | 24/28 | PE,PP | T | 浅 | 中 | 高 | × × × | × × × | × | 产量相对于辊筒/牵引速度以控制厚度。中等产量用于快速冷却。极高温度以改善流动性和表面光洁度。 |
+| 扁丝 | 中 | 20/24 | PE,PP | T | 中 | 中 | 中 | × × × | × × × | × × | 中等温度用于结晶和拉伸。均匀产量以控制尺寸和结晶。均匀温度以控制尺寸。 |
+| 单丝/纤维 | 中 | 20/24 | PE,PP | T | 浅 | 中 | 高 | × × × | × × × | × | 高温用于拉伸。 |
+| 管状薄膜 | 中 | 20/24 | PE,PP | T | 浅 | 中 | 中 | × × × | × × × | × × × | 高压用于口模。中等温度用于拉伸和吹塑。中等速度以获得均匀弹性记忆。 |
+| 发泡 | 中 | 20/24 |  | T | 中 | 低 | 低 | × | × × | × × | 温度取决于发泡剂。低剪切加热以避免分解。中等压力和混合以获得均匀的分布和孔隙尺寸。 |
+| 共混/混合 | 中/高 | 24/28 | PE,PP | T | 深 | 中 | 低 | × | × × | × × | 深螺杆在高压下进行混合。大直径和中等速度以获得高产量。低温度以改善混合和热历史。 |
 | 20 | PVC | T |  |  |  |  |  |  |  |  |  |
 | 20/24 | POM | T |  |  |  |  |  |  |  |  |  |
 | PMMA | S |  |  |  |  |  |  |  |  |  |  |
 | Nylon | S |  |  |  |  |  |  |  |  |  |  |
-| Degrading | Medium | 24/28 | PP | T | Shallow | High | High | × | × × × | × × |  |
-| Blow moulding | High | 24/28 | PE,PP | T | Medium | Medium | Low | × × | × × | × × × | No haul-off. Melt temperature and swell ratio compromised with output by control, e.g. of speed and diameter. |
-| Injection moulding | High | 24/28 | PE,PP | T | Medium/shallow | Medium | Medium/high | × | × × | × × | No haul-off. Melt temperature control important. Back pressures low in practice. |
+| 降解 | 中 | 24/28 | PP | T | 浅 | 高 | 高 | × | × × × | × × |  |
+| 吹塑 | 高 | 24/28 | PE,PP | T | 中 | 中 | 低 | × × | × × | × × × | 无牵引。熔体温度和膨胀比通过控制（如速度和直径）与产量进行折中。 |
+| 注塑 | 高 | 24/28 | PE,PP | T | 中/浅 | 中 | 中/高 | × | × × | × × | 无牵引。熔体温度控制重要。实际操作中背压较低。 |
 | 20 | PVC |  |  |  |  |  |  |  |  |  |  |
 | 20/24 | PS |  |  |  |  |  |  |  |  |  |  |
 
-<a id="table-11-1"></a>
+(table-11-1)=
 表 11.1 各项工艺的建议条件
 
 ## 11.5 规模扩大
@@ -249,43 +249,43 @@ $$
 
 对于常数 $Q / Wbh$ 和螺旋角 $\phi$ 。
 
-<a id="table-11-2"></a>
+(table-11-2)=
 表 11.2 单螺杆挤出机的规模放大：在 Q/Wbh 保持恒定的情况下，各种规模放大策略的影响总结
 
-|  | Volumetric output | Mechanical power input | Specific mechanical power (adiabatic temperature) | Pressure gradient | Die pressure | Wall shear rate | Mean residence time | Shear strain (mixing) | Specific heating surface |  |  |
+|  | 体积产量 | 机械功率输入 | 比机械功率（绝热温度） | 压力梯度 | 口模压力 | 壁面剪切速率 | 平均停留时间 | 剪切应变（混合） | 比加热面积 |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Q | E | E/Q | dP/dz | P | $\dot{\gamma }$ | $t_{\text{res}}$ | $\dot{\gamma }t_{\text{res}}$ | A/Q |  |  |  |
 | n=1 | n<1 | n=1 | n<1 | n=1 | n=1 | n=1 |  |  |  |  |  |
-| Proportional to Equation | $D^{2}Nh$ | $\frac{D^{3}N^{2}L}{h}$ | $\frac{D^{n+2}N^{n+1}L}{h^{n}}$ | $\frac{DNL}{h^{2}}$ | $\frac{D^{n}N^{n}L}{h^{n+1}}$ | $\frac{DN}{h^{2}}$ | $\frac{DNL}{h^{2}}$ | $\frac{DN}{h}$ | $\frac{L}{DN}$ | $\frac{L}{h}$ | $\frac{DL}{Q}$ |
+| 比例于方程 | $D^{2}Nh$ | $\frac{D^{3}N^{2}L}{h}$ | $\frac{D^{n+2}N^{n+1}L}{h^{n}}$ | $\frac{DNL}{h^{2}}$ | $\frac{D^{n}N^{n}L}{h^{n+1}}$ | $\frac{DN}{h^{2}}$ | $\frac{DNL}{h^{2}}$ | $\frac{DN}{h}$ | $\frac{L}{DN}$ | $\frac{L}{h}$ | $\frac{DL}{Q}$ |
 | (11.5) | (11.8) | (11.11) | (11.9) | (11.12) | (6.32) | (6.37) | (6.69), (6.4) | (11.4) | (11.4), (6.69) | - |  |
-| Scale-up strategyCase 1: Constant depth h | $D^{2}N$ | $D^{3}N^{2}L$ | $D^{n+2}N^{n+1}L$ | $DNL$ | $D^{n}N^{n}L$ | $DN$ | $DNL$ | $DN$ | $\frac{L}{DN}$ | $L$ | $\frac{L}{DN}$ |
-| Case 2: Geometric similarity  $D \propto L \propto h$ | $D^{3}N$ | $D^{3}N^{2}$ | $D^{3}N^{n+1}$ | $N$ | $N^{n}$ | $\frac{N}{D}$ | $N$ | $N$ | $\frac{1}{N}$ | Const. | $\frac{1}{DN}$ |
-| Case 2a: Constant speed N | $D^{3}$ | $D^{3}$ | $D^{3}$ | Const. | Const. | $\frac{1}{D}$ | Const. | Const. | Const. | Const. | $\frac{1}{D}$ |
-| Case 3: Constant peripheral speed  $D \propto 1/N$ | $Dh$ | $\frac{DL}{h}$ | $\frac{DL}{h^{n}}$ | $\frac{L}{h^{2}}$ | $\frac{L}{h^{n+1}}$ | $\frac{1}{h^{2}}$ | $\frac{L}{h^{2}}$ | $\frac{1}{h}$ | $L$ | $\frac{L}{h}$ | $\frac{L}{h}$ |
+| 规模放大策略 | $D^{2}N$ | $D^{3}N^{2}L$ | $D^{n+2}N^{n+1}L$ | $DNL$ | $D^{n}N^{n}L$ | $DN$ | $DNL$ | $DN$ | $\frac{L}{DN}$ | $L$ | $\frac{L}{DN}$ |
+| 情况2：几何相似 $D \propto L \propto h$ | $D^{3}N$ | $D^{3}N^{2}$ | $D^{3}N^{n+1}$ | $N$ | $N^{n}$ | $\frac{N}{D}$ | $N$ | $N$ | $\frac{1}{N}$ | 恒定 | $\frac{1}{DN}$ |
+| 情况2a：恒定转速 N | $D^{3}$ | $D^{3}$ | $D^{3}$ | 恒定 | 恒定 | $\frac{1}{D}$ | 恒定 | 恒定 | 恒定 | 恒定 | $\frac{1}{D}$ |
+| 情况3：恒定圆周速度 $D \propto 1/N$ | $Dh$ | $\frac{DL}{h}$ | $\frac{DL}{h^{n}}$ | $\frac{L}{h^{2}}$ | $\frac{L}{h^{n+1}}$ | $\frac{1}{h^{2}}$ | $\frac{L}{h^{2}}$ | $\frac{1}{h}$ | $L$ | $\frac{L}{h}$ | $\frac{L}{h}$ |
 
-| Case 4: |  |  |  |  |  |  |  |  |  |  |  |
+| 情况4： |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Constant | $D^3N^2$ | $D^2NL$ | $D^2NL$ | $\frac{L}{DN}$ | $\frac{L}{DN}$ | $\frac{1}{h}$ | $\frac{L}{h}$ | Const. | $\frac{L}{DN}$ | $\frac{L}{DN}$ | $\frac{L}{D^2N^2}$ |
-| shear rate |  |  |  |  |  |  |  |  |  |  |  |
+| 恒定 | $D^3N^2$ | $D^2NL$ | $D^2NL$ | $\frac{L}{DN}$ | $\frac{L}{DN}$ | $\frac{1}{h}$ | $\frac{L}{h}$ | 恒定 | $\frac{L}{DN}$ | $\frac{L}{DN}$ | $\frac{L}{D^2N^2}$ |
+| 剪切速率 |  |  |  |  |  |  |  |  |  |  |  |
 | $N \propto h/D$ | $Dh^2$ | $DhL$ | $DhL$ |  |  |  |  |  |  |  |  |
 |  | $\frac{h^3}{N}$ | $\frac{h^2L}{N}$ | $\frac{h^2L}{N}$ | $\frac{L}{h}$ | $\frac{L}{h}$ |  |  |  | $\frac{L}{h}$ | $\frac{L}{h}$ | $\frac{L}{h^2}$ |
-| Case 4a: |  |  |  |  |  |  |  |  |  |  |  |
-| $h \propto D$ | $D^3$ | $D^2L$ | $D^2L$ | $\frac{L}{D}$ | $\frac{L}{D}$ | $\frac{1}{D}$ | $\frac{L}{D}$ | Const. | $\frac{L}{D}$ | $\frac{L}{D}$ | $\frac{L}{D^2}$ |
-| $N$  constant |  |  |  |  |  |  |  |  |  |  |  |
-| Case 4b: |  |  |  |  |  |  |  |  |  |  |  |
-| $L \propto h$ | $Dh^2$ | $Dh^2$ | $Dh^2$ | Const. | Const. | $\frac{1}{h}$ | Const. | Const. | Const. | Const. | $\frac{1}{h}$ |
+| 情况4a： |  |  |  |  |  |  |  |  |  |  |  |
+| $h \propto D$ | $D^3$ | $D^2L$ | $D^2L$ | $\frac{L}{D}$ | $\frac{L}{D}$ | $\frac{1}{D}$ | $\frac{L}{D}$ | 恒定 | $\frac{L}{D}$ | $\frac{L}{D}$ | $\frac{L}{D^2}$ |
+| $N$ 恒定 |  |  |  |  |  |  |  |  |  |  |  |
+| 情况4b： |  |  |  |  |  |  |  |  |  |  |  |
+| $L \propto h$ | $Dh^2$ | $Dh^2$ | $Dh^2$ | 恒定 | 恒定 | $\frac{1}{h}$ | 恒定 | 恒定 | 恒定 | 恒定 | $\frac{1}{h}$ |
 | $L/D \propto h/D \propto N$ | $DL^2$ | $DL^2$ | $DL^2$ |  |  |  |  |  |  |  | $\frac{1}{L}$ |
-| Case 4b(i): |  |  |  |  |  |  |  |  |  |  |  |
-| $L \propto h \propto \sqrt{D}$ | $D^2$ | $D^2$ | $D^2$ | Const. | Const. | $\frac{1}{\sqrt{D}}$ | Const. | Const. | Const. | Const. | $\frac{1}{\sqrt{D}}$ |
+| 情况4b(i)： |  |  |  |  |  |  |  |  |  |  |  |
+| $L \propto h \propto \sqrt{D}$ | $D^2$ | $D^2$ | $D^2$ | 恒定 | 恒定 | $\frac{1}{\sqrt{D}}$ | 恒定 | 恒定 | 恒定 | 恒定 | $\frac{1}{\sqrt{D}}$ |
 | $N \propto 1/\sqrt{D}$ |  |  |  |  |  |  |  |  |  |  |  |
-| Case 4b(ii): |  |  |  |  |  |  |  |  |  |  |  |
-| $L \propto h \propto D^{1.5}$ | $D^4$ | $D^4$ | $D^4$ | Const. | Const. | $\frac{1}{D^{1.5}}$ | Const. | Const. | Const. | Const. | $\frac{1}{D^{1.5}}$ |
+| 情况4b(ii)： |  |  |  |  |  |  |  |  |  |  |  |
+| $L \propto h \propto D^{1.5}$ | $D^4$ | $D^4$ | $D^4$ | 恒定 | 恒定 | $\frac{1}{D^{1.5}}$ | 恒定 | 恒定 | 恒定 | 恒定 | $\frac{1}{D^{1.5}}$ |
 | $N \propto \sqrt{D}$ |  |  |  |  |  |  |  |  |  |  |  |
-| Case 5: |  |  |  |  |  |  |  |  |  |  |  |
+| 情况5： |  |  |  |  |  |  |  |  |  |  |  |
 | $L \propto D$ | $D^{2.5}N$ | $D^{3.5}N^2$ | $D^{n/2+3}N^{n+1}$ | $DN$ | $D^{\frac{1}{2}(n+1)}N^n$ | $N$ | $DN$ | $N\sqrt{D}$ | $\frac{1}{N}$ | $\sqrt{D}$ | $\frac{1}{N\sqrt{D}}$ |
 | $h \propto \sqrt{D}$ |  |  |  |  |  |  |  |  |  |  |  |
-| Case 5a: |  |  |  |  |  |  |  |  |  |  |  |
-| $h \propto \sqrt{D}$ | $D^2$ | $D^{2.5}$ | $D^{2.5}$ | $\sqrt{D}$ | $\sqrt{D}$ | $\frac{1}{\sqrt{D}}$ | $\sqrt{D}$ | Const. | $\sqrt{D}$ | $\sqrt{D}$ | Const. |
+| 情况5a： |  |  |  |  |  |  |  |  |  |  |  |
+| $h \propto \sqrt{D}$ | $D^2$ | $D^{2.5}$ | $D^{2.5}$ | $\sqrt{D}$ | $\sqrt{D}$ | $\frac{1}{\sqrt{D}}$ | $\sqrt{D}$ | 恒定 | $\sqrt{D}$ | $\sqrt{D}$ | 恒定 |
 
 由于机械原因，间隙 $\delta$ 与直径 D 近似成正比。注意到随着 D 的增大，h 通常也会增大，尽管未必成正比，如果我们取：
 
@@ -370,25 +370,25 @@ $$
 与注塑成型不同，挤出成型本质上是一种连续工艺，能否实现经济高效的生产取决于能否在较长时间内保持稳定的工艺条件。由于在开机以及因材料、操作或产品变化而进行调整时，都会消耗材料和能源，因此必须以经济的方式进行这些调整，并且通常应尽可能快速地完成。 如[第11.2节](#112-stability)所述，单螺杆挤出机与模具的组合在某种程度上是一个自调节系统，尽管对压力或温度变化的补偿可能会导致混合效果或稳定性出现不希望的变化。 然而，后续的定径、拉伸和切断工序会直接影响产品，操作人员通常必须控制这些工序与挤出机本身之间的平衡。 仪表(最好是自动记录的)对于监测工况的初期变化具有重要价值，这些变化通常是由原料性能的变化引起的。仪表通常不直接显示熔体压力或温度，且提供的仪表可能存在响应延迟，例如由于
 
 平稳运行
-<a id="table-12-1"></a>
+(table-12-1)=
 表 12.1 简单故障排查
 
-| Occurrence | Condition | Cause | Action |
+| 发生情况 | 状态 | 原因 | 措施 |
 | --- | --- | --- | --- |
-| Heating interrupted | Temperature falling | (a) Control action to avoid overshoot, time-proportioning or interaction with adjacent zones(b) Fail-safe control, indicating broken thermocouple or connection | Observe if heating resumed in say 30 s, otherwise check (b), etc.Check thermocouple continuity |
-| Temperature continues to rise | Temperature above upper control limit | (a) Thermocouple slipped out or not in contact with heater/extruder(b) Thermocouple incorrectly connected | Replace, ensuring good thermal contactCheck connections and temperature indication, e.g. in hot water or body heat |
-| Output suddenly falls | Steady screw speed | (a) Feed hopper empty(b) Bridging in hopper or into screw(c) Polymer melting in feed section(d) Surging | Refeed gradually ([section 12.3](#123-start-up-and-shut-down)). Investigate blocked feed lineStop screw and clear with non-metallic rod, e.g. strip of product. Check adequate feed pocket cooling. Check air entrapment esp. with powdersReduce first barrel zone temperatureIncrease feed pocket coolingCool feed end (only) of screwSee [section 11.2](#112-stability) |
-| Polymer leakage from joints or fittings | Excessive pressure | (a) Blocked die or screen(b) Failed die heater or control(c) Incompletely melted polymer, esp. at start-up or after feed interruption | Immediately reduce screw speed.Check die and adaptor temperatureShut down and clearImmediately reduce screw speedCheck thermocoupleShut down and replace heaterStop screwWait to heat up and restart slowly(Continued) |
+| 加热中断 | 温度下降 | (a) 控制动作以避免超调，时间比例控制或与相邻区域的交互作用(b) 故障安全控制，指示热电偶损坏或连接断开 | 观察约30秒后加热是否恢复，否则检查(b)等检查热电偶连续性 |
+| 温度持续升高 | 温度高于上限控制限值 | (a) 热电偶滑出或未与加热器/挤出机接触(b) 热电偶接线错误 | 更换，确保良好热接触检查接线和温度指示，例如在热水或体温中 |
+| 产量突然下降 | 螺杆转速稳定 | (a) 料斗中原料已空(b) 料斗或进料口处架桥(c) 加料段聚合物熔融(d) 断料 | 逐步重新加料（[第 12.3 节](#123-start-up-and-shut-down)）。检查进料管线是否堵塞停止螺杆，用非金属棒（如产品条料）清理。检查进料腔冷却是否充分。检查是否夹带空气，特别是粉料降低第一料筒区温度增加进料腔冷却仅冷却螺杆加料端参见[第 11.2 节](#112-stability) |
+| 聚合物从接头或配件处泄漏 | 压力过大 | (a) 口模或筛网堵塞(b) 口模加热器或控制故障(c) 聚合物未完全熔融，特别是启动时或进料中断后 | 立即降低螺杆转速。检查口模和接头温度停机并清理立即降低螺杆转速检查热电偶停机并更换加热器停止螺杆等待加热后缓慢重启（续） |
 
 (待续)
 
 挤出机的实际操作
 
-| Occurrence | Condition | Cause | Action |
+| 发生情况 | 状态 | 原因 | 措施 |
 | --- | --- | --- | --- |
-| Screw stops or speed drops | Excessive torque | (a) Low barrel temperature(b) Excessive pressure(c) Excess feed, e.g. of strips(d) Excessive speed | Reduce speed setting and check heatersAs for ‘Leakage’ aboveStop or reduce speed settingIncrease temperature of first barrel zonesReduce speed and/or increase barrel temperatures |
-| Lumpy or unmelted polymer at die | Incomplete melting, esp. of powders | (a) Insufficient shearing/heating in barrel(b) Excessive screw speed(c) Feed contamination, e.g. with hard-grade polymer | Refer to [Table 9.8](9_Operation_of_single-screw_extruders.md#table-9-8)Reduce screw speed or improve melting ([Table 9.8](9_Operation_of_single-screw_extruders.md#table-9-8))Reduce screw speedCheck feed materialIf necessary, increase barrel temperatures |
-| Foaming or bubbles at die (distinguish from later contraction bubbles due to rapid cooling), surface blisters | Steady running or start-up | (a) Moist polymer(b) Excess temperature causing decomposition(c) Air entrapment in feed | Stop feed and restart with dried polymerStop or reduce screw speedRefer to [Table 9.5](9_Operation_of_single-screw_extruders.md#table-9-5)Raise first barrel zone temperature (to reduce unmolten length)Fit vent at rear of feed opening |
+| 螺杆停止或转速下降 | 扭矩过大 | (a) 料筒温度过低(b) 压力过大(c) 过量进料，如条料(d) 转速过高 | 降低速度设定并检查加热器如上"泄漏"项所述停止或降低速度设定提高第一料筒区温度降低转速和/或提高料筒温度 |
+| 口模处出现块状或未熔聚合物 | 熔融不完全，特别是粉料 | (a) 料筒内剪切/加热不足(b) 螺杆转速过高(c) 进料污染，如混入硬质聚合物 | 参见[表 9.8](9_Operation_of_single-screw_extruders.md#table-9-8)降低螺杆转速或改善熔融（[表 9.8](9_Operation_of_single-screw_extruders.md#table-9-8)）降低螺杆转速检查进料如有必要，提高料筒温度 |
+| 口模处发泡或气泡（与后续因快速冷却引起的收缩气泡区分），表面起泡 | 稳态运行或启动 | (a) 聚合物受潮(b) 温度过高导致分解(c) 进料中夹带空气 | 停止进料，使用干燥的聚合物重新启动停止或降低螺杆转速参见[表 9.5](9_Operation_of_single-screw_extruders.md#table-9-5)提高第一料筒区温度（以减少未熔段长度）在进料口后部安装排气口 |
 
 它们所连接的机器部件具有热容量；因此，有必要了解挤出机制，以避免采取过急或不当的“纠正”措施。因此，对机器控制系统的刻意调整应持谨慎态度；当工艺运行稳定时，应避免不必要的停机或调整速度及温度。 还应认识到，该工艺的响应时间差异很大；压力的变化会对产量和功率输入产生几乎即时的影响，但由于机器和聚合物的热容量，温度的响应会更慢，从而导致产量、功率等进一步的变化。 转速变化也会导致产量和功率输入的快速变化，但温度的变化则更为滞后；如第8章所述，这可能会导致能量平衡发生深刻变化。 设定温度曲线的变化通常对熔体温度的影响相当缓慢，但会对能量平衡、压力和熔融机制产生复杂的影响。如果必须调整压力、转速等参数，通常应逐一进行，并在尝试进一步调整之前，留出足够的时间让系统达到近平衡状态。 现代三项式温度控制器设计上能够自动响应条件的大幅变化，但其响应速度必须在避免挤出机内部热和流动机制出现较大超调或不稳定与保持响应能力之间取得平衡。 有时，输出(波动)或温度会在几分钟内反复变化——这很可能是由于温度控制器调整不当所致，需要专家介入处理。
 
@@ -412,19 +412,19 @@ $$
 
 要实现稳定运行，必须确保启动顺利，而这需要细心操作，往往也耗费一定时间。操作员应首先检查挤出机内是否装有螺杆，并确认螺杆已完全推至后端——螺纹起始处应与进料口后缘对齐。 然后，应检查模具和机头螺栓或卡箍是否安装正确且已拧紧，并确认所有热电偶均已就位并连接至控制面板。如果料斗中有塑料料，应关闭进料阀，将电机开关置于“关”位，并将转速调至最低档。 应开启进料腔冷却并关闭螺杆冷却。应设置并开启加热器控制器。 除非确信它们运行正常，否则最好先将所有温度设定为40或50 °C；此时控制器应显示正在供热，移动指针应在几分钟内升至设定点(40或50 °C)，随后加热器应自动关闭。 这可验证热电偶是否已连接且方向正确，加热器是否正常工作(有时它们配有独立的电源开关，必须处于“开”位置)，以及控制器能否按要求开启和关闭加热；此过程仅需几分钟，但可能节省后续数小时的时间，并避免因过热造成的损坏。 随后即可安全地将控制器重置为所需温度，并让机器开始预热。如果需要接近聚合物最低加工温度的温度，先将控制器设定值调高10至20 °C，待挤出机运行后再调至正确设定值，这样可以减轻启动时的电机负荷。 另一方面，如果需要较高温度，或者聚合物对热非常敏感(尤其是 PVC)，则最好将控制器设定值调低 10 至 20 °C；当温度达到这些设定值后，可将其调高至正确温度，待温度再次稳定后，再开始运行挤出机。 当温度达到正确点时(对于大型挤出机，这可能需要一小时或更长时间)，所有控制器上的移动指针和固定指针(指示指针和设定指针)应非常接近同一温度位置。 作为最终检查，对于没有指示指针的控制器，表示控制器正在供热的指示灯应闪烁或周期性地亮起和熄灭。 在完全确定挤出机已达到正确温度后，牵引装置应就位并连接好电源、水源、气源等，例如将线材穿入线材护套中。 对于水浴槽(如管材定径工艺中)，通常最好将水浴槽从模头处移开几厘米，以留出操作空间并避免水溅到高温模头上。可在模头下方放置一个装有少许水的锡罐以盛放启动材料，或者让牵引装置以最低速度开始运转。 在观察电机电流表是否过载(如有压力表则一并观察)的同时，应在无聚合物的情况下以最低速度启动电机。若电机电流或压力接近安全限值，应立即停止电机，等待设备进一步预热或查明原因。 如果熔融聚合物从模头流出，表明模头已畅通，可以安全地喂料，但应缓慢进行。如果模头没有聚合物流出，机器可能处于空转状态，必须小心操作，直到确定模头畅通为止。 操作员应手动将粉末或颗粒少量分次投入进料斗，但切勿投入过多以致填满螺杆； 这是因为聚合物会在空螺杆中快速下行，来不及充分熔融；若待螺杆填满后强行挤入模头，未熔融的颗粒可能堵塞模头，导致接头爆裂或模头损坏。 这一点对于非常狭窄的模具(例如薄膜模具)尤为重要，或者在螺杆与模具狭窄部分之间存在较大间隙的情况下，因为填满该间隙可能需要几分钟。 当熔融聚合物从模头稳定流出且电机负载不过大时，可逐渐增加进料量，直至螺杆在进料口处完全填满——此时才可安全地填满料斗或完全打开进料阀。 为了减少浪费，一旦聚合物从模具流出，即可将其送入牵引装置——在低速运行时，这通常要容易得多。 然后应启动冷却水或空气泵和喷嘴，并调整牵引速度以获得大致正确的挤出尺寸；可将水浴槽小心地移近模具，并逐渐供应用于管材定型的真空、用于管状薄膜吹塑和冷却的空气等。 当整条生产线稳定运行时，应将挤出机螺杆速度和牵引速度缓慢提高至运行速度，大致同步进行，同时观察主电流表以防过载。 随后应调整速度，尽可能使尺寸达到正确值，只有在此之后才对模具设置进行最终调整——过早进行调整是浪费时间，因为膨胀和拉伸取决于温度和速度。本书篇幅有限，无法涵盖所有不同类型的牵引设备和最终产品。 目标是首先获得正确的尺寸和形状，然后是正确的性能(如薄膜的光学性能、绝缘材料的线材附着力等)、正确的外观和表面光洁度，并在此基础上以尽可能高的产量维持所有这些指标。
 
-<a id="table-12-2"></a>
+(table-12-2)=
 表 12.2 操作人员的安全
 
-| Operation | Hazard | Action |
+| 操作 | 危害 | 措施 |
 | --- | --- | --- |
-| Feeding, esp. from bags or drums | Fire riskTrip hazard | Avoid spillage on to heaters or floorClean up with vacuum, not brush or compressed air |
-| Feeding with powders | Fire/explosion risk | Avoid spillageEarthing against static electricityNo smoking |
-| Clearing bridging or blockage in feed | Possible toxicityInjury and machine damage if caught in revolving screw | Wear dust maskDon’t remove safety/magnetic gridDon’t lean over hopperUse only long strip of polymer, never metal |
-| Excess pressure giving leakage of molten polymer from joints | Fire if contacting heatersInjury if bolts breakBurns from hot polymer from diea | Stop/reduce speed (see [Table 12.1](#table-12-1))Wear goggles and glovesNever lean or stand in front of die, even when screw stoppeda |
-| Accidental contact with metal parts or heatersb | Burns | Avoid contactWear gloves and footwearPost warning notices ‘HOT’ or ‘LIVE ELECTRICS’ if leaving machine |
-| Contact with molten polymer | Skin burnscEye injury | Avoid contactWear goggles, protective gloves and footwearIsolate motors when working on extruder, die or haul-off |
-| Contact with live electrics, e.g. exposed terminals, wet cables | Electric shockConsequential injuries | Wear glovesKeep cables off floorIsolate heaters when covers removed |
-| Mechanical movement or falling components | Trapping, esp. fingersCrushing, esp. feet | Isolate drive motorsKeep guards in place whenever possibleAvoid in-running ‘nips’ and close clearancesWear protective gloves and footwear |
+| 加料，特别是从袋子或桶中加料 | 火灾风险绊倒风险 | 避免洒落到加热器或地面上用吸尘器清理，不要用扫帚或压缩空气 |
+| 粉料加料 | 火灾/爆炸风险 | 避免洒落接地以防静电禁止吸烟 |
+| 清除加料口的架桥或堵塞 | 可能有毒性如被旋转螺杆卷入则可能受伤和损坏机器 | 佩戴防尘面罩不要拆除安全/磁性过滤网不要俯身于料斗上方仅使用长条聚合物，切勿使用金属 |
+| 压力过大导致熔融聚合物从接头处泄漏 | 接触加热器可能引起火灾螺栓断裂可能造成伤害口模处高温聚合物可能导致烫伤a | 立即降低螺杆转速。检查口模和接头温度。佩戴护目镜和手套切勿在口模前方倚靠或站立，即使螺杆已停止a |
+| 意外接触金属部件或加热器b | 烫伤 | 避免接触佩戴手套和防护鞋离开机器时张贴‘高温’或‘带电’警示标志 |
+| 接触熔融聚合物 | 皮肤烫伤c眼部伤害 | 避免接触佩戴护目镜、防护手套和防护鞋对挤出机、口模或牵引装置进行操作时隔离电机 |
+| 接触带电部件，如裸露端子、潮湿电缆 | 触电继发伤害 | 佩戴手套保持电缆远离地面拆卸护罩时隔离加热器 |
+| 机械运动或部件坠落 | 夹持，特别是手指挤压，特别是脚部 | 隔离驱动电机尽可能保持防护装置就位避免进入‘咬合’间隙和近距离间隙佩戴防护手套和防护鞋 |
 
 $^{a}$ 由于高温下的分解和气体生成，熔融聚合物可能会在几分钟后突然且剧烈地从模具中喷出。
 
@@ -552,4 +552,5 @@ $^{a}$ 由于高温下的分解和气体生成，熔融聚合物可能会在几�
 造粒机很危险；应留意松动部件或不牢固的防护装置，并遵守操作说明。如果机器卡住且5–10秒内不能清除，请勿再推入更多废料，而是关闭电源，等待其停止，并遵循清洁说明。清洁或拆卸时，应拔下插头或确保其不会意外启动——不要依赖安全开关。即使没有电源，切刀也非常锋利且具有高动量——即使手动转动也会造成严重伤害。造粒机的角落和缝隙难以清洁，某些材料可能会在刀片或机壳上涂抹，只是后来脱落并污染另一批次。清洁后，试运行总是值得的，以确保正常工作并获得清洁的产品。造粒机会产生粉尘和噪音，因此通常位于单独的房间。粉尘会吸引静电从而吸附污垢，并且通常高度易燃——它还会妨碍向挤出机的重新喂料，因此最好将其处理掉。应按规定佩戴防尘口罩和/或耳罩。
 
 将粉状聚合物或颜料等配混成颗粒也是一项危险、多尘和嘈杂的工作，只要有可能就应在单独的房间进行；清洁的安全程序尤其重要。污染至少是与挤出操作一样大的危险，特别是在回收废料时。这可能由以下原因引起：溢出物、肮脏的容器、批次或颜色之间的交叉污染、空气中的水分或湿气。
+
 

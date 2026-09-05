@@ -15,7 +15,7 @@
 螺杆的进料通常依靠重力进行，螺杆周向大部分区域设有间隙较小的淬火进料口衬套，以防止进料物料再次掉出，并提供一定阻力，使其被输送至料筒内，而非仅仅被螺杆带着转圈。 如果螺杆的进料口纯粹是径向的，螺杆可能会将物料逼回进料喉部，从而阻碍新物料的流入，特别是当颗粒具有弹性或相对于螺杆通道的尺寸较大时。 出于这个原因，进料口通常设计为与螺杆下行侧相切；尽管有些设计师认为，在高速运转时，螺杆会“逃离”进料口，而在上行侧，螺杆则会切入下行的物料柱中。 经验表明，在向下侧和通向料筒的端部设置较大的倒角(图7.1)非常有用，这有助于将位于螺杆翅片路径外的物料引导入槽道，而不是使其撞击近乎径向的表面而被弹出。 特别是对于大颗粒或细长条状物料，可以观察到楔入作用不仅发生在螺杆根部与进料口衬板之间，也发生在螺杆叶片尖端与衬板之间——如果没有倒角，螺杆叶片往往会切削和/或将颗粒排出([图 9.1](#figure-9-1))。 进料口长度通常为螺杆直径的三倍，即可充分填满螺杆。需注意，螺杆长度通常从进料口后端开始计算，尽管压实形成物料塞的过程是从前端开始的。由这些机制导致的输出受限现象，在螺杆高速运转时更易发生。
 
 ![](../images/img_0009.jpg)  
-<a id="figure-9-1"></a>
+(figure-9-1)=
 图9.1 饲料分层的原因。
 
 原料颗粒快速压实形成固体塞的同时，夹带的空气会向后位移；如果这一过程被过度延迟(例如由于第一区料筒温度过低)，部分空气可能会被向前带走并出现在挤出产品中。 关于该固体塞向前输送的条件已在第7章中讨论过。为了满足与熔体泵送段的质量流量连续性(方程(6.15))，塞的沿通道向下速度$V_{pz}$可由下式给出：
@@ -63,7 +63,7 @@ $$
 前者给出的净流速如式(6.15)所示，而后者(忽略泄漏)给出的流速为零，如式(6.24)所示。 第 6.2 节(图 6.8)讨论了由此产生的流动模式，该模式产生了端到端和横向混合，其中(仅)前者受纵向压力梯度影响。 第 6.4 节(图 6.11)讨论了深度变化的螺旋对压力梯度的影响，其中可以看出，由于连续性原理，当 Q 保持恒定时，h 的减小意味着 Q/Wbh 的局部值增加。 如果通过从方程(6.67)中提取深度分数 y/h 来表示通道中的位置 y，则可见阻力流项仅随 h 的垂直(径向)尺度而变化，而压力流项的幅值也会随着 $Q/Wbh \rightarrow 1/2$ 而减小。 因此，在锥形螺旋中，沿流道下行的速度分布会从图6.6(b)变为图6.6(c)，最终变为图6.6(d)或图6.6(e)，尽管h的尺度在变化([图9.2](#figure-9-2))。方程(6.26)表明，横向速度分布仅随尺度 h 而变化。因此，即使在等温条件下，深度变化的螺杆沿长度方向的流动模式也在不断变化。 第 6.7 节和第 6.8 节分别讨论了非牛顿流和非等温流的定性效应。 尽管泄漏量很小(第 6.3 节)，但它会减少由方程 (6.15) 给出的净流量，并重新卷入靠近筒体表面的前一螺杆圈的流场中，在那里迅速分散。
 
 ![](../images/img_0005.jpg)  
-<a id="figure-9-2"></a>
+(figure-9-2)=
 图9.2 锥形螺杆中速度分布的变化。
 
 ### 9.1.2 压力
@@ -102,13 +102,13 @@ $$
 
 ![](../images/img_0019.jpg)  
 (c) 组合流量
-<a id="figure-9-3"></a>
+(figure-9-3)=
 图 9.3 带冷却筒体的速度分布曲线。
 
 螺杆冷却所涉及的因素与筒体冷却截然不同。第20页和第278页曾提及在进料区和熔融区可能采用螺杆冷却。 由于熔体导热系数低，且螺杆根部附近的相对速度较低(图6.6和6.7)，因此在熔体输送段进行的螺杆冷却对料筒壁附近的工况影响甚微，从而对功率输入的影响也微乎其微。 对于 UPVC 等热敏性聚合物，通常会采用轻微的螺杆冷却(最好针对螺杆最前端)，以降低螺杆尖端的温度，从而减少该处降解聚合物的积聚。* 较大的空气或水流量，或较低的入口温度，会导致产量显著下降，同时机械功率输入和熔体温度往往会有所增加——其效果类似于在螺杆转速恒定的情况下减小螺道深度(图8.8)。 在熔体输送段，螺杆冷却的效果确实主要表现为减小螺沟深度，当现有螺杆过深时，通常会采用这种方法来达到此目的。 然而，这种变化并非总是能够立即逆转；笔者曾对一台加工UPVC的50 mm挤出机螺杆进行短暂的水冷处理，但在停止冷却8小时后，产量和功率仍未恢复到冷却前的数值。 出于这个原因，并且由于操作对流道深度变化的敏感性(第 143、253 页和图 8.8)，必须逐步实施螺杆冷却，并精确控制流量和温度。
 
 ![](../images/img_0031.jpg)  
-<a id="figure-9-4"></a>
+(figure-9-4)=
 图9.4 实验用螺钉前端。
 
 ### 9.1.5 混合
@@ -214,7 +214,7 @@ Q _ {\mathrm{D}} ^ {\prime} = \frac {W b h}{2} = Q _ {\mathrm{D}}\tag{9.11}
 $$
 
 ![](../images/img_0026.jpg)  
-<a id="figure-9-5"></a>
+(figure-9-5)=
 图9.5 输出量与压力随温度的变化。
 
 因此
@@ -258,7 +258,7 @@ $$
 第三种工艺方案(方案3)是将温度控制在电机功率、螺杆强度等因素所能允许的最低水平， ，但又足以使熔融发生。虽然这可能需要占用螺杆长度中较大且不理想的部分，但能延缓固体床的破碎，并使该段聚合物受热更均匀，从而当破碎发生时，温度虽较低但分布均匀，且熔化剩余固体颗粒所需的时间更短。 这或许是实现低且均匀的最终熔体温度的理想方案，但鉴于螺杆长度有限，对于较高温度而言则不切实际。
 
 ![](../images/img_0021.jpg)  
-<a id="figure-9-6"></a>
+(figure-9-6)=
 图9.6 理想化的桶组温度分布曲线。
 
 普遍认为，在熔体输送段，应尽快将熔体温度升至所需的最终值，然后将其保持恒定，以最大限度地减少或消除温度波动，因此该段通常采用恒定的设定温度曲线。 这似乎更倾向于熔化段中的“斜坡”温度曲线2，因为料筒温度的阶跃变化并不现实；考虑到熔点位置通常未知且会随螺杆转速而变化，在温度曲线2和3之间寻求折中方案可能更为理想。
@@ -297,26 +297,26 @@ $$
 
 关于螺杆尺寸，撇开用于排气、混炼等特殊类型不谈，无法进一步一概而论。 列举一些已成功运行的实例([表 9.1](#table-9-1))或许有所帮助；这些实例以直径为 90 mm、进料段深度为 15 mm 的螺杆为例，不过正如 [第 11.5 节](11_Extruder_operation_as_part_of_a_total_process.md#115-scale-up)中所讨论的，螺杆沟槽深度通常与螺杆直径之间的变化关系略小于正比。 此处所用术语指的是螺杆的几何部分，而非本书其余部分中用于描述特定机制区域的进料、熔化和熔体输送等功能部分。
 
-<a id="table-9-1"></a>
+(table-9-1)=
 表 9.1 螺纹类型示例(直径 90 毫米，单头，螺距等于直径(螺旋角 $17.6^{\circ}$))
 
-| Purpose | Polymer | Depth (mm) | Length (diameters) | Compression  $ratio^b$ |  |  |  |  |  |
+| 用途 | 聚合物 | 深度 (mm) | 长度 (直径) | 压缩  $ratio^b$ |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Feed | $Transition^a$ | Meter | Feed | Transi- tion | Meter | Total |  |  |  |
-| High-output compounding | LDPE | 15 | 15–6.5T | 6.5 | 6 | 12 | 6 | 24 | 2.1:1 |
-| General purpose | LDPE | 15 | 15–5.5T | 5.5 | 4 | 10 | 6 | 20 | 2.4:1 |
+| 进料 | $Transition^a$ | 计量 | 进料 | 过渡 | 计量 | 总长 |  |  |  |
+| 高产量混炼 | LDPE | 15 | 15–6.5T | 6.5 | 6 | 12 | 6 | 24 | 2.1:1 |
+| 通用 | LDPE | 15 | 15–5.5T | 5.5 | 4 | 10 | 6 | 20 | 2.4:1 |
 | HDPE |  |  |  |  |  |  |  |  |  |
 | PS |  |  |  |  |  |  |  |  |  |
-| Film | LDPE | 15 | 15–3.0S | 3.0 | 10 | 11 | 9 | 20 | 4.3:1 |
-| High-output compounding | PP powder | - | 15–7.9T | 7.9 | - | 18 | 2 | 20 | 1.8:1 |
-| General purpose | PP | - | 15–6.0T | 6.0 | - | 16 | - | 16 | 2.2:1 |
-| General purpose | PP | - | 12.7–5.6T | 5.6 | - | 10.9 | 9.1 | 20 | 2.1:1 |
-| General purpose | POM | 15 | 15–5.0T | 5.0 | 4 | 12 | 4 | 20 | 2.7:1 |
-| General purpose | PMMA | 15 | 15–4.0S | 4.0 | 14 | 1 | 5 | 20 | 3.3:1 |
-| Compounding | Nylon 66 | - | 11.1–9.6T/S | 2.8 | - | $12+\frac{1}{2}$ | 7.5 | 20 | 3.6:1 |
-| Film | PET | 15 | 15–3.0S | 3.0 | 14 | 1 | 9 | 24 | 4.3:1 |
-| Film | UPVC | 15 | 15–7.0T | 7.0 | 4 | 12 | 4 | 20 | 1.9:1 |
-| Low-output compounding | UPVC | 15 | 15–9.0T | 9.0 | 4 | 7 | 4 | 15 | 1.5:1 |
+| 薄膜 | LDPE | 15 | 15–3.0S | 3.0 | 10 | 11 | 9 | 20 | 4.3:1 |
+| 高产量混炼 | PP粉末 | - | 15–7.9T | 7.9 | - | 18 | 2 | 20 | 1.8:1 |
+| 通用 | PP | - | 15–6.0T | 6.0 | - | 16 | - | 16 | 2.2:1 |
+| 通用 | PP | - | 12.7–5.6T | 5.6 | - | 10.9 | 9.1 | 20 | 2.1:1 |
+| 通用 | POM | 15 | 15–5.0T | 5.0 | 4 | 12 | 4 | 20 | 2.7:1 |
+| 通用 | PMMA | 15 | 15–4.0S | 4.0 | 14 | 1 | 5 | 20 | 3.3:1 |
+| 混炼 | Nylon 66 | - | 11.1–9.6T/S | 2.8 | - | $12+\frac{1}{2}$ | 7.5 | 20 | 3.6:1 |
+| 薄膜 | PET | 15 | 15–3.0S | 3.0 | 14 | 1 | 9 | 24 | 4.3:1 |
+| 薄膜 | UPVC | 15 | 15–7.0T | 7.0 | 4 | 12 | 4 | 20 | 1.9:1 |
+| 低产量混炼 | UPVC | 15 | 15–9.0T | 9.0 | 4 | 7 | 4 | 15 | 1.5:1 |
 
 $^{a}$ T = 锥形；S = 阶梯形。
 $^{b}$ 截面基矢。
@@ -348,214 +348,215 @@ $$
 
 在表 9.2–9.9 中，某些论述(尤其是关于减小螺杆槽深度的影响)可能看似相互矛盾。 在输出量恒定且背压显著的情况下，通道内的流速分布将从图6.6(b)中深螺杆的情况转变为图6.6(c)中浅螺杆的情况， 但随着纵坐标比例尺的缩小，壁面剪切速率和应力会随之增大(除非出现图6.6(e)所示的情况)；然而，逆流分量
 
-| Action | Response | Reference | Limitations |
+| 操作 | 响应 | 参考文献 | 限制条件 |
 | --- | --- | --- | --- |
-| Increases speed (fixed die) | Output Q and pressure P increase approx. proportional to speed N | eqn. (6.59) | Feed restrictionMaximum haul-off and cooling speeds |
-| Mechanical power increases approx. proportional to  $N^{1.5}/N^2$ | Fig. 8.12 | Maximum motor powerMaximum heater/cooling power |  |
-| Heater power increases/decreases | Fig. 8.12 | Thermal degradation |  |
-| Melt temperature  $T_m$  rises (heaters constant) | p. 258 | Unsatisfactory flow from die (e.g. drawing, blowing, quenching) |  |
-| Gel point moves towards die | pp. 219, 283Fig. 7.27 |  |  |
-| Temperature variations increase | p. 284 | Incomplete melting and surging |  |
-| Residence time (mixing) decreases | p. 283 | Unstable flow and poor distribution in die Non-uniform composition and product properties |  |
-| Increase ‘metering’ depth (fixed speed and die) | Q increases at low P only | Fig. 6.16 | Feed restriction |
-| Greater fluctuation in Q if P changes | Fig. B.7 | Product breaks in haul-off, especially with drawdown |  |
-| Mechanical power E decreases slightly | eqn. (8.11) |  |  |
-| Melt temperature  $T_m$  may fall | Fig. 8.8 |  |  |
-| Gel point moves towards die | Fig. 7.29 | Incomplete melting and surging |  |
-| Temperature variations may increase | p. 292 | Unstable flow in die |  |
-| Residence time (mixing) increases but mixing uniformity may decrease | p. 293 | Non-uniform product propertiesNon-uniform composition |  |
+| 提高转速（固定模头） | 产量Q和压力P近似与转速N成正比增加 | 式 (6.59) | 进料受限；最大牵引和冷却速度 |
+| 机械功率近似与  $N^{1.5}/N^2$  成正比增加 | 图 8.12 | 最大电机功率；最大加热/冷却功率 |  |
+| 加热器功率增加/减少 | 图 8.12 | 热降解 |  |
+| 熔体温度  $T_m$  升高（加热器设定不变） | 第258页 | 模头出料不良（如牵伸、吹塑、骤冷） |  |
+| 凝胶点向模头方向移动 | 第219、283页；图 7.27 |  |  |
+| 温度波动增大 | 第284页 | 熔融不完全和压力波动 |  |
+| 停留时间（混合）缩短 | 第283页 | 模头处流动不稳定和分布不良；成分和产品性能不均匀 |  |
+| 增加"计量"段深度（固定转速和模头） | 仅在低压下Q增加 | 图 6.16 | 进料受限 |
+| 若P变化则Q波动增大 | 图 B.7 | 产品在牵引中断裂，尤其在拉伸比大时 |  |
+| 机械功率E略有下降 | 式 (8.11) |  |  |
+| 熔体温度  $T_m$  可能降低 | 图 8.8 |  |  |
+| 凝胶点向模头方向移动 | 图 7.29 | 熔融不完全和压力波动 |  |
+| 温度波动可能增大 | 第292页 | 模头处流动不稳定 |  |
+| 停留时间（混合）增加但混合均匀性可能降低 | 第293页 | 产品性能不均匀；成分不均匀 |  |
 
-<a id="table-9-2"></a>
+(table-9-2)=
 表 9.2 运营策略：需提高产量
 
-<a id="table-9-3"></a>
+(table-9-3)=
 表 9.3 操作策略：需要增加压力
 
-| Action | Response | Reference | Limitations |
+| 操作 | 响应 | 参考文献 | 限制条件 |
 | --- | --- | --- | --- |
-| Add screens to breaker plate (fixed die) | At constant speed, output  $Q$  from screw decreases, requiring higher speed  $N$  (as above) to restore  $Q$  and  $P$  in die. | Fig. 6.15 | Output may be restored by increasing screw depth (Fig. 6.16) |
-| Mechanical power  $E$  increases | eqn. (8.9) | Maximum motor power |  |
-| Fig. 8.14 | Maximum torsional strength of screw |  |  |
-| p. 235 |  |  |  |
-| Heater power  $H$  decreases | Analogous to Fig. 8.10 | Heaters off (no cooling) |  |
-| Maximum cooling (if cooled) |  |  |  |
-| Melt temperature  $T_{m}$  rises (heaters constant) | eqn. (8.29) | Thermal degradation |  |
-| p. 284 | Unsatisfactory flow from die |  |  |
-| More complete melting | p. 284 |  |  |
-| Temperature variations may increase | p. 284 |  |  |
-| Residence time (mixing) increases | p. 284 |  |  |
-| Mixing uniformity increases |  |  |  |
+| 在多孔板上添加滤网（固定模头） | 在恒定转速下，螺杆输出  $Q$  降低，需要提高转速  $N$（同上）以恢复模头处的  $Q$  和  $P$。 | 图 6.15 | 可通过增加螺杆深度恢复产量（图 6.16） |
+| 机械功率  $E$  增加 | 式 (8.9) | 最大电机功率 |  |
+|  | 图 8.14 | 螺杆最大扭转强度 |  |
+|  | 第235页 |  |  |
+| 加热器功率  $H$  降低 | 类似于图 8.10 | 加热器关闭（无冷却） |  |
+| 最大冷却（如有冷却） |  |  |  |
+| 熔体温度  $T_{m}$  升高（加热器设定不变） | 式 (8.29) | 热降解 |  |
+|  | 第284页 | 模头出料不良 |  |
+| 熔融更完全 | 第284页 |  |  |
+| 温度波动可能增大 | 第284页 |  |  |
+| 停留时间（混合）增加 | 第284页 |  |  |
+| 混合均匀性增加 |  |  |  |
 
-<a id="table-9-4"></a>
+(table-9-4)=
 表 9.4 操作策略：需要提高熔体温度
 
-| Action | Response | Reference | Limitations |
+| 操作 | 响应 | 参考文献 | 限制条件 |
 | --- | --- | --- | --- |
-| Increase barrel set temperatures | Output Q approx. constant | eqn. (9.13) |  |
-| Pressure reduced (fixed speed and die) | [Fig. 9.5](#figure-9-5) |  |  |
-| Mechanical power E decreased considerably | eqn. (8.9) |  |  |
-| p. 279 |  |  |  |
-| p. 284 |  |  |  |
-| Heater power H increased | Fig. 8.10 | Maximum heater power |  |
-| Melt temperature  $T_m$  rises if E was previously small, e.g. deep, short screw | Fig. 8.10 | As required – degradation, etc., will be anticipated |  |
-| Melt temperature falls if E was previously large, e.g. shallow screw, high pressure | p. 277 | Contrary to requirement |  |
-| p. 287 |  |  |  |
-| Melting may be more complete, if output Q and mechanical power E are low | p. 287 |  |  |
-| p. 355 |  |  |  |
-| Melting may be less complete, if output Q and mechanical power E are high | p. 277 | Incomplete melting |  |
-| p. 287 |  |  |  |
-| Temperature variations may increase/decrease, depending on melting | p. 287 | If ‘increase’, unstable flow in die |  |
-| p. 288 | Non-uniform product properties |  |  |
-| p. 354 |  |  |  |
-| Mixing decreases, especially dispersive, due to lower shear stresses and power | p. 288 | Non-uniform composition and product properties |  |
-| p. 353 |  |  |  |
-| Decrease set temperature in melting section only | Output Q and pressure P approx. constant (fixed die) | Fig. 7.28(a) |  |
-| p. 277 |  |  |  |
-| Mechanical power E increased considerably | p. 279 | Maximum motor power |  |
-| p. 287 | Maximum torsional strength of screw |  |  |
-| Heater power H decreasedMelt temperature  $T_{m}$  rises if mechanical power E was previously high | p. 287p. 279 | As required – may give shear degradation, e.g. dulling of pigments |  |
-|  | Melt temperature  $T_{m}$  falls if mechanical power E was previously low or if considerable heating took place after melting | p. 287 | Contrary to requirement |
-| More complete melting – gel point may move towards feed | p. 287 |  |  |
-| Break-up of solid bed may be delayed | p. 287 |  |  |
-| Temperature variations may decrease due to more uniform temperature at start of melt pumping section, giving improved flow in die | p. 277p. 287p. 288 |  |  |
-| Mixing may increase due to longer time after melting, giving improved uniformity in product | p. 282 |  |  |
-| Commence or increase screw cooling | Effective channel depth in pumping section is reduced | p. 281p. 292 |  |
-| If pressure is low, output Q and pressure P will be decreased | A to B inFig. 6.18 | Uneconomic output |  |
-| If pressure is high, output Q and pressure P will increase slightly | C to D inFig. 6.18 |  |  |
-| Mechanical power E increases slightly | p. 280p. 281 |  |  |
-| Melt temperature  $T_{m}$  increases due to smaller Q | Fig. 8.9p. 281p. 293 | As required |  |
-| Reduced effective depth may give more complete melting | Fig. 7.29 | But see the equivalent case (p. 292) |  |
+| 提高料筒设定温度 | 产量Q近似不变 | 式 (9.13) |  |
+| 压力降低（固定转速和模头） | [图 9.5](#figure-9-5) |  |  |
+| 机械功率E显著降低 | 式 (8.9) |  |  |
+|  | 第279页 |  |  |
+|  | 第284页 |  |  |
+| 加热器功率H增加 | 图 8.10 | 最大加热器功率 |  |
+| 若此前E较小（如深槽短螺杆），则熔体温度  $T_m$  升高 | 图 8.10 | 按需——降解等将被预先考虑 |  |
+| 若此前E较大（如浅槽螺杆、高压），则熔体温度降低 | 第277页 | 与需求相反 |  |
+|  | 第287页 |  |  |
+| 若产量Q和机械功率E较低，熔融可能更完全 | 第287页 |  |  |
+|  | 第355页 |  |  |
+| 若产量Q和机械功率E较高，熔融可能更不完全 | 第277页 | 熔融不完全 |  |
+|  | 第287页 |  |  |
+| 温度波动可能增大/减小，取决于熔融情况 | 第287页 | 若"增大"，则模头处流动不稳定 |  |
+|  | 第288页 | 产品性能不均匀 |  |
+|  | 第354页 |  |  |
+| 混合效果减弱，尤其是分散混合，因剪切应力和功率降低 | 第288页 | 成分和产品性能不均匀 |  |
+|  | 第353页 |  |  |
+| 仅降低熔化段设定温度 | 产量Q和压力P近似不变（固定模头） | 图 7.28(a) |  |
+|  | 第277页 |  |  |
+| 机械功率E显著增加 | 第279页 | 最大电机功率 |  |
+|  | 第287页 | 螺杆最大扭转强度 |  |
+| 加热器功率H降低；若此前机械功率E较高，则熔体温度  $T_{m}$  升高 | 第287页；第279页 | 按需——可能引起剪切降解，如颜料变暗 |  |
+|  | 若此前机械功率E较低或熔化后经历了大量加热，则熔体温度  $T_{m}$  降低 | 第287页 | 与需求相反 |
+| 熔融更完全——凝胶点可能向进料端移动 | 第287页 |  |  |
+| 固体床破碎可能延迟 | 第287页 |  |  |
+| 温度波动可能减小，因熔体输送段起始处温度更均匀，模头流动改善 | 第277页；第287页；第288页 |  |  |
+| 混合可能增强，因熔化后停留时间更长，产品均匀性改善 | 第282页 |  |  |
+| 开始或增加螺杆冷却 | 泵送段有效沟槽深度减小 | 第281页；第292页 |  |
+| 若压力较低，产量Q和压力P将降低 | 图 6.18中A到B | 不经济的产量 |  |
+| 若压力较高，产量Q和压力P将略有增加 | 图 6.18中C到D |  |  |
+| 机械功率E略有增加 | 第280页；第281页 |  |  |
+| 熔体温度  $T_{m}$  因Q减小而升高 | 图 8.9；第281页；第293页 | 按需 |  |
+| 有效深度减小可能使熔融更完全 | 图 7.29 | 但参见等效情况（第292页） |  |
 
-| Action | Response | Reference | Limitations |
+| 操作 | 响应 | 参考文献 | 限制条件 |
 | --- | --- | --- | --- |
-|  | Temperature variations may increase due to greater difference in screw and barrel temperatures and shorter residence time | p. 292 | But see equivalent case (p. 293)Unstable flow in dieNon-uniform product properties |
-| Mixing may decrease due to longitudinal shear gradient, though radial mixing distance reduced | [Fig. 9.2](#figure-9-2)(c) | Compare with [Fig. 9.2](#figure-9-2)(a) and p. 292Possible non-uniform composition |  |
-| Increase screw length | Pressure gradient decreased, so output Q and pressure P increase (fixed die) | Fig. 6.18p. 291 |  |
-| Mechanical power E in pumping section increased | eqn. (8.9) | Maximum motor power |  |
-| Losses S increased. Heater power may increase | Fig. 8.7 | Maximum heater power |  |
-| Melt temperature  $T_{m}$  increased, especially if previously close to melting point | Fig. 8.7 | As required – degradation, etc., will be anticipated |  |
-| Melting more complete if reduced pressure gradient allows length for melting to increase, despite greater output Q | p. 291 |  |  |
-| Melt temperature variations decrease due to more complete melting and greater pumping length for mixing | p. 291p. 354 |  |  |
-| Mixing increases due to greater pumping length | p. 291 |  |  |
+|  | 温度波动可能增大，因螺杆和料筒温差更大以及停留时间更短 | 第292页 | 但参见等效情况（第293页）；模头处流动不稳定；产品性能不均匀 |
+| 混合可能减弱，因纵向剪切梯度，但径向混合距离缩短 | [图 9.2](#figure-9-2)(c) | 与[图 9.2](#figure-9-2)(a)及第292页对比；可能成分不均匀 |  |
+| 增加螺杆长度 | 压力梯度减小，因此产量Q和压力P增加（固定模头） | 图 6.18；第291页 |  |
+| 泵送段机械功率E增加 | 式 (8.9) | 最大电机功率 |  |
+| 损失S增加。加热器功率可能增加 | 图 8.7 | 最大加热器功率 |  |
+| 熔体温度  $T_{m}$  升高，尤其当此前接近熔点时 | 图 8.7 | 按需——降解等将被预先考虑 |  |
+| 若减小的压力梯度允许熔融长度增加，尽管产量Q更大，熔融可能更完全 | 第291页 |  |  |
+| 温度波动减小，因熔融更完全且泵送段混合长度更大 | 第291页；第354页 |  |  |
+| 混合增强，因泵送段长度更大 | 第291页 |  |  |
 
-<a id="table-9-5"></a>
+(table-9-5)=
 表 9.5 操作策略：需降低熔体温度
 
-| Action | Response | Reference | Limitations |
+| 操作 | 响应 | 参考文献 | 限制条件 |
 | --- | --- | --- | --- |
-| Reduce barrel set temperatures | Output Q approx. constant | eqn. (9.13) |  |
-| Pressure P increased (fixed speed and die) | [Fig. 9.5](#figure-9-5) | Safe working pressure of barrel and die |  |
-| Mechanical power E increased considerably | eqn. (8.9) | Maximum motor power |  |
-| Heater power H reduced | p. 279 | Torsional strength of screw |  |
-| Melt temperature  $T_m$  falls if E was previously small, e.g. deep, short screw | Fig. 8.10 | As required |  |
-| Melt temperature  $T_m$  rises if E was previously large, e.g. shallow screw, high pressure | p. 369 | Contrary to requirement |  |
-| Melting may be less complete if output Q and power E were previously low (mainly conducted heating ) | p. 277 | Incomplete melting |  |
-| Melting may be more complete if output Q and power E were previously high (mainly shear heating) | p. 220 | Incomplete melting |  |
-| Temperature variations may increase or decrease, depending on melting | p. 220 | Incomplete melting |  |
-| Mixing increases, especially dispersive, due to higher shear stresses and power | p. 287 | Incomplete melting |  |
-| Output Q and pressure P approx. constant (fixed die) | p. 287 | If increase, unstable flow in die |  |
-| Mechanical power E decreased considerably | p. 287 | Non-uniform product properties |  |
-| Heater power H increased | p. 287 | Maximum heater power |  |
-|  | p. 287 | (Continued) |  |
-|  | Melt temperature  $T_{m}$  falls if mechanical power  $E$  was previously high | Fig. 8.10p. 277p. 369 | As required |
-| Melt temperature  $T_{m}$  rises if mechanical power  $E$  was previously low | p. 369 | Contrary to requirement |  |
-| Less complete melting – gel point may move towards die | p. 287 | Incomplete melting |  |
-| Break-up of solid bed may be accelerated | p. 287 |  |  |
-| Temperature variations may increase due to less complete melting | p. 287 | Unstable or non-uniform flow in dieNon-uniform product properties |  |
-| Mixing may decrease due to shorter time after melting | p. 282 | Non-uniform composition and product properties |  |
-| Decrease screw length (melt pumping section) | Pressure gradient increased so output  $Q$  and pressure  $P$  decrease (fixed die) | Fig. 6.18p. 291 | Uneconomic output |
-| Mechanical power  $E$  (in pumping) decreased | eqn. (8.9) |  |  |
-| Losses S decreased. Heater power  $H$  may decrease | Fig. 8.7 |  |  |
-| Melt temperature  $T_{m}$  decreased, especially if considerably above melting point | Fig. 8.7 | As requiredMinimum processing temperature will be anticipated |  |
-| Melting less complete if higher pressure gradient tends to reduce length for melting, despite lower output  $Q$ | p. 291 | Incomplete melting |  |
-| Melt temperature variations increase due to poorer melting and shorter pumping length | p. 291p. 354 | Unstable or non-uniform flow in dieNon-uniform product properties |  |
+| 降低料筒设定温度 | 产量Q近似不变 | 式 (9.13) |  |
+| 压力P增加（固定转速和模头） | [图 9.5](#figure-9-5) | 料筒和模头安全工作压力 |  |
+| 机械功率E显著增加 | 式 (8.9) | 最大电机功率 |  |
+| 加热器功率H降低 | 第279页 | 螺杆扭转强度 |  |
+| 若此前E较小（如深槽短螺杆），则熔体温度  $T_m$  降低 | 图 8.10 | 按需 |  |
+| 若此前E较大（如浅槽螺杆、高压），则熔体温度  $T_m$  升高 | 第369页 | 与需求相反 |  |
+| 若此前产量Q和功率E较低（主要为传导加热），熔融可能更不完全 | 第277页 | 熔融不完全 |  |
+| 若此前产量Q和功率E较高（主要为剪切加热），熔融可能更完全 | 第220页 | 熔融不完全 |  |
+| 温度波动可能增大或减小，取决于熔融情况 | 第220页 | 熔融不完全 |  |
+| 混合增强，尤其是分散混合，因剪切应力和功率更高 | 第287页 | 熔融不完全 |  |
+| 产量Q和压力P近似不变（固定模头） | 第287页 | 若增大，模头处流动不稳定 |  |
+| 机械功率E显著降低 | 第287页 | 产品性能不均匀 |  |
+| 加热器功率H增加 | 第287页 | 最大加热器功率 |  |
+|  | 第287页 | （续） |  |
+|  | 若此前机械功率  $E$  较高，则熔体温度  $T_{m}$  降低 | 图 8.10；第277页；第369页 | 按需 |
+| 若此前机械功率  $E$  较低，则熔体温度  $T_{m}$  升高 | 第369页 | 与需求相反 |  |
+| 熔融更不完全——凝胶点可能向模头方向移动 | 第287页 | 熔融不完全 |  |
+| 固体床破碎可能加速 | 第287页 |  |  |
+| 温度波动可能增大，因熔融更不完全 | 第287页 | 模头处流动不稳定或不均匀；产品性能不均匀 |  |
+| 混合可能减弱，因熔化后停留时间更短 | 第282页 | 成分和产品性能不均匀 |  |
+| 减小螺杆长度（熔体输送段） | 压力梯度增大，因此产量  $Q$  和压力  $P$  降低（固定模头） | 图 6.18；第291页 | 不经济的产量 |
+| 机械功率  $E$  （泵送段）降低 | 式 (8.9) |  |  |
+| 损失S降低。加热器功率  $H$  可能降低 | 图 8.7 |  |  |
+| 熔体温度  $T_{m}$  降低，尤其当远高于熔点时 | 图 8.7 | 按需；最低加工温度将被预先考虑 |  |
+| 若较高的压力梯度趋向于缩短熔融长度，尽管产量  $Q$  较低，熔融可能更不完全 | 第291页 | 熔融不完全 |  |
+| 温度波动增大，因熔融更差且泵送段长度更短 | 第291页；第354页 | 模头处流动不稳定或不均匀；产品性能不均匀 |  |
 
-|  | Mixing decreases due to shorter pumping length | p. 291 | Non-uniform composition and product properties |
+|  | 混合减弱，因泵送段长度更短 | 第291页 | 成分和产品性能不均匀 |
 | --- | --- | --- | --- |
-| Increase channel depth in melt pumping section | At low pressures, output  $Q$  and pressure  $P$  will increase | $B$  to  $A$  in Fig. 6.18 |  |
-| Mechanical power  $E$  in channel will decrease | eqn. (8.7) |  |  |
-| Constant flight power becomes greater proportion of total power  $E$ | eqn. (8.9) |  |  |
-| Melt temperature  $T_{\text{m}}$  decreases due to lower specific power  $E/Q$ | Fig. 8.8 | As requiredMinimum processing temperature will be anticipated |  |
-| Melting may be less complete due to deeper channel and higher output | p. 292 | Incomplete melting |  |
-| Temperature variations may increase due to greater output  $Q$  and greater channel depth  $h$ | p. 292 | Unstable flow in die |  |
-| Mixing may increase or decrease depending on melting and effect of higher output | p. 293 | Non-uniform composition |  |
+| 增加熔体泵送段沟槽深度 | 在低压下，产量  $Q$  和压力  $P$  将增加 | 图 6.18中  $B$  到  $A$ |  |
+| 通道内机械功率  $E$  将降低 | 式 (8.7) |  |  |
+| 恒定螺棱功率在总功率  $E$  中所占比例增大 | 式 (8.9) |  |  |
+| 熔体温度  $T_{\text{m}}$  降低，因比功率  $E/Q$  减小 | 图 8.8 | 按需；最低加工温度将被预先考虑 |  |
+| 熔融可能更不完全，因沟槽更深且产量  $Q$  更高 | 第292页 | 熔融不完全 |  |
+| 温度波动可能增大，因产量  $Q$  更大且沟槽深度  $h$  更大 | 第292页 | 模头处流动不稳定 |  |
+| 混合可能增强或减弱，取决于熔融情况和更高产量的影响 | 第293页 | 成分不均匀 |  |
 
-| Table 9.6 Operational strategies: reduced mechanical power input required |  |  |  |
+| 表 9.6 运行策略：需降低机械功率输入 |  |  |  |
 | --- | --- | --- | --- |
-| Action | Response | Reference | Limitations |
-| Reduce screw speed | Output Q and pressure P decrease approx.in proportion to speed N | eqn. (6.59) | Uneconomic outputMinimum haul-off and drawdown speedsAs required |
-| Mechanical power E decreases more than inproportion to speed, so also reduces torque, where this is limited by the driveAlmost instantaneous effect | Fig. 8.12eqn. (8.16) |  |  |
-| Melt temperature  $T_m$  decreases | p. 258p. 283p. 284 |  |  |
-| Melting more complete – longer residence time | p. 283 |  |  |
-| Mixing more complete – longer residence time | p. 284 |  |  |
-| Increase set temperatures in melting section only | Output Q and pressure P approx.constant (fixed die) | [Fig. 9.5](#figure-9-5)p. 277 | As required |
-| Mechanical power E decreased considerably | p. 276p. 277p. 287 |  |  |
-| Heater power H increased | p. 284p. 287 | Maximum heater power |  |
-| Melt temperature falls if mechanical powerE was previously high | p. 277p. 369 | Softening/melting point reached |  |
-| Melt temperature rises if mechanical powerE was previously low | p. 369 | Thermal degradation |  |
-| Less complete melting – gel point moves towards die | p. 287 | Incomplete melting |  |
-| Break-up of solid bed may be accelerated | p. 287 | Unstable or non-uniform flow in die |  |
-| Temperature variations may increase due to lower temperature at start of melt pumping sectionMixing may decrease due to shorter time after melting | p. 287p. 287p. 282 | Non-uniform product properties(Continued)Non-uniform composition and product properties |  |
-| Increase all set temperatures | As above, but further decrease in power E and increase in melt temperature  $T_{m}$  due to melt pumping section | eqn. (8.9)Fig. 8.10 | Thermal degradation |
-| Further heating in melt pumping section may lead to greater temperature variations | p. 287p. 288 | Non-uniform flow and product properties |  |
-| Decrease screw length (melt pumping section) | Pressure gradient increased so output Q and pressure P decreased (fixed die) | Fig. 6.18p. 291 | Uneconomic output |
-| Mechanical power E (in pumping section) decreased | eqn. (8.9) | As required |  |
-| Losses S decreased. Heater power may decrease | Fig. 8.7 |  |  |
-| Melt temperature  $T_{m}$  decreased, especially if considerably above melting point | Fig. 8.7p. 291 | Softening/melting point of polymer reached |  |
-| Melting less complete if higher pressure gradient tends to reduce length for melting, despite lower output Q | p. 291 | Incomplete melting |  |
-| Melt temperature variations increase due to poorer melting and shorter pumping length | p. 291p. 354 | Unstable or non-uniform flow in die Non-uniform product properties |  |
-| Mixing decreases due to shorter pumping length | p. 291 | Non-uniform composition and product properties |  |
-| Increase channel depth in melt pumping section | At low pressures, output Q and pressure P will increase | B to A in Fig. 6.18 |  |
-| Mechanical power E in channel will decrease | eqn. (8.7) | As required |  |
-| Constant flight power becomes greater proportion of total E | eqn. (8.9) |  |  |
-| Heater power H increases | Fig. 8.8 | Maximum heater power(Continued) |  |
-| Action | Response | Reference | Limitations |
-|  | Melt temperature  $T_m$  decreases due to lower specific power  $E/Q$ | Fig. 8.9 | Softening/melting point reached |
-| Melting may be less complete due to deeper channel and higher output  $Q$ | Fig. 7.29 | Incomplete melting |  |
-| Temperature variations may increase due to greater output  $Q$  and greater channel depth  $h$ | p. 292p. 292p. 293 | Unstable flow in die |  |
-| Mixing may increase or decrease depending on melting and effect of higher output | p. 293 | If decrease, non-uniform composition |  |
-| Reduce die restriction or remove screens | At constant speed, output  $Q$  increases with decrease in (total) back pressure | $C$  to  $A$  in Fig. 6.18 | Maximum haul-off and cooling speeds |
-| Mechanical power in channel  $E$  decreases with decrease of pressure (increase of  $(Q/Wbh)$  (melt pumping section only) | p. 284eqn. (8.7)Fig. 8.14 | As required.  $NB$ : Small effect in practice, perhaps due to reduction in  $T_m$ See also Table 8.5 (channel power)Total power may increase due to greater  $Q$  - contrary to requirement |  |
-| Heater power  $H$  increases | Table 8.5Fig. 8.16 | Table 8.5 assumes constant  $T_m$ Maximum heater power |  |
-| Melt temperature  $T_m$  reduced due to lower specific power  $E/Q$ | p. 284eqn. (8.29)Fig. 8.15 | Softening/melting point reachedViscosity rises, partially offsetting power reduction |  |
-| Melting may be less complete due to higher output  $Q$ | p. 284 | Incomplete melting |  |
-| Temperature variations may increase due to greater output  $Q$ | p. 284 | Unstable flow in die |  |
-| Mixing may increase or decrease depending on melting and effect of higher output | p. 284 | Non-uniform composition |  |
+| 操作 | 响应 | 参考文献 | 限制条件 |
+| 降低螺杆转速 | 产量Q和压力P近似与转速N成正比降低 | 式 (6.59) | 不经济的产量；最小牵引和拉伸速度；按需 |
+| 机械功率E降低幅度大于与转速的正比关系，因此扭矩也降低（当受驱动限制时）；几乎瞬时效果 | 图 8.12；式 (8.16) |  |  |
+| 熔体温度  $T_m$  降低 | 第258页；第283页；第284页 |  |  |
+| 熔融更完全——停留时间更长 | 第283页 |  |  |
+| 混合更完全——停留时间更长 | 第284页 |  |  |
+| 仅提高熔化段设定温度 | 产量Q和压力P近似不变（固定模头） | [图 9.5](#figure-9-5)；第277页 | 按需 |
+| 机械功率E显著降低 | 第276页；第277页；第287页 |  |  |
+| 加热器功率H增加 | 第284页；第287页 | 最大加热器功率 |  |
+| 若此前机械功率E较高，则熔体温度降低 | 第277页；第369页 | 达到软化/熔点 |  |
+| 若此前机械功率E较低，则熔体温度升高 | 第369页 | 热降解 |  |
+| 熔融更不完全——凝胶点向模头方向移动 | 第287页 | 熔融不完全 |  |
+| 固体床破碎可能加速 | 第287页 | 模头处流动不稳定或不均匀 |  |
+| 温度波动可能增大，因熔体输送段起始处温度较低；混合可能减弱，因熔化后停留时间更短 | 第287页；第287页；第282页 | 产品性能不均匀；（续）；成分和产品性能不均匀 |  |
+| 提高所有设定温度 | 同上，但功率E进一步降低且熔体温度  $T_{m}$  因熔体输送段而进一步升高 | 式 (8.9)；图 8.10 | 热降解 |
+| 熔体输送段的进一步加热可能导致更大的温度波动 | 第287页；第288页 | 流动和产品性能不均匀 |  |
+| 减小螺杆长度（熔体输送段） | 压力梯度增大，因此产量Q和压力P降低（固定模头） | 图 6.18；第291页 | 不经济的产量 |
+| 机械功率E（泵送段）降低 | 式 (8.9) | 按需 |  |
+| 损失S降低。加热器功率可能降低 | 图 8.7 |  |  |
+| 熔体温度  $T_{m}$  降低，尤其当远高于熔点时 | 图 8.7；第291页 | 达到聚合物软化/熔点 |  |
+| 若较高的压力梯度趋向于缩短熔融长度，尽管产量Q较低，熔融可能更不完全 | 第291页 | 熔融不完全 |  |
+| 温度波动增大，因熔融更差且泵送段长度更短 | 第291页；第354页 | 模头处流动不稳定或不均匀；产品性能不均匀 |  |
+| 混合减弱，因泵送段长度更短 | 第291页 | 成分和产品性能不均匀 |  |
+| 增加熔体泵送段沟槽深度 | 在低压下，产量Q和压力P将增加 | 图 6.18中B到A |  |
+| 通道内机械功率E将降低 | 式 (8.7) | 按需 |  |
+| 恒定螺棱功率在总功率E中所占比例增大 | 式 (8.9) |  |  |
+| 加热器功率H增加 | 图 8.8 | 最大加热器功率；（续） |  |
+| 操作 | 响应 | 参考文献 | 限制条件 |
+| --- | --- | --- | --- |
+|  | 熔体温度  $T_m$  降低，因比功率  $E/Q$  减小 | 图 8.9 | 达到软化/熔点 |
+| 熔融可能更不完全，因沟槽更深且产量  $Q$  更高 | 图 7.29 | 熔融不完全 |  |
+| 温度波动可能增大，因产量  $Q$  更大且沟槽深度  $h$  更大 | 第292页；第292页；第293页 | 模头处流动不稳定 |  |
+| 混合可能增强或减弱，取决于熔融情况和更高产量的影响 | 第293页 | 若减弱，则成分不均匀 |  |
+| 减小模头阻力或移除滤网 | 在恒定转速下，产量  $Q$  随（总）背压降低而增加 | 图 6.18中  $C$  到  $A$ | 最大牵引和冷却速度 |
+| 通道内机械功率  $E$  随压力降低而减小（即  $(Q/Wbh)$  增大）（仅熔体泵送段） | 第284页；式 (8.7)；图 8.14 | 按需。注意：实际影响较小，可能因  $T_m$  降低所致；另见表 8.5（通道功率）；总功率可能因  $Q$  增大而增加——与需求相反 |  |
+| 加热器功率  $H$  增加 | 表 8.5；图 8.16 | 表 8.5假设  $T_m$  恒定；最大加热器功率 |  |
+| 熔体温度  $T_m$  因比功率  $E/Q$  减小而降低 | 第284页；式 (8.29)；图 8.15 | 达到软化/熔点；粘度升高，部分抵消功率降低 |  |
+| 熔融可能更不完全，因产量  $Q$  更高 | 第284页 | 熔融不完全 |  |
+| 温度波动可能增大，因产量  $Q$  更大 | 第284页 | 模头处流动不稳定 |  |
+| 混合可能增强或减弱，取决于熔融情况和更高产量的影响 | 第284页 | 成分不均匀 |  |
 
-<a id="table-9-7"></a>
+(table-9-7)=
 表 9.7 运行策略：需降低熔体温度波动
 
-| Action | Response | Reference | Limitations |
+| 操作 | 响应 | 参考文献 | 限制条件 |
 | --- | --- | --- | --- |
-| Reduce screw speed $N$  (fixed die) | Output  $Q$  and pressure  $P$  reduced approx.in proportion to speed  $N$ | eqn. (6.59) | Uneconomic output |
-| Mechanical power  $E$  reduces approx.proportional to  $N^{1.5}/N^2$ | Fig. 8.12eqn. (8.16) |  |  |
-| Heater power  $H$  increases/decreasesdepending on high/low speed | Fig. 8.12 | Maximum heater powerMaximum cooling or heaters off |  |
-| Melt temperature  $T_m$  falls (heaters constant) | p. 258 | Softening/melting point reached |  |
-| Gel point moves towards feed | Fig. 7.27p. 283 |  |  |
-| Melting more complete – longer time | p. 284 |  |  |
-| Temperature variations decrease | p. 284 | As required |  |
-| Residence time for mixing increases | p. 284 |  |  |
-| Reduce barrel set temperatures | Output  $Q$  approx. constant | eqn. (9.13) |  |
-| Pressure  $P$  increased (fixed speed and die) | [Fig. 9.5](#figure-9-5) | Safe working pressure of barrel and die |  |
-| Mechanical power  $E$  increased considerably | eqn. (8.9) | Maximum motor powerTorsional strength of screw |  |
-| Heater power  $H$  reduced | Fig. 8,10 |  |  |
-| Melt temperature  $T_m$  falls if  $E$  waspreviously small | Fig. 8.10p. 277p. 369 | Softening/melting point reached |  |
-| Melt temperature  $T_m$  rises if  $E$  waspreviously large | p. 369 | Effect on temperature variations (see below) |  |
-| Melting may be less complete if output  $Q$ and power  $E$  were previously low (mainlyconducted heating) | p. 287 | Incomplete melting |  |
-| Melting may be more complete if output  $Q$ and power  $E$  were previously high(mainly shear heating)Temperature variations may decrease if melting improves, and longer time in pumping section if temperature rise in latter is small, i.e.  $T_{m}$  low | p. 277p. 287p. 287p. 287 | As required |  |
-|  |  | p. 354 |  |
-| Temperature variations may increase if melting deteriorates, and/or temperature rise in pumping section is large, i.e.  $T_{m}$  is high |  | Contrary to requirement |  |
-| Mixing may improve if  $T_{m}$  decreases, due to longer residence time and higher shear stress in pumping section | p. 282 |  |  |
-| p. 288 |  |  |  |
-| p. 353 |  |  |  |
-| Increase back pressure by die restriction or adding screens (constant speed) | Output Q decreases and total pressure P increases | A to C in Fig. 6.18 | Uneconomic output |
-| Mechanical power in channel E increases | eqn. (8.7) | Safe working pressure of barrel |  |
-| Fig. 8.14 | Maximum motor power |  |  |
-| Heater power H decreases | Analogous to Table 8.5 | Table 8.5 assumes constant  $T_{m}$ |  |
-| Melt temperature  $T_{m}$  rises due to increased specific power E/Q (heaters constant) | eqn. (8.29) | Thermal degradation |  |
-| p. 284 | Unsatisfactory flow from die Effect on temperature variations (see below) |  |  |
-| More complete melting due to longer residence time and increased specific power | p. 284 |  |  |
-| Temperature variations may decrease due to improved melting and longer time in pumping section, if temperature rise in pumping section is small, i.e.  $T_{m}$  is low | p. 284 | As required |  |
+| 降低螺杆转速  $N$  （固定模头） | 产量  $Q$  和压力  $P$  近似与转速  $N$  成正比降低 | 式 (6.59) | 不经济的产量 |
+| 机械功率  $E$  近似与  $N^{1.5}/N^2$  成正比降低 | 图 8.12；式 (8.16) |  |  |
+| 加热器功率  $H$  增加/减少，取决于高/低转速 | 图 8.12 | 最大加热器功率；最大冷却或加热器关闭 |  |
+| 熔体温度  $T_m$  降低（加热器设定不变） | 第258页 | 达到软化/熔点 |  |
+| 凝胶点向进料端移动 | 图 7.27；第283页 |  |  |
+| 熔融更完全——时间更长 | 第284页 |  |  |
+| 温度波动减小 | 第284页 | 按需 |  |
+| 混合停留时间增加 | 第284页 |  |  |
+| 降低料筒设定温度 | 产量  $Q$  近似不变 | 式 (9.13) |  |
+| 压力  $P$  增加（固定转速和模头） | [图 9.5](#figure-9-5) | 料筒和模头安全工作压力 |  |
+| 机械功率  $E$  显著增加 | 式 (8.9) | 最大电机功率；螺杆扭转强度 |  |
+| 加热器功率  $H$  降低 | 图 8.10 |  |  |
+| 若此前  $E$  较小，则熔体温度  $T_m$  降低 | 图 8.10；第277页；第369页 | 达到软化/熔点 |  |
+| 若此前  $E$  较大，则熔体温度  $T_m$  升高 | 第369页 | 对温度波动的影响（见下文） |  |
+| 若此前产量  $Q$  和功率  $E$  较低（主要为传导加热），熔融可能更不完全 | 第287页 | 熔融不完全 |  |
+| 若此前产量  $Q$  和功率  $E$  较高（主要为剪切加热），熔融可能更完全；若熔融改善且泵送段温升较小（即  $T_{m}$  较低），则温度波动可能减小 | 第277页；第287页；第287页；第287页 | 按需 |  |
+|  |  | 第354页 |  |
+| 若熔融恶化和/或泵送段温升较大（即  $T_{m}$  较高），则温度波动可能增大 |  | 与需求相反 |  |
+| 若  $T_{m}$  降低，混合可能改善，因停留时间更长且泵送段剪切应力更高 | 第282页 |  |  |
+|  | 第288页 |  |  |
+|  | 第353页 |  |  |
+| 通过模头限流或添加滤网增加背压（恒定转速） | 产量Q降低且总压力P增加 | 图 6.18中A到C | 不经济的产量 |
+| 通道内机械功率E增加 | 式 (8.7) | 料筒安全工作压力 |  |
+|  | 图 8.14 | 最大电机功率 |  |
+| 加热器功率H降低 | 类似于表 8.5 | 表 8.5假设  $T_{m}$  恒定 |  |
+| 熔体温度  $T_{m}$  因比功率E/Q增大而升高（加热器设定不变） | 式 (8.29) | 热降解 |  |
+|  | 第284页 | 模头出料不良；对温度波动的影响（见下文） |  |
+| 熔融更完全，因停留时间更长且比功率增大 | 第284页 |  |  |
+| 若熔融改善且泵送段温升较小（即  $T_{m}$  较低），则温度波动可能减小 | 第284页 | 按需 |  |
 
 热降解加剧
 对温度变化的影响
@@ -565,86 +566,88 @@ $$
 
 在螺杆转速恒定的情况下，输出通常会随螺杆进给深度的增加而增大。理论上，机械功率 E 会随螺杆进给深度的增加而减小，但在实际中，这种变化似乎微乎其微。
 
-| Action | Response | Reference | Limitations |
+| 操作 | 响应 | 参考文献 | 限制条件 |
 | --- | --- | --- | --- |
-|  | Melt temperature will decrease with increasing screw depth due to smaller specific power  $E/Q$ | Fig. 8.8p. 292 | Softening/melting point reached |
-| Melting may be less complete with deeper screw and higher output  $Q$ | p. 292 | Incomplete melting |  |
-| Temperature variations – experiment suggests medium-depth screws give more uniform temperature than very shallow or deep screws. | p. 292p. 293p. 358 | Complex, depending on previous  $N$ , $dP/dz$ ,  $E$ ,  $h$ , melting lengthDepends on comparison at constant  $N$ or constant  $Q$ |  |
+|  | 熔体温度将随螺杆深度增加而降低，因比功率  $E/Q$  减小 | 图 8.8；第292页 | 达到软化/熔点 |
+| 熔融可能更不完全，因螺杆更深且产量  $Q$  更高 | 第292页 | 熔融不完全 |  |
+| 温度波动——实验表明中等深度螺杆比极浅或极深螺杆的温度更均匀 | 第292页；第293页；第358页 | 复杂，取决于此前的  $N$、$dP/dz$、$E$、$h$、熔融长度；取决于恒定  $N$  还是恒定  $Q$  下的比较 |  |
 
-| [Table 9.8](#table-9-8) Operational strategies: improved melting required |  |  |  |
+| [表 9.8](#table-9-8) 操作策略：需要改进熔化工艺 |  |  |  |
 | --- | --- | --- | --- |
-| Action | Response | Reference | Limitations |
-| Reduce screw speed N | Output Q and pressure P reduce approx. in proportion to speed N | eqn (6.59) | Uneconomic output |
-| Mechanical power E reduces approx. in proportion to  $N^{1.5}/N^2$ | Fig. 8.12 eqn. (8.16) |  |  |
-| Melt temperature  $T_m$  falls due to reduced specific power (heaters constant) | Fig. 8.13 p. 258 | Softening/melting point reached |  |
-| Gel point moves towards feed | Fig. 7.27 |  |  |
-| Melting more complete – longer residence time for conducted heat | p. 284 | As required |  |
-| Temperature variations decrease due to more complete melting and longer time/greater length in pumping section | p. 284 |  |  |
-| Residence time for mixing increases | p. 284 |  |  |
-| Increase back pressure (constant speed) | Output Q decreases and total pressure P increases | A to C in Fig. 6.18 | Uneconomic output |
-| Mechanical power E increases | eqn. (8.7) Fig. 8.14 | Maximum motor power |  |
-| Heater power H decreases | Table 8.5 |  |  |
-| Melt temperature  $T_m$  rises due to greater specific power E/Q (heaters constant) | eqn. (8.29) p. 284 | Thermal degradation |  |
-| More complete melting | p. 284 | As required |  |
-| Temperature variations may increase or decrease | p. 284 |  |  |
-| Mixing improves due to longer residence time and greater longitudinal mixing | p. 284 |  |  |
-| [Table 9.8](#table-9-8) (Continued) |  |  |  |
-| Action | Response | Reference | Limitations |
-| Reduce barrel set temperatures in melting section only | Output Q and pressure P approx. constant (fixed die) | Fig. 7.28(a) |  |
-| Mechanical power E increased considerably | p. 279 | Maximum motor power |  |
-| p. 287 | Maximum torsional strength |  |  |
-| Heater power H decreased | p. 287 |  |  |
-| Melt temperature  $T_{m}$  rises if mechanical power E was previously high | p. 279 | Thermal degradation |  |
-| More complete melting due to greater shear stresses, smaller temperature differences between solid and molten portions, possible delay of solid bed break-up | p. 287 | As required |  |
-| Temperature variations (at die) may increase due to lower average temperature at start of melt pumping section | p. 277 | Unstable flow in die |  |
-| p. 288 | Non-uniform product properties |  |  |
-| Mixing may increase due to longer time after melting, and greater shear stresses at lower temperatures | p. 282 |  |  |
-| Increase screw length | As previously, lower pressure gradient tends to increase length for melting | p. 291 |  |
-| Greater length also allows more gradual temperature gradients in melting section | p. 288 |  |  |
-| Greater length also allows greater time in melting section for elimination of solid particles and temperature variations | p. 291 |  |  |
-| p. 354 |  |  |  |
+| 操作 | 响应 | 参考文献 | 限制条件 |
+| 降低螺杆转速N | 产量Q和压力P近似与转速N成正比降低 | 式 (6.59) | 不经济的产量 |
+| 机械功率E近似与  $N^{1.5}/N^2$  成正比降低 | 图 8.12；式 (8.16) |  |  |
+| 熔体温度  $T_m$  因比功率降低而降低（加热器设定不变） | 图 8.13；第258页 | 达到软化/熔点 |  |
+| 凝胶点向进料端移动 | 图 7.27 |  |  |
+| 熔融更完全——传导加热的停留时间更长 | 第284页 | 按需 |  |
+| 温度波动减小，因熔融更完全且泵送段停留时间更长/长度更大 | 第284页 |  |  |
+| 混合停留时间增加 | 第284页 |  |  |
+| 增加背压（恒定转速） | 产量Q降低且总压力P增加 | 图 6.18中A到C | 不经济的产量 |
+| 机械功率E增加 | 式 (8.7)；图 8.14 | 最大电机功率 |  |
+| 加热器功率H降低 | 表 8.5 |  |  |
+| 熔体温度  $T_m$  因比功率E/Q增大而升高（加热器设定不变） | 式 (8.29)；第284页 | 热降解 |  |
+| 熔融更完全 | 第284页 | 按需 |  |
+| 温度波动可能增大或减小 | 第284页 |  |  |
+| 混合改善，因停留时间更长且纵向混合增强 | 第284页 |  |  |
+| [表 9.8](#table-9-8)（续） |  |  |  |
+| --- | --- | --- | --- |
+| 操作 | 响应 | 参考文献 | 限制条件 |
+| 仅降低熔化段料筒设定温度 | 产量Q和压力P近似不变（固定模头） | 图 7.28(a) |  |
+| 机械功率E显著增加 | 第279页 | 最大电机功率 |  |
+|  | 第287页 | 最大扭转强度 |  |
+| 加热器功率H降低 | 第287页 |  |  |
+| 若此前机械功率E较高，则熔体温度  $T_{m}$  升高 | 第279页 | 热降解 |  |
+| 熔融更完全，因剪切应力更大、固态和熔融部分温差更小，且固体床破碎可能延迟 | 第287页 | 按需 |  |
+| 温度波动（模头处）可能增大，因熔体输送段起始处平均温度较低 | 第277页 | 模头处流动不稳定 |  |
+|  | 第288页 | 产品性能不均匀 |  |
+| 混合可能增强，因熔化后停留时间更长且低温下剪切应力更大 | 第282页 |  |  |
+| 增加螺杆长度 | 同上，较低的压力梯度趋向于增加熔融长度 | 第291页 |  |
+| 更大的长度也允许熔化段内更平缓的温度梯度 | 第288页 |  |  |
+| 更大的长度也允许熔化段内更多的时间以消除固体颗粒和温度波动 | 第291页 |  |  |
+|  | 第354页 |  |  |
 
-<a id="table-9-8"></a>
+(table-9-8)=
 表 9.8 操作策略：需要改进熔化工艺
 
-| Action | Response | Reference | Limitations |
+| 操作 | 响应 | 参考文献 | 限制条件 |
 | --- | --- | --- | --- |
-| Increase back pressure (constant speed) | Output  $Q$  decreases and total pressure  $P$  increases | $A$  to  $C$  in Fig. 6.18 | Uneconomic output |
-| Mechanical power  $E$  increases | eqn. (8.7)Fig. 8.14 |  |  |
-| Heater power  $H$  decreases | Table 8.5 |  |  |
-| Melt temperature  $T_{\text{m}}$  rises due to greater specific power  $E/Q$ (heaters constant) | eqn. (8.29)Fig. 8.15p. 284 |  |  |
-| More complete melting | p. 284 |  |  |
-| Temperature variations may increase or decrease | p. 284 |  |  |
-| Mixing improves due to longer residence time and greater longitudinal mixing | p. 284Fig. 6.6 | As required |  |
-| Reduce screw speed (fixed die) | Output  $Q$  and pressure  $P$  reduced approx.in proportion to speed  $N$ | eqn. (6.59) | Uneconomic output |
-| Mechanical power E reduces approx.proportional to  $N^{1.5}/N^{2}$ | Fig. 8.12eqn. (8.16) |  |  |
-| Melt temperature  $T_{\text{m}}$  falls(heaters constant) | p. 258p. 283 |  |  |
-| More complete melting | p. 284 |  |  |
-| Temperature variations decrease | p. 284 |  |  |
-| Mixing improves due to longer residence time, lower temperatures and more complete melting | p. 284 | As required |  |
-| Reduce barrel set temperatures | Output Q approx. constant | eqn (9.13) |  |
-| Pressure P increased (fixed speed and die) | [Fig. 9.5](#figure-9-5) |  |  |
-| Mechanical power E increased considerably | eqn. (8.9) | Maximum motor power |  |
-| Fig. 8.10 | Torsional strength of screw |  |  |
-| Melt temperature falls if E was previously small | Fig. 8.10 | Softening/melting point reached |  |
-| p. 369 |  |  |  |
-| Melt temperature  $T_{m}$  rises if E was previously large | p. 277 | Thermal degradation |  |
-| p. 369 | Effects on temperature variations |  |  |
-| Melting may be more/less complete if mechanical power was previously high/low | p. 287 |  |  |
-| Break-up of solid bed may be delayed | p. 287 |  |  |
-| Temperature variations may increase/decrease depending on changes in melting, in melt temperature  $T_{m}$ , and whether latter is much above melting point | p. 287 |  |  |
-| p. 287 |  |  |  |
-| p. 354 |  |  |  |
-| Mixing will probably improve due to more complete and uniform melting, and higher shear stresses in pumping section, but may be offset if melt temperature is raised appreciably in pumping section | p. 288 | As required |  |
-| p. 353 |  |  |  |
-| Increase screw length | As previously, lower pressure gradient tends to increase length for melting | p. 291 |  |
-| Greater length in pumping section allows more time for mixing | p. 291 | As required |  |
-| p. 354 |  |  |  |
-| Surging | See [section 11.2](11_Extruder_operation_as_part_of_a_total_process.md#112-stability) |  |  |
+| 增加背压（恒定转速） | 产量  $Q$  降低且总压力  $P$  增加 | 图 6.18中  $A$  到  $C$ | 不经济的产量 |
+| 机械功率  $E$  增加 | 式 (8.7)；图 8.14 |  |  |
+| 加热器功率  $H$  降低 | 表 8.5 |  |  |
+| 熔体温度  $T_{\text{m}}$  因比功率  $E/Q$  增大而升高（加热器设定不变） | 式 (8.29)；图 8.15；第284页 |  |  |
+| 熔融更完全 | 第284页 |  |  |
+| 温度波动可能增大或减小 | 第284页 |  |  |
+| 混合改善，因停留时间更长且纵向混合增强 | 第284页；图 6.6 | 按需 |  |
+| 降低螺杆转速（固定模头） | 产量  $Q$  和压力  $P$  近似与转速  $N$  成正比降低 | 式 (6.59) | 不经济的产量 |
+| 机械功率E近似与  $N^{1.5}/N^{2}$  成正比降低 | 图 8.12；式 (8.16) |  |  |
+| 熔体温度  $T_{\text{m}}$  降低（加热器设定不变） | 第258页；第283页 |  |  |
+| 熔融更完全 | 第284页 |  |  |
+| 温度波动减小 | 第284页 |  |  |
+| 混合改善，因停留时间更长、温度更低且熔融更完全 | 第284页 | 按需 |  |
+| 降低料筒设定温度 | 产量Q近似不变 | 式 (9.13) |  |
+| 压力P增加（固定转速和模头） | [图 9.5](#figure-9-5) |  |  |
+| 机械功率E显著增加 | 式 (8.9) | 最大电机功率 |  |
+|  | 图 8.10 | 螺杆扭转强度 |  |
+| 若此前E较小，则熔体温度降低 | 图 8.10 | 达到软化/熔点 |  |
+|  | 第369页 |  |  |
+| 若此前E较大，则熔体温度  $T_{m}$  升高 | 第277页 | 热降解 |  |
+|  | 第369页 | 对温度波动的影响 |  |
+| 若此前机械功率较高/较低，则熔融可能更完全/更不完全 | 第287页 |  |  |
+| 固体床破碎可能延迟 | 第287页 |  |  |
+| 温度波动可能增大/减小，取决于熔融变化、熔体温度  $T_{m}$  变化以及后者是否远高于熔点 | 第287页 |  |  |
+|  | 第287页 |  |  |
+|  | 第354页 |  |  |
+| 混合可能改善，因熔融更完全且均匀，泵送段剪切应力更高；但若泵送段熔体温度显著升高，则可能被抵消 | 第288页 | 按需 |  |
+|  | 第353页 |  |  |
+| 增加螺杆长度 | 同上，较低的压力梯度趋向于增加熔融长度 | 第291页 |  |
+| 泵送段更大的长度允许更多混合时间 | 第291页 | 按需 |  |
+|  | 第354页 |  |  |
+| 压力波动 | 见[第11.2节](11_Extruder_operation_as_part_of_a_total_process.md#112-stability) |  |  |
 
-<a id="table-9-9"></a>
+(table-9-9)=
 表 9.9 操作策略：需要改善混合效果
 
 从而减少或消除了纵向混合。 参照图6.16可知，对于两根深度不同的螺杆，在相同转速下使用同一模具以获得相同产出时，工作点必须位于A点，且图6.17中的模具线也必须通过该点；这是在恒定产出条件下进行比较的基础。 如第293页所述，任何其他深度的螺杆都需要对转速进行一定调整，才能获得相同的运行点。 在其他情况下，比较是基于固定的模头特性K(如图6.18所示)和恒定转速进行的，此时螺杆沟槽深度减小会导致产量和压力降低，尽管Q/Wbh的值会增加(如图6.18中从A到B)。 因此，如果运行要求是保持恒定产量(如图 6.18 中的 A 点)，则必须提高较浅螺杆的转速，直到运行点 B 与 A 重合。如 [表 9.2](#table-9-2)所示，提高转速带来的后果往往与其他变化(尤其是减小螺杆沟槽深度)的效果相反，而总体效果是改善还是恶化，则取决于这些变化的相对大小及其在特定情况下的影响。
 
 10
+

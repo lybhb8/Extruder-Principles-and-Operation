@@ -72,9 +72,9 @@
      - 增塑（软质）聚氯乙烯
      - plasticized (flexible) polyvinyl chloride 
 
-   * - PPVC
-     - 高抗冲聚苯乙烯（橡胶增韧）
-     - high impact polystyrene (rubber-toughened) 
+   * - HIPS
+      - 高抗冲聚苯乙烯（橡胶增韧）
+      - high impact polystyrene (rubber-toughened) 
 
 
    * - 半结晶性塑料：
@@ -90,16 +90,16 @@
      - ethylene vinyl acetate copolymer  
 
    * - PA
-     - 聚甲醛（聚缩醛）
-     - polyamide (nylon)  
+      - 聚酰胺（尼龙）
+      - polyamide (nylon)  
 
    * - PETP
      - 聚对苯二甲酸乙二醇酯（饱和聚酯）
      - polyethylene terephthalate (saturated polyester) 
  
    * - PBTP 
-     - 聚对苯二甲酸乙二醇酯（饱和聚酯）
-     - polybutylene terephthalate 
+      - 聚对苯二甲酸丁二醇酯
+      - polybutylene terephthalate 
 
    * - LDPE
      - 低密度聚乙烯
@@ -110,12 +110,8 @@
      - linear low density polyethylene 
 
    * - HDPE
-     - 高密度聚乙烯
-     - high density polyethylene
-
-   * - HDPE
-     - 高密度聚乙烯
-     - high density polyethylene 
+      - 高密度聚乙烯
+      - high density polyethylene
 
    * - PP
      - 聚丙烯（均聚物和共聚物）

@@ -209,7 +209,7 @@
 
 表 3.1 列出了这两种压力流的结果，以及幂律流体的相应结果。从公式 (3.23)
 中可以看出，在半径恒定的毛细管中，如果粘度不依赖于压力，则压力梯度
-:math:`/\mathbf{d}P/\mathbf{d}L`\ 恒定且等于 :math:`P/L`\ 。公式 (3.22)
+:math:`\mathrm{d}P/\mathrm{d}L`\ 恒定且等于 :math:`P/L`\ 。公式 (3.22)
 可以重写：
 
 :math:`Q=\frac{\pi R^{4}}{8\eta}\cdot\frac{P}{L}` ``-                      (3.36)``
@@ -252,8 +252,8 @@
 也就是说，对于高度假塑性的流体，半径减少\ :math:`5\%`
 会导致压力梯度增加\ :math:`10.2\%`\ 。
 
-对于宽度为 :math:`_T` 的均匀狭缝，如果深度 :math:`\pmb{H}` 减少 5
-美元/%$，则相应的值分别为 :math:`16.6\%` 和 :math:`8.5\%`\ （对于
+对于宽度为 :math:`_T` 的均匀狭缝，如果深度 :math:`\pmb{H}` 减少 5%
+，则相应的值分别为 :math:`16.6\%` 和 :math:`8.5\%`\ （对于
 :math:`n=1` 和 :math:`n=0.3`\ ）。
 
 对于两个平行的等长毛细管，如多线模中的毛细管，每个毛细管上的压降和压力梯度是相同的。那么对于牛顿流体，根据公式
@@ -380,7 +380,7 @@ or
 .. math::
 
 
-   {\mathrm{Strain~energy~per~unit~volume}}={\frac{\eta W^{2}}{h^{}}}\,\mathbf{W}\,\mathbf{m}^{-2}(\mathrm{simple~shear})\tag{3.59}
+   {\mathrm{Strain~energy~per~unit~volume}}={\frac{\eta W^{2}}{h^{2}}}\,\mathrm{W}\,\mathrm{m}^{-3}(\mathrm{simple~shear})\tag{3.59}
 
 对于幂律流体，将方程（3.6）代入方程（3.56）得到：
 
