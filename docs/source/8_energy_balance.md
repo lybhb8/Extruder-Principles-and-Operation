@@ -287,7 +287,7 @@ $$
 单位体积剪切热 $(\mathrm{Wm}^{-3})$
 
 $$
-\begin{array}{l} \left[ 1 + 4 T ^ {2} - 1 2 q + 3 6 q ^ {2} - 1 8 T ^ {2} \left(\frac {y}{h}\right) + 18q \left(\frac {y}{h}\right) \right. \\ = \eta \frac {W ^ {2}}{h ^ {2}} \cdot \frac {- 108q ^ {2} \left(\frac {y}{h}\right) + 1 8 T ^ {2} \left(\frac {y}{h}\right) ^ {2} + 7 2 q ^ {2} \left(\frac {y}{h}\right) ^ {2} ] ^ {2}}{\left[ 1 + 4 T ^ {2} - 1 2 q + 3 6 q ^ {2} - 1 2 T ^ {2} \left(\frac {y}{h}\right) + 1 2 q \left(\frac {y}{h}\right) \right.} \tag{C.62} \\ \left. - 7 2 q ^ {2} \left(\frac {y}{h}\right) + 9 T ^ {2} \left(\frac {y}{h}\right) ^ {2} + 3 6 q ^ {2} \left(\frac {y}{h}\right) ^ {2} \right] \\ \end{array}
+\left[ 1 + 4 T ^ {2} - 1 2 q + 3 6 q ^ {2} - 1 8 T ^ {2} \left(\frac {y}{h}\right) + 18q \left(\frac {y}{h}\right) \right. \left. - 7 2 q ^ {2} \left(\frac {y}{h}\right) + 9 T ^ {2} \left(\frac {y}{h}\right) ^ {2} + 3 6 q ^ {2} \left(\frac {y}{h}\right) ^ {2} \right] = \eta \frac {W ^ {2}}{h ^ {2}} \cdot \frac {\left[ - 108q ^ {2} \left(\frac {y}{h}\right) + 1 8 T ^ {2} \left(\frac {y}{h}\right) ^ {2} + 7 2 q ^ {2} \left(\frac {y}{h}\right) ^ {2} \right] ^ {2}}{\left[ 1 + 4 T ^ {2} - 1 2 q + 3 6 q ^ {2} - 1 2 T ^ {2} \left(\frac {y}{h}\right) + 1 2 q \left(\frac {y}{h}\right) - 7 2 q ^ {2} \left(\frac {y}{h}\right) + 9 T ^ {2} \left(\frac {y}{h}\right) ^ {2} + 3 6 q ^ {2} \left(\frac {y}{h}\right) ^ {2} \right]} \tag{C.62}
 $$
 
 螺距等于直径且 $T = 1 / \pi$ 的结果针对 $Q / Wbh$ 的多个值绘于图8.5中，对应于 $y / h$。

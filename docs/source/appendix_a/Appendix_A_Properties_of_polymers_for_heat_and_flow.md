@@ -206,7 +206,7 @@ $$
 体积流量由下式给出：
 
 $$
-\begin{array}{r l} Q _ {\mathrm{Tot}} & = \int_ {0} ^ {h} w b \mathrm{d} y \\ & = \left[ \frac {W b y ^ {2}}{2 h} + \frac {b}{2 \eta} \cdot \frac {\partial P}{\partial z} \left(\frac {y ^ {3}}{3} - \frac {y ^ {2} h}{2}\right) \right] _ {0} ^ {h} \\ & = \frac {W b h}{2} - \frac {b h ^ {3}}{1 2 \eta} \frac {\partial P}{\partial z} \end{array}\tag{B.9}
+Q _ {\mathrm{Tot}} = \int_ {0} ^ {h} w b \mathrm{d} y \quad = \left[ \frac {W b y ^ {2}}{2 h} + \frac {b}{2 \eta} \cdot \frac {\partial P}{\partial z} \left(\frac {y ^ {3}}{3} - \frac {y ^ {2} h}{2}\right) \right] _ {0} ^ {h} \quad = \frac {W b h}{2} - \frac {b h ^ {3}}{1 2 \eta} \frac {\partial P}{\partial z} \tag{B.9}
 $$
 
 这与方程(6.15)完全相同。
@@ -272,7 +272,7 @@ $$
 于是拖曳引起的漏流为：
 
 $$
-\begin{array}{r l} Q _ {\mathrm{DL}} & = \frac {U}{2} \delta \frac {\pi D}{\cos \phi} \\ & = \frac {\pi^ {2} D ^ {2} N \delta \tan \phi}{2} \text { per   turn. } \end{array}\tag{B.19}
+Q _ {\mathrm{DL}} = \frac {U}{2} \delta \frac {\pi D}{\cos \phi} \quad = \frac {\pi^ {2} D ^ {2} N \delta \tan \phi}{2} \text { per turn. } \tag{B.19}
 $$
 
 ![](../images/img_0153.jpg)  
@@ -281,7 +281,7 @@ $$
 以方程(6.11)给出的螺槽内拖曳流的分数表示：
 
 $$
-\begin{array}{r l} \frac {Q _ {\mathrm{DL}}}{Q _ {\mathrm{D}}} & = \frac {\frac {1}{2} \pi^ {2} D ^ {2} N \delta \tan \phi}{\frac {1}{2} \pi D N h (p - t) \cos^ {2} \phi} \\ & = \frac {\delta}{h \left(1 - \frac {t}{p}\right) \cos^ {2} \phi} \end{array}\tag{B.20}
+\frac {Q _ {\mathrm{DL}}}{Q _ {\mathrm{D}}} = \frac {\frac {1}{2} \pi^ {2} D ^ {2} N \delta \tan \phi}{\frac {1}{2} \pi D N h (p - t) \cos^ {2} \phi} \quad = \frac {\delta}{h \left(1 - \frac {t}{p}\right) \cos^ {2} \phi} \tag{B.20}
 $$
 
 典型地 $t / p = 0.1$ 且 $\cos \phi = 0.953 (\phi = 17.6^\circ, p = D)$ ，由此得：
@@ -345,7 +345,7 @@ $$
 拖曳漏流与压力漏流的相对重要性显然取决于螺槽压力梯度，即取决于螺杆运行在Q/Wbh的高值还是低值。因此，仿照方程(B.20)，把压差引起的漏流表示为螺槽压力流的分数更为方便。将方程(B.25)与(B.29)相加并除以方程(6.13)(其中的b用方程(6.2)代入)：
 
 $$
-\begin{array}{r l} \frac {Q _ {\mathrm{PL}} + Q _ {\mathrm{PL}} ^ {\prime}}{Q _ {\mathrm{P}}} & = \frac {\frac {\pi^ {2} D ^ {2} \delta^ {3}}{1 2 \eta t \cos \phi} \cdot \frac {\mathrm{d} P}{\mathrm{d} z}}{\frac {(p - t) (\cos \phi) h ^ {3}}{1 2 \eta} \cdot \frac {\mathrm{d} P}{\mathrm{d} z}} + \frac {\frac {\pi^ {2} D ^ {2} \delta^ {3} N (p - t) \tan \phi}{2 t h ^ {2}}}{\frac {(p - t) (\cos \phi) h ^ {3}}{1 2 \eta} \cdot \frac {\mathrm{d} P}{\mathrm{d} z}} \\ & = \frac {\pi^ {2} D ^ {2}}{(p - t) t} \left(\frac {\delta}{h}\right) ^ {3} \cdot \frac {1}{\cos^ {2} \phi} + \frac {6 \eta \pi^ {2} D ^ {2} \delta^ {3} N}{t h ^ {5}} \cdot \frac {\sin \phi}{\cos^ {2} \phi} \cdot \frac {1}{\frac {\mathrm{d} P}{\mathrm{d} z}} \end{array}\tag{B.30}
+\frac {Q _ {\mathrm{PL}} + Q _ {\mathrm{PL}} ^ {\prime}}{Q _ {\mathrm{P}}} = \frac {\frac {\pi^ {2} D ^ {2} \delta^ {3}}{1 2 \eta t \cos \phi} \cdot \frac {\mathrm{d} P}{\mathrm{d} z}}{\frac {(p - t) (\cos \phi) h ^ {3}}{1 2 \eta} \cdot \frac {\mathrm{d} P}{\mathrm{d} z}} + \frac {\frac {\pi^ {2} D ^ {2} \delta^ {3} N (p - t) \tan \phi}{2 t h ^ {2}}}{\frac {(p - t) (\cos \phi) h ^ {3}}{1 2 \eta} \cdot \frac {\mathrm{d} P}{\mathrm{d} z}} \quad = \frac {\pi^ {2} D ^ {2}}{(p - t) t} \left(\frac {\delta}{h}\right) ^ {3} \cdot \frac {1}{\cos^ {2} \phi} + \frac {6 \eta \pi^ {2} D ^ {2} \delta^ {3} N}{t h ^ {5}} \cdot \frac {\sin \phi}{\cos^ {2} \phi} \cdot \frac {1}{\frac {\mathrm{d} P}{\mathrm{d} z}} \tag{B.30}
 $$
 
 第141页使用方程(B.20)和(B.30)来估算典型情况下的数值，并考察各变量对漏流的影响。
@@ -384,7 +384,7 @@ $$
 对于半角为 $\theta$ (图B.2)的均匀锥度螺杆，在螺旋距离z处的深度h为：
 
 $$
-\begin{array}{r l} & h = h _ {2} + \left(h _ {1} - h _ {2}\right) \left(\frac {Z _ {1} - z}{Z _ {1}}\right) \\ & = h _ {1} - \frac {z}{Z _ {1}} \left(h _ {1} - h _ {2}\right) \end{array}\tag{B.35}
+h = h _ {2} + \left(h _ {1} - h _ {2}\right) \left(\frac {Z _ {1} - z}{Z _ {1}}\right) \quad = h _ {1} - \frac {z}{Z _ {1}} \left(h _ {1} - h _ {2}\right) \tag{B.35}
 $$
 
 因此：
@@ -405,7 +405,7 @@ $$
 且由于按z的定义在 $z = 0$ 处 $P = 0$ ，第一段的压力升 $P_{1}$ 由下式给出：
 
 $$
-\begin{array}{r l} P _ {1} & = \int_ {0} ^ {Z _ {1}} \frac {\mathrm{d} P}{\mathrm{d} z} \mathrm{d} z \\ & = - \frac {6 \eta W Z _ {1}}{h _ {1} - h _ {2}} \int_ {h _ {1}} ^ {h _ {2}} \left(\frac {1}{h ^ {2}} - \frac {2 Q}{W b h ^ {3}}\right) \mathrm{d} h \\ & = - \frac {6 \eta W Z _ {1}}{h _ {1} - h _ {2}} \left[ - \frac {1}{h} + \frac {Q}{W b h ^ {2}} \right] _ {h _ {1}} ^ {h _ {2}} \\ & = \frac {6 \eta W Z _ {1}}{h _ {1} h _ {2}} \left(1 - \frac {Q}{W b h _ {2}} \cdot \frac {h _ {1} + h _ {2}}{h _ {1}}\right) \end{array}\tag{6.43}
+P _ {1} = \int_ {0} ^ {Z _ {1}} \frac {\mathrm{d} P}{\mathrm{d} z} \mathrm{d} z \quad = - \frac {6 \eta W Z _ {1}}{h _ {1} - h _ {2}} \int_ {h _ {1}} ^ {h _ {2}} \left(\frac {1}{h ^ {2}} - \frac {2 Q}{W b h ^ {3}}\right) \mathrm{d} h \quad = - \frac {6 \eta W Z _ {1}}{h _ {1} - h _ {2}} \left[ - \frac {1}{h} + \frac {Q}{W b h ^ {2}} \right] _ {h _ {1}} ^ {h _ {2}} \quad = \frac {6 \eta W Z _ {1}}{h _ {1} h _ {2}} \left(1 - \frac {Q}{W b h _ {2}} \cdot \frac {h _ {1} + h _ {2}}{h _ {1}}\right) \tag{6.43}
 $$
 
 方程(6.43)和(6.45)的其他形式由Weeks和Allen (1962)给出为：
@@ -498,7 +498,7 @@ $$
 因此：
 
 $$
-\begin{array}{r l} \frac {\mathrm{d} P _ {1}}{\mathrm{d} z} & = \left(\frac {1}{2} - \frac {Q}{W b h _ {1}}\right) \frac {1 2 \eta W}{h _ {1} ^ {2}} \\ & = \left(\frac {1}{2} - \frac {Q}{W b h _ {1}}\right) \cdot \frac {1 2 \eta W}{h _ {2} ^ {2}} \cdot \frac {h _ {2} ^ {2}}{h _ {1} ^ {2}} \end{array}\tag{B.46}
+\frac {\mathrm{d} P _ {1}}{\mathrm{d} z} = \left(\frac {1}{2} - \frac {Q}{W b h _ {1}}\right) \frac {1 2 \eta W}{h _ {1} ^ {2}} \quad = \left(\frac {1}{2} - \frac {Q}{W b h _ {1}}\right) \cdot \frac {1 2 \eta W}{h _ {2} ^ {2}} \cdot \frac {h _ {2} ^ {2}}{h _ {1} ^ {2}} \tag{B.46}
 $$
 
 以及：
@@ -675,7 +675,7 @@ $$
 由此得壁面($y = h$)处的剪切速率为：
 
 $$
-\begin{array}{r l} \dot {\gamma} _ {h} & = \left(\frac {\mathrm{d} w}{\mathrm{d} y}\right) _ {y = h} = \frac {W}{h} + \frac {(2 h - h)}{2 \eta} \cdot \frac {\mathrm{d} P}{\mathrm{d} z} \\ & = \frac {W}{h} + \frac {h}{2 \eta} \cdot \frac {\mathrm{d} P}{\mathrm{d} z} \end{array}\tag{C.1}
+\dot {\gamma} _ {h} = \left(\frac {\mathrm{d} w}{\mathrm{d} y}\right) _ {y = h} = \frac {W}{h} + \frac {(2 h - h)}{2 \eta} \cdot \frac {\mathrm{d} P}{\mathrm{d} z} \quad = \frac {W}{h} + \frac {h}{2 \eta} \cdot \frac {\mathrm{d} P}{\mathrm{d} z} \tag{C.1}
 $$
 
 为消去dP/dz，可将方程(6.16)改写为：
@@ -813,7 +813,7 @@ $$
 吸收功率
 
 $$
-\begin{array}{r l} \text {flights} & = \frac {\eta W}{\delta \cos \phi} t \cos \phi \mathrm{d} z \frac {W}{\cos \phi} \\ & = \eta \frac {W ^ {2} t \mathrm{d} z}{\delta \cos \phi} \end{array}\tag{8.8) (C.18}
+\text {flights} = \frac {\eta W}{\delta \cos \phi} t \cos \phi \mathrm{d} z \frac {W}{\cos \phi} \quad = \eta \frac {W ^ {2} t \mathrm{d} z}{\delta \cos \phi} \tag{8.8) (C.18}
 $$
 
 因此，熔体输送段长度dz内吸收的总功率为：
@@ -993,7 +993,7 @@ $$
 代入给定数值，
 
 $$
-\begin{array}{r l} T _ {2} - T _ {1} & = \frac {q \times \log_ {\mathrm{e}} (0 . 1 / 0 . 0 5)}{2 \pi \times 5 0 \times 0 . 1} \\ & = 0. 0 2 2 q \\ & = 4 1. 5 ^ {\circ} \mathrm{C} \text { for } 3 \mathrm{Wcm} ^ {- 2} \\ & \text { or } 1 8 0 ^ {\circ} \mathrm{C} \text { for } 1 3 \mathrm{Wcm} ^ {- 2} \\ & \text { or } 3. 0 6 ^ {\circ} \mathrm{C} \text { for } 1 0 ^ {\circ} \mathrm{C} \text { difference } \\ & \text { between   barrel   and   polymer   (see   C   below) } \end{array}\tag{C.20}
+T _ {2} - T _ {1} = \frac {q \times \log_ {\mathrm{e}} (0 . 1 / 0 . 0 5)}{2 \pi \times 5 0 \times 0 . 1} \quad = 0. 0 2 2 q \quad = 4 1. 5 ^ {\circ} \mathrm{C} \text { for } 3 \mathrm{Wcm} ^ {- 2} \quad \text { or } 1 8 0 ^ {\circ} \mathrm{C} \text { for } 1 3 \mathrm{Wcm} ^ {- 2} \quad \text { or } 3. 0 6 ^ {\circ} \mathrm{C} \text { for } 1 0 ^ {\circ} \mathrm{C} \text { difference } \quad \text { between barrel and polymer (see C below) } \tag{C.20}
 $$
 
 # C 料筒与聚合物之间的表面传热
@@ -1019,7 +1019,7 @@ $$
 对于典型传热系数$300 W m^{-2} K^{-1}$和聚合物/金属温差$10^{\circ}C$：
 
 $$
-\begin{array}{r l} \text { radial   heat   flux } & = 3 0 0 \times 0. 0 8 5 7 6 \times 0. 3 2 9 7 \times 1 0 \\ & = 8 4. 8 \mathrm{W/turn} \end{array}\tag{C.22}
+\text { radial heat flux } = 3 0 0 \times 0. 0 8 5 7 6 \times 0. 3 2 9 7 \times 1 0 \quad = 8 4. 8 \mathrm{W/turn} \tag{C.22}
 $$
 
 表C.3 表面传热系数：料筒至聚合物
@@ -1048,19 +1048,19 @@ $^{a}$ 略有高估，因为在Gz=10以下曲线低于$1.75(Gz)^{1/3}$
 当外径为200 mm时，料筒横截面积为$0.02356 \, m^{2}$，得：
 
 $$
-\begin{array}{r l} \text { axial   heat   flux } & = 5 0 \times 0. 0 2 3 5 6 \times 1 2 5 \\ & = 1 4 7 \mathrm{W/turn} \\ & \text { or } 1 1 8 0 \mathrm{Wforagradientof} 1 ^ {\circ} \mathrm{Cmm} ^ {- 1} \end{array}\tag{C.23}
+\text { axial heat flux } = 5 0 \times 0. 0 2 3 5 6 \times 1 2 5 \quad = 1 4 7 \mathrm{W/turn} \quad \text { or } 1 1 8 0 \mathrm{Wforagradientof} 1 ^ {\circ} \mathrm{Cmm} ^ {- 1} \tag{C.23}
 $$
 
 若料筒外径减至150 mm，横截面积为$0.009817 \, m^{2}$，且：
 
 $$
-\begin{array}{r l} \text { axial   heat   flux } & = 5 0 \times 0. 0 0 9 8 1 7 \times 1 2 5 \\ & = 6 1. 4 \mathrm{W/turn} \end{array}\tag{C.24}
+\text { axial heat flux } = 5 0 \times 0. 0 0 9 8 1 7 \times 1 2 5 \quad = 6 1. 4 \mathrm{W/turn} \tag{C.24}
 $$
 
 对给定的加热器类型，加热器热流密度大致恒定，加热器功率正比于直径的平方。由于向聚合物的传热系数几乎恒定(第442页)，径向热流也将正比于直径的平方，因而是加热器功率的恒定分数。径向厚度近似正比于直径，故料筒内的径向温差也将正比于直径。料筒横截面积正比于直径的平方，而在区间温差恒定时，轴向梯度反比于直径。于是：
 
 $$
-\begin{array}{r l} \text { axial   heat   flux } & = k A \cdot \frac {\mathrm{d} T}{\mathrm{d} x} \\ & \propto k \cdot D ^ {2} \cdot \frac {1}{D} \\ & \propto D (\text { diameter }) \end{array}\tag{C.25}
+\text { axial heat flux } = k A \cdot \frac {\mathrm{d} T}{\mathrm{d} x} \quad \propto k \cdot D ^ {2} \cdot \frac {1}{D} \quad \propto D (\text { diameter }) \tag{C.25}
 $$
 
 因此，在较大的机器中，轴向热流相对变得更小。
@@ -1076,7 +1076,7 @@ $$
 以及
 
 $$
-\begin{array}{r l} \left(\frac {\mathrm{d} u}{\mathrm{d} y}\right) _ {y = 0} & = \frac {- 2 U}{h} \\ & = \frac {- 2 W}{h} \tan \phi \end{array}\tag{C.27}
+\left(\frac {\mathrm{d} u}{\mathrm{d} y}\right) _ {y = 0} = \frac {- 2 U}{h} \quad = \frac {- 2 W}{h} \tan \phi \tag{C.27}
 $$
 
 在$Q / Wbh = 1 / 2$时，方程(C.26)变为：
@@ -1128,7 +1128,7 @@ $$
 由于横向剪切速率du/dy = 0出现在y/h = 1/3处，等效狭缝的H取为$0.01 \times 2 \times 1/3 = 0.00667 \, m$。按表C.3的方法，相应的传热系数分别为271和$328 \, W m^{-2} K^{-1}$，因此取与C相同的统一值$300 \, W m^{-2} K^{-1}$是合理的。若要在螺杆一转内供给螺杆轴向传导所需的热量，聚合物与螺杆根部之间的温差应为：
 
 $$
-\begin{array}{r l} \mathrm{d} T & = \frac {3 1 . 4 \cos \phi}{3 0 0 \times 0 . 0 8 5 7 6 \times \pi \times 0 . 0 8} \\ & = 4. 6 ^ {\circ} \mathrm{C} \end{array}\tag{C.33}
+\mathrm{d} T = \frac {3 1 . 4 \cos \phi}{3 0 0 \times 0 . 0 8 5 7 6 \times \pi \times 0 . 0 8} \quad = 4. 6 ^ {\circ} \mathrm{C} \tag{C.33}
 $$
 
 # F 螺棱内的径向传导
@@ -1136,7 +1136,7 @@ $$
 每转的螺棱面积为$0.00314 \, m^{2}$。对于$1^{\circ}C \, mm^{-1}$的温度梯度，相当于整个螺棱高度上$10^{\circ}C$：
 
 $$
-\begin{array}{r l} \text { radial   heat   flux } & = 5 0 \times 0. 0 0 3 1 4 \times 1 0 0 0 \\ & = 1 5 7 \mathrm{W/turn} \end{array}\tag{C.34}
+\text { radial heat flux } = 5 0 \times 0. 0 0 3 1 4 \times 1 0 0 0 \quad = 1 5 7 \mathrm{W/turn} \tag{C.34}
 $$
 
 螺棱间隙温度超出螺槽内温度(150°C)的部分已在附录C.5中算出，如表C.4所示。
@@ -1147,7 +1147,7 @@ $$
 若计入螺棱顶部处$1719 \, W m^{-2} K^{-1}$(来自P，第459页)的传热系数，则间隙内聚合物与螺杆根部之间的总传热系数为：
 
 $$
-\begin{array}{r l} U & = \frac {1}{\frac {1}{1 7 1 9} + \frac {0 . 0 1}{5 0}} \\ & = 1 2 7 9 \mathrm{Wm} ^ {- 2} \mathrm{K} ^ {- 1} \end{array}\tag{C.35}
+U = \frac {1}{\frac {1}{1 7 1 9} + \frac {0 . 0 1}{5 0}} \quad = 1 2 7 9 \mathrm{Wm} ^ {- 2} \mathrm{K} ^ {- 1} \tag{C.35}
 $$
 
 且
@@ -1159,7 +1159,7 @@ $$
 若要在螺杆一转内供给螺杆根部轴向传导所需的全部热量，径向温差将为：
 
 $$
-\begin{array}{r l} \mathrm{d} T & = \frac {3 1 . 4}{1 2 7 9 \times 0 . 0 0 3 1 4} \\ & = 7. 8 ^ {\circ} \mathrm{C}. \end{array}\tag{C.37}
+\mathrm{d} T = \frac {3 1 . 4}{1 2 7 9 \times 0 . 0 0 3 1 4} \quad = 7. 8 ^ {\circ} \mathrm{C}. \tag{C.37}
 $$
 
 # G 螺杆上螺棱与螺槽根部之间的局部轴向传导
@@ -1179,7 +1179,7 @@ $$
 对于0.03144 m上$1^{\circ}$ C的温差，
 
 $$
-\begin{array}{r l} \text { heat   flux } & = 5 0 \times 0. 0 0 2 4 0 \times \frac {1}{0 . 0 3 1 4 4} \\ & = 3. 8 \mathrm{W} \end{array}\tag{C.38}
+\text { heat flux } = 5 0 \times 0. 0 0 2 4 0 \times \frac {1}{0 . 0 3 1 4 4} \quad = 3. 8 \mathrm{W} \tag{C.38}
 $$
 
 若考虑E和P处的表面传热系数，则相对于面积$0.00240 \, m^{2}$的总传热系数：
@@ -1191,7 +1191,7 @@ $$
 对于螺棱内与螺槽内聚合物之间$0.89^{\circ}$ C的平均温差(来自P)，经由螺杆传递的热量为：
 
 $$
-\begin{array}{r l} \text { heat   flux } & = 6 6 5 \times 0. 0 0 2 4 0 \times 0. 8 9 \\ & = 1. 4 \mathrm{W} \end{array}\tag{C.39}
+\text { heat flux } = 6 6 5 \times 0. 0 0 2 4 0 \times 0. 8 9 \quad = 1. 4 \mathrm{W} \tag{C.39}
 $$
 
 # H 螺杆根部的总体轴向传导
@@ -1199,7 +1199,7 @@ $$
 槽深10 mm的螺杆，其根部横截面积为 $0.00503 \, m^{2}$ 。当纵向温度梯度为 $1^{\circ}C/mm$ 时：
 
 $$
-\begin{array}{r l} \text { heat   flux } & = 5 0 \times 0. 0 0 5 0 3 \times 1 0 0 0 \\ & = 2 5 1 \mathrm{W} \end{array}\tag{C.40}
+\text { heat flux } = 5 0 \times 0. 0 0 5 0 3 \times 1 0 0 0 \quad = 2 5 1 \mathrm{W} \tag{C.40}
 $$
 
 对于所假设的温度梯度 $125^{\circ}C m^{-1}$ ：
@@ -1213,25 +1213,25 @@ $$
 垂直于螺杆轴线的螺棱横截面积为 $0.01 \times \pi \times 0.1 = 0.00314 m^{2}$ 。当温差为 $1^{\circ}C$ 时：
 
 $$
-\begin{array}{r l} \text { heat   flux } & = 5 0 \times 0. 0 0 3 1 4 \times \frac {1}{0 . 0 1} \\ & = 1 5. 7 \mathrm{W} \end{array}\tag{C.42}
+\text { heat flux } = 5 0 \times 0. 0 0 3 1 4 \times \frac {1}{0 . 0 1} \quad = 1 5. 7 \mathrm{W} \tag{C.42}
 $$
 
 若与槽底一样假设表面对流传热系数为 $300 \, W m^{-2} K^{-1}$ ，则总传热系数为：
 
 $$
-\begin{array}{r l} U & = \frac {1}{\frac {1}{3 0 0} + \frac {1}{3 0 0} + \frac {0 . 0 1}{5 0}} \\ & = 1 4 5 \mathrm{Wm} ^ {- 2} \mathrm{K} ^ {- 1} \end{array}\tag{C.43}
+U = \frac {1}{\frac {1}{3 0 0} + \frac {1}{3 0 0} + \frac {0 . 0 1}{5 0}} \quad = 1 4 5 \mathrm{Wm} ^ {- 2} \mathrm{K} ^ {- 1} \tag{C.43}
 $$
 
 则
 
 $$
-\begin{array}{r l} \text { heat   flux } & = 1 4 5 \times 0. 0 0 3 1 4 \times 1 2 5 \times 0. 0 1 \\ & = 0. 5 7 \mathrm{W} \end{array}\tag{C.44}
+\text { heat flux } = 1 4 5 \times 0. 0 0 3 1 4 \times 1 2 5 \times 0. 0 1 \quad = 0. 5 7 \mathrm{W} \tag{C.44}
 $$
 
 以及螺棱金属内部的温差：
 
 $$
-\begin{array}{r l} \mathrm{d} T & = \frac {0 . 5 7 \times 0 . 0 1}{0 . 0 0 3 1 4 \times 5 0} \\ & = 0. 0 3 6 ^ {\circ} \mathrm{C} \end{array}\tag{C.45}
+\mathrm{d} T = \frac {0 . 5 7 \times 0 . 0 1}{0 . 0 0 3 1 4 \times 5 0} \quad = 0. 0 3 6 ^ {\circ} \mathrm{C} \tag{C.45}
 $$
 
 # K 螺槽内聚合物的径向传导
@@ -1245,13 +1245,13 @@ $$
 当温度梯度为 $1^{\circ}$ C/mm 时，
 
 $$
-\begin{array}{r l} \text { radial   heat   flux } & = 0. 5 \times 0. 0 2 8 3 \times 1 0 0 0 \\ & = 1 4. 1 \mathrm{W/turn} \end{array}\tag{C.46}
+\text { radial heat flux } = 0. 5 \times 0. 0 2 8 3 \times 1 0 0 0 \quad = 1 4. 1 \mathrm{W/turn} \tag{C.46}
 $$
 
 C.4节中已证明，若无环流N，剪切生热M将造成每圈径向温差，范围约从 Q/Wbh = 1/2 时的 $0.42^{\circ}$ C 到 Q/Wbh = 0 时的 $3.8^{\circ}$ C，平均距离约5 mm，即半个槽深。于是仅由传导可得，
 
 $$
-\begin{array}{r l} \text { radial   heat   flux } & = 0. 5 \times 0. 0 2 8 3 \times \frac {0 . 4 2}{0 . 0 0 5} \\ & = 1. 2 \mathrm{W} \text { to } 1 0. 7 \mathrm{W} \end{array}\tag{C.47}
+\text { radial heat flux } = 0. 5 \times 0. 0 2 8 3 \times \frac {0 . 4 2}{0 . 0 0 5} \quad = 1. 2 \mathrm{W} \text { to } 1 0. 7 \mathrm{W} \tag{C.47}
 $$
 
 环流N将该径向温差降至0.05–0.30°C，对此，
@@ -1265,13 +1265,13 @@ $$
 螺槽横截面积为 $0.01 \times 0.08576 = 0.00086 m^{2}$ 。当沿螺旋线的温度梯度为 $1^{\circ}C/mm$ 时，
 
 $$
-\begin{array}{r l} \text { heat   flux } & = 0. 5 \times 0. 0 0 0 8 6 \times 1 0 0 0 \\ & = 0. 4 3 \mathrm{W} \end{array}\tag{C.49}
+\text { heat flux } = 0. 5 \times 0. 0 0 0 8 6 \times 1 0 0 0 \quad = 0. 4 3 \mathrm{W} \tag{C.49}
 $$
 
 所假设的轴向梯度 $125^{\circ}C/m$ 相当于沿螺旋线的梯度 $125 \times 0.1/0.3297 = 37.9^{\circ}C/m$ ，此时沿螺槽螺旋线的传导为，
 
 $$
-\begin{array}{r l} \text { heat   flux } & = 0. 5 \times 0. 0 0 0 8 6 \times 3 7. 9 \\ & = 0. 0 1 6 \mathrm{W} \end{array}\tag{C.50}
+\text { heat flux } = 0. 5 \times 0. 0 0 0 8 6 \times 3 7. 9 \quad = 0. 0 1 6 \mathrm{W} \tag{C.50}
 $$
 
 M 螺槽内的剪切生热
@@ -1297,7 +1297,7 @@ $$
 沿螺旋线的温度梯度(同L项)为 $37.9^{\circ}$ C/m，由此传导的热流量为
 
 $$
-\begin{array}{r l} \text { heat   flux } & = 5 0 \times 9. 5 \times 1 0 ^ {- 5} \times 3 7. 9 \\ & = 0. 1 8 \mathrm{W} \end{array}\tag{C.51}
+\text { heat flux } = 5 0 \times 9. 5 \times 1 0 ^ {- 5} \times 3 7. 9 \quad = 0. 1 8 \mathrm{W} \tag{C.51}
 $$
 
 # S 横穿螺槽的传导
@@ -1311,13 +1311,13 @@ $$
 当轴向温度梯度为 $1^{\circ}$ C/mm 时，
 
 $$
-\begin{array}{r l} \text { axial   heat   flux } & = 0. 5 \times 0. 0 0 3 1 4 \times 1 0 0 0 \\ & = 1. 5 7 \mathrm{W} \end{array}\tag{C.52}
+\text { axial heat flux } = 0. 5 \times 0. 0 0 3 1 4 \times 1 0 0 0 \quad = 1. 5 7 \mathrm{W} \tag{C.52}
 $$
 
 对于所假设的温度梯度 $125^{\circ}$ C/m，
 
 $$
-\begin{array}{r l} \text { axial   heat   flux } & = 0. 5 \times 0. 0 0 3 1 4 \times 1 2 5 \\ & = 0. 2 0 \mathrm{W/turn} \end{array}\tag{C.53}
+\text { axial heat flux } = 0. 5 \times 0. 0 0 3 1 4 \times 1 2 5 \quad = 0. 2 0 \mathrm{W/turn} \tag{C.53}
 $$
 
 垂直于螺槽螺旋线方向传导的热量与此相近，较小的温度梯度被较大的横截面积部分抵消。
@@ -1424,19 +1424,35 @@ $$
 y处的速度 = $\sqrt{w_y^2 + u_y^2}$
 
 $$
-\begin{array}{l} \text {at} y = \sqrt {w _ {y} ^ {2} + u _ {y} ^ {2}} \\ = \sqrt {\left. \begin{array}{l} W ^ {2} \left(\frac {y}{h}\right) ^ {2} + 1 2 W ^ {2} q \left(\frac {y}{h}\right) ^ {3} - 1 2 W ^ {2} q \left(\frac {y}{h}\right) ^ {2} - 7 2 W ^ {2} q ^ {2} \left(\frac {y}{h}\right) ^ {3} \\ + 3 6 W ^ {2} q ^ {2} \left(\frac {y}{h}\right) ^ {4} + 3 6 W ^ {2} q ^ {2} \left(\frac {y}{h}\right) ^ {2} \\ + 9 W ^ {2} T ^ {2} \left(\frac {y}{h}\right) ^ {4} + 4 W ^ {2} T ^ {2} \left(\frac {y}{h}\right) ^ {2} - 1 2 W ^ {2} T ^ {2} \left(\frac {y}{h}\right) ^ {3} \end{array} \right.} \end{array}\tag{C.59}
+\text {at} y = \sqrt {w _ {y} ^ {2} + u _ {y} ^ {2}} \quad = \sqrt {W ^ {2} \left(\frac {y}{h}\right) ^ {2} + 1 2 W ^ {2} q \left(\frac {y}{h}\right) ^ {3} - 1 2 W ^ {2} q \left(\frac {y}{h}\right) ^ {2} - 7 2 W ^ {2} q ^ {2} \left(\frac {y}{h}\right) ^ {3} + 3 6 W ^ {2} q ^ {2} \left(\frac {y}{h}\right) ^ {4} + 3 6 W ^ {2} q ^ {2} \left(\frac {y}{h}\right) ^ {2} + 9 W ^ {2} T ^ {2} \left(\frac {y}{h}\right) ^ {4} + 4 W ^ {2} T ^ {2} \left(\frac {y}{h}\right) ^ {2} - 1 2 W ^ {2} T ^ {2} \left(\frac {y}{h}\right) ^ {3}} \tag{C.59}
 $$
 
 求导后，y处的剪切速率为：
 
 $$
-\begin{array}{l}\dot {\gamma} _ {y} = \frac {\mathrm{d}}{\mathrm{d} y} (\text {Velocity})\\= \frac {W ^ {2}}{2} \cdot \frac {\left[\begin{array}{c}\frac {2}{h} \left(\frac {y}{h}\right) + \frac {3 6 q}{h} \left(\frac {y}{h}\right) ^ {2} - \frac {2 4 q}{h} \left(\frac {y}{h}\right) - \frac {2 1 6 q ^ {2}}{h} \left(\frac {y}{h}\right) ^ {2} + \frac {1 4 4 q ^ {2}}{h} \left(\frac {y}{h}\right) ^ {3}\\+ \frac {7 2 q ^ {2}}{h} \left(\frac {y}{h}\right) + \frac {3 6 T ^ {2}}{h} \left(\frac {y}{h}\right) ^ {3} + \frac {8 T ^ {2}}{h} \left(\frac {y}{h}\right) - \frac {3 6 T ^ {2}}{h} \left(\frac {y}{h}\right) ^ {2}\end{array}\right]}\sqrt {\left. \right. W ^ {2} \left(\frac {y}{h}\right) ^ {2} + 1 2 W ^ {2} q \left(\frac {y}{h}\right) ^ {3} - 1 2 W ^ {2} q \left(\frac {y}{h}\right) ^ {2} - 7 2 W ^ {2} q ^ {2} \left(\frac {y}{h}\right) ^ {3} + 3 6 W ^ {2} q ^ {2} \left(\frac {y}{h}\right) ^ {4} + 3 6 W ^ {2} q ^ {2} \left(\frac {y}{h}\right) ^ {2} + 9 W ^ {2} T ^ {2} \left(\frac {y}{h}\right) ^ {4} + 4 W ^ {2} T ^ {2} \left(\frac {y}{h}\right) ^ {2} - 1 2 W ^ {2} T ^ {2} \left(\frac {y}{h}\right) ^ {3}}\end{array}\tag{C.60}
+\dot {\gamma} _ {y} = \frac {\mathrm{d}}{\mathrm{d} y} (\text {Velocity})
+$$
+
+$$
+= \frac {W ^ {2}}{2} \cdot \frac {N}{D}
+$$
+
+其中分子 $N$ 为：
+
+$$
+N = \frac {2}{h} \left(\frac {y}{h}\right) + \frac {3 6 q}{h} \left(\frac {y}{h}\right) ^ {2} - \frac {2 4 q}{h} \left(\frac {y}{h}\right) - \frac {2 1 6 q ^ {2}}{h} \left(\frac {y}{h}\right) ^ {2} + \frac {1 4 4 q ^ {2}}{h} \left(\frac {y}{h}\right) ^ {3} + \frac {7 2 q ^ {2}}{h} \left(\frac {y}{h}\right) + \frac {3 6 T ^ {2}}{h} \left(\frac {y}{h}\right) ^ {3} + \frac {8 T ^ {2}}{h} \left(\frac {y}{h}\right) - \frac {3 6 T ^ {2}}{h} \left(\frac {y}{h}\right) ^ {2}
+$$
+
+分母 $D$ 为：
+
+$$
+D = \sqrt {W ^ {2} \left(\frac {y}{h}\right) ^ {2} + 1 2 W ^ {2} q \left(\frac {y}{h}\right) ^ {3} - 1 2 W ^ {2} q \left(\frac {y}{h}\right) ^ {2} - 7 2 W ^ {2} q ^ {2} \left(\frac {y}{h}\right) ^ {3} + 3 6 W ^ {2} q ^ {2} \left(\frac {y}{h}\right) ^ {4} + 3 6 W ^ {2} q ^ {2} \left(\frac {y}{h}\right) ^ {2} + 9 W ^ {2} T ^ {2} \left(\frac {y}{h}\right) ^ {4} + 4 W ^ {2} T ^ {2} \left(\frac {y}{h}\right) ^ {2} - 1 2 W ^ {2} T ^ {2} \left(\frac {y}{h}\right) ^ {3}} \tag{C.60}
 $$
 
 从分子中提出 $(2/h)(y/h)$ ，从分母中提出 $[W^{2}(y/h)^{2}]^{1/2}$ ，得
 
 $$
-\dot {\gamma} _ {y} = \frac {W}{h} \cdot \frac {\left[ \begin{array}{c} 1 + 1 8 q \left(\frac {y}{h}\right) - 1 2 q - 1 0 8 q ^ {2} \left(\frac {y}{h}\right) + 7 2 q ^ {2} \left(\frac {y}{h}\right) ^ {2} + 3 6 q ^ {2} \\ + 1 8 T ^ {2} \left(\frac {y}{h}\right) ^ {2} + 4 T ^ {2} - 1 8 T ^ {2} \left(\frac {y}{h}\right) \end{array} \right]}{\sqrt { \begin{array}{c} 1 + 1 2 q \left(\frac {y}{h}\right) - 1 2 q - 7 2 q ^ {2} \left(\frac {y}{h}\right) + 3 6 q ^ {2} \left(\frac {y}{h}\right) ^ {2} + 3 6 q ^ {2} \\ + 9 T ^ {2} \left(\frac {y}{h}\right) ^ {2} + 4 T ^ {2} - 1 2 T ^ {2} \left(\frac {y}{h}\right) \end{array} }}\tag{C.61}
+\dot {\gamma} _ {y} = \frac {W}{h} \cdot \frac {\left[ 1 + 1 8 q \left(\frac {y}{h}\right) - 1 2 q - 1 0 8 q ^ {2} \left(\frac {y}{h}\right) + 7 2 q ^ {2} \left(\frac {y}{h}\right) ^ {2} + 3 6 q ^ {2} \quad + 1 8 T ^ {2} \left(\frac {y}{h}\right) ^ {2} + 4 T ^ {2} - 1 8 T ^ {2} \left(\frac {y}{h}\right) \right]}{\sqrt { 1 + 1 2 q \left(\frac {y}{h}\right) - 1 2 q - 7 2 q ^ {2} \left(\frac {y}{h}\right) + 3 6 q ^ {2} \left(\frac {y}{h}\right) ^ {2} + 3 6 q ^ {2} \quad + 9 T ^ {2} \left(\frac {y}{h}\right) ^ {2} + 4 T ^ {2} - 1 2 T ^ {2} \left(\frac {y}{h}\right) }}\tag{C.61}
 $$
 
 单位体积剪切生热为
@@ -1503,7 +1519,7 @@ $$
 注意 $u = 0$ 出现在 $y / h = 2 / 3$ 处，而 $u = -U / 3$ (极大值)出现在 $y / h = 1 / 3$ 处。在 $y = 0$ 与 $y = y_{1}$ 之间、单位螺旋线长度dz内的横向流量 $Q_{x}$ 为：
 
 $$
-\begin{array}{r l} Q _ {x} & = \int_ {0} ^ {y _ {1}} u \mathrm{d} y \mathrm{d} z \\ & = \left[ \frac {U}{h} \left(\frac {y _ {1} ^ {3}}{h} - y _ {1} ^ {2}\right) + C \right] \mathrm{d} z \end{array}\tag{C.63}
+Q _ {x} = \int_ {0} ^ {y _ {1}} u \mathrm{d} y \mathrm{d} z \quad = \left[ \frac {U}{h} \left(\frac {y _ {1} ^ {3}}{h} - y _ {1} ^ {2}\right) + C \right] \mathrm{d} z \tag{C.63}
 $$
 
 但在 $y = 0$ 处 $Q_{x} = 0$ ，故 $C = 0$ 。
@@ -1511,7 +1527,7 @@ $$
 类似地， $y = y_{2}$ 与 $y = h$ 之间的流量 $Q_{x}^{\prime}$ 为：
 
 $$
-\begin{array}{r l} Q _ {x} ^ {\prime} & = \int_ {y _ {2}} ^ {h} u \mathrm{d} y \mathrm{d} z \\ & = - \frac {U}{h} \left(\frac {y _ {2} ^ {3}}{h} - y _ {2} ^ {2}\right) \mathrm{d} z \end{array}\tag{C.64}
+Q _ {x} ^ {\prime} = \int_ {y _ {2}} ^ {h} u \mathrm{d} y \mathrm{d} z \quad = - \frac {U}{h} \left(\frac {y _ {2} ^ {3}}{h} - y _ {2} ^ {2}\right) \mathrm{d} z \tag{C.64}
 $$
 
 根据连续性
@@ -1523,7 +1539,7 @@ $$
 因此
 
 $$
-\begin{array}{r l} Q _ {x} & = \frac {U h y _ {1} ^ {2}}{h ^ {2}} \left(\frac {y _ {1}}{h} - 1\right) \mathrm{d} z \\ & = \frac {U h y _ {2} ^ {2}}{h ^ {2}} \left(\frac {y _ {2}}{h} - 1\right) \mathrm{d} z \end{array}\tag{C.66}
+Q _ {x} = \frac {U h y _ {1} ^ {2}}{h ^ {2}} \left(\frac {y _ {1}}{h} - 1\right) \mathrm{d} z \quad = \frac {U h y _ {2} ^ {2}}{h ^ {2}} \left(\frac {y _ {2}}{h} - 1\right) \mathrm{d} z \tag{C.66}
 $$
 
 表C.7给出了若干y/h值及对应的u/U值与 $Q_{x}/Uh\mathrm{d}z=y^{2}(y/h-1)/h^{2}$ 值。例如，这表明紧邻料筒的0.9<y/h<1.0薄层内，以平均流速0.81U=0.0772ms $^{-1}$ 输送的流量0.081Uhdz，近似等于0<y/h<0.355区域内以平均流速0.081U/0.355=0.228U反向输送的流量。
@@ -1572,13 +1588,13 @@ $$
 于是1 s内在该体积中产生88.55 J，即 $88.55/2.83 \times 10^{-5}$ J m $^{-3}$ 。1 s内自该薄层径向向内流出的体积为：
 
 $$
-\begin{array}{r l} Q _ {x} & = U h \frac {y ^ {2}}{h ^ {2}} \left(\frac {y}{h} - 1\right) \mathrm{d} z \\ & = 0. 0 9 5 3 \times 0. 0 1 \times 0. 0 8 1 \times 0. 3 2 9 7 \\ & = 2. 5 4 5 \times 1 0 ^ {- 5} \mathrm{m} ^ {3} \mathrm{s} ^ {- 1} \text {per turn} \end{array}\tag{C.69}
+Q _ {x} = U h \frac {y ^ {2}}{h ^ {2}} \left(\frac {y}{h} - 1\right) \mathrm{d} z \quad = 0. 0 9 5 3 \times 0. 0 1 \times 0. 0 8 1 \times 0. 3 2 9 7 \quad = 2. 5 4 5 \times 1 0 ^ {- 5} \mathrm{m} ^ {3} \mathrm{s} ^ {- 1} \text {per turn} \tag{C.69}
 $$
 
 于是
 
 $$
-\begin{array}{r l} \text { heat   transferred   out   of   lamina } & = 8 8. 5 5 \times \frac {2 . 5 4 5 \times 1 0 ^ {- 5}}{2 . 8 3 \times 1 0 ^ {- 5}} \\ & = 7 9. 7 \mathrm{Js} ^ {- 1} \end{array}\tag{C.70}
+\text { heat transferred out of lamina } = 8 8. 5 5 \times \frac {2 . 5 4 5 \times 1 0 ^ {- 5}}{2 . 8 3 \times 1 0 ^ {- 5}} \quad = 7 9. 7 \mathrm{Js} ^ {- 1} \tag{C.70}
 $$
 
 表C.8 用于估算传热的径向单元
@@ -1596,7 +1612,7 @@ $$
 考察式(C.68)与式(C.69)可见，两者相差 $b/u_{y}$ ，即一个质点在该薄层中横穿螺槽所需的渡越时间，即
 
 $$
-\begin{array}{r l} t & = \frac {0 . 0 8 5 7 6}{0 . 0 7 7 2} \\ & = 1. 1 1 \mathrm{s} \end{array}\tag{C.71}
+t = \frac {0 . 0 8 5 7 6}{0 . 0 7 7 2} \quad = 1. 1 1 \mathrm{s} \tag{C.71}
 $$
 
 且
@@ -1662,7 +1678,7 @@ $$
 (代入式(6.16))
 
 $$
-\begin{array}{l} = \frac {\eta W}{h ^ {2}} \left(\frac {1}{2} - \frac {Q}{W b h}\right) \cdot 1 2 Q \mathrm{d} z \\ = \frac {\eta W ^ {2}}{h} \left(\frac {1}{2} - \frac {Q}{W b h}\right) \cdot 1 2 \frac {Q}{W b h} b \mathrm{d} z \end{array}\tag{C.73}
+= \frac {\eta W}{h ^ {2}} \left(\frac {1}{2} - \frac {Q}{W b h}\right) \cdot 1 2 Q \mathrm{d} z \quad = \frac {\eta W ^ {2}}{h} \left(\frac {1}{2} - \frac {Q}{W b h}\right) \cdot 1 2 \frac {Q}{W b h} b \mathrm{d} z \tag{C.73}
 $$
 
 例如，当 $Q / Wbh = 0.2$ 时，

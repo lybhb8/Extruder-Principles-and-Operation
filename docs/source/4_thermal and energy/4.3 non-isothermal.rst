@@ -41,9 +41,9 @@ NON-ISOTHERMAL FLOW AND HEAT TRANSFER
 .. math::
 
 
-   q=h A\,\mathbf{d}T\tag{4.12}
+   q=h A\,\mathrm{d}T\tag{4.12}
 
-其中 :math:`\mathbf{d}T` 是温差， :math:`h` [1]_ 是表面传热系数，单位为 :math:`\mathbf{W}\mathbf{m}^{-2}\mathbf{K}^{-1}`。
+其中 :math:`\mathrm{d}T` 是温差， :math:`h` [1]_ 是表面传热系数，单位为 :math:`\mathrm{W\,m^{-2}\,K^{-1}}`。
 显然，在固体中的温度梯度显著的情况下，可以将方程（4.1）和（4.12）结合起来：
 
 :math:`\begin{array}{c}{{q=\displaystyle\frac{k A}{x}\left(T_{2}-T^{\prime}\right)}}\\ {{=h A(T^{\prime}-T_{1})}}\end{array}` ``-  (4.13)``

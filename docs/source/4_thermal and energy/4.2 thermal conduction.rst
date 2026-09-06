@@ -12,7 +12,7 @@ thermal conduction
 
    {\boldsymbol{q}}=-k{\boldsymbol{A}}\;{\frac{\mathrm{d}T}{\mathrm{d}x}}\tag{4.1}
 
-其中 :math:`\pmb q` 是热流率（W）， :math:`k` 是热导率 :math:`(\mathbf{W}\,\mathbf{m}^{-1}\,\mathbf{K}^{-1})` ， :math:`\pmb{A}` 是导热的横截面 :math:`(\mathbf{m}^{2})` ， :math:`-\mathrm{d}T/\mathrm{d}x` 是热流方向上的温度梯度 :math:`(\mathbf{K}\,\mathbf{m}^{-1})` ，负号表示热量沿温度下降的方向流动。
+其中 :math:`\pmb q` 是热流率（W）， :math:`k` 是热导率 :math:`(\mathrm{W\,m^{-1}\,K^{-1}})` ， :math:`\pmb{A}` 是导热的横截面 :math:`(\mathrm{m}^{2})` ， :math:`-\mathrm{d}T/\mathrm{d}x` 是热流方向上的温度梯度 :math:`(\mathrm{K\,m^{-1}})` ，负号表示热量沿温度下降的方向流动。
 该方程表明，热流必然伴随着温度梯度，并且与温度梯度成正比。它也与电导率成正比，因此聚合物的低热导率意味着小的热流和/或大的温度梯度。
 在给定的热流下，温差随着传热距离（厚度）的增加而增加，因此通过厚的挤出机筒，温差可能是可观的。
 在恒定温差下厚度的增加意味着热流较小，因此冷却通道在注塑和吹塑模具中保持靠近模具表面。
@@ -41,9 +41,9 @@ thermal conduction
    {\frac{T_{1}-T^{\prime}}{T^{\prime}-T_{2}}}\!=\!{\frac{k_{2}\,\mathrm{d}x_{1}}{k_{1}\,\mathrm{d}x_{2}}}\tag{4.5}
 
 
-使得总温差 :math:`T_{1}-T_{2}` 被细分为与相应的厚度 :math:`\mathbf{d}x_{1},\mathbf{d}x_{2}` 成比例并且与电导率成反比。 
+使得总温差 :math:`T_{1}-T_{2}` 被细分为与相应的厚度 :math:`\mathrm{d}x_{1},\mathrm{d}x_{2}` 成比例并且与电导率成反比。 
 
-如果热量从筒式加热器通过 :math:`30\,\mathrm{mm}` 厚的筒体（钢的 :math:`\boldsymbol{k}` 为 :math:`50\,\mathbf{W}\,\mathbf{m}^{-1}\,\mathbf{K}^{-1}` ）和5毫米厚的LDPE（ :math:`5\,\mathrm{mm}` ）传导，总温差为 :math:`100^{\circ}\mathbf{C}` ，则筒体和聚合物之间的温差分别为 :math:`5.7^{\circ}\mathbf{C}` 和 :math:`94.3^{\circ}\mathbf{C}_{\mathrm{{i}}}`。
+如果热量从筒式加热器通过 :math:`30\,\mathrm{mm}` 厚的筒体（钢的 :math:`\boldsymbol{k}` 为 :math:`50\,\mathrm{W\,m^{-1}\,K^{-1}}` ）和5毫米厚的LDPE（ :math:`5\,\mathrm{mm}` ）传导，总温差为 :math:`100^{\circ}\mathbf{C}` ，则筒体和聚合物之间的温差分别为 :math:`5.7^{\circ}\mathbf{C}` 和 :math:`94.3^{\circ}\mathbf{C}_{\mathrm{{i}}}`。
 二维或三维的热传导通常需要数字计算，这在稳态挤压中很少被证明是合理的。然而，在通过长度为L的圆柱体（例如挤出机筒）进行径向传导的特定情况下，热流q是恒定的，但面积与半径成正比，因此温度梯度必须向中心增加。
 内半径 Rl 和外半径 R2 之间的方程式（4.1）的积分给出：
 
@@ -59,13 +59,13 @@ thermal conduction
 .. math::
 
 
-   {\frac{\mathbf{d}T}{\mathbf{d}t}}=\alpha\,{\frac{\mathbf{d}^{2}T}{\mathbf{d}x^{2}}}\tag{4.7}
+   {\frac{\mathrm{d}T}{\mathrm{d}t}}=\alpha\,{\frac{\mathrm{d}^{2}T}{\mathrm{d}x^{2}}}\tag{4.7}
 
 
-其中 :math:`t` 是时间， :math:`x` 是热传导方向上的距离， 热扩散率（Thermal Diffusivity） :math:`\alpha={k}/{\rho C_{\mathfrak{p}}}` :math:`(\mathbf{m}^{2}\,\mathbf{s}^{-1})` .
+其中 :math:`t` 是时间， :math:`x` 是热传导方向上的距离， 热扩散率（Thermal Diffusivity） :math:`\alpha={k}/{\rho C_{\mathfrak{p}}}` :math:`(\mathrm{m}^{2}\,\mathrm{s}^{-1})` .
 
 
-一种常见的情况是，处于均匀温度的 :math:`T_{\mathfrak{b}}` 固体突然与处于均匀恒定温度 :math:`T_{\mathbf{a}}` 的周围环境接触。
+一种常见的情况是，处于均匀温度的 :math:`T_{\mathfrak{b}}` 固体突然与处于均匀恒定温度 :math:`T_{\mathrm{a}}` 的周围环境接触。
 就未完成的温度变化而言，时间 :math:`T` 处的温度 :math:`t` 和距离厚度/直径为 :math:`2r_{\mathrm{m}}` 的物体中心的距离 :math:`r` 的图形解是可用的（McAdams，1954，第33页及以下）
 
 .. math::
@@ -115,7 +115,7 @@ thermal conduction
 
 
 
-（摘自McAdams 1954，方程式（3.4））。应该注意的是，在这种情况下，固体的表面温度瞬间上升到周围环境的 :math:`T_{\mathbf{a}}` ，
+（摘自McAdams 1954，方程式（3.4））。应该注意的是，在这种情况下，固体的表面温度瞬间上升到周围环境的 :math:`T_{\mathrm{a}}` ，
 向中心的上升逐渐变小和变慢。
 
 通过对一维方法进行近似校正（McAdams 1954，第40-43页），
@@ -149,5 +149,5 @@ thermal conduction
    W=\sigma T^{4}\tag{4.11}
 
 
-其中 :math:`W` 是辐射功率 :math:`(\mathbf{W}\mathbf{m}^{-2})` ， :math:`T` 是绝对温度（K）和Stefan-Boltzmann常数 :math:`\sigma=\bar{5.67}\times10^{-8}\,\mathrm{W\,m^{-2}\,K^{-4}}` 。
+其中 :math:`W` 是辐射功率 :math:`(\mathrm{W\,m^{-2}})` ， :math:`T` 是绝对温度（K）和Stefan-Boltzmann常数 :math:`\sigma=\bar{5.67}\times10^{-8}\,\mathrm{W\,m^{-2}\,K^{-4}}` 。
 该方程用作表 C.1 中数值计算的一部分。对于较小的温差，从 :math:`T_{1}` 处的物体到 :math:`T_{0}` 处的周围环境的辐射热传递可以近似与 :math:`T_{1}-T_{0}` 成正比。

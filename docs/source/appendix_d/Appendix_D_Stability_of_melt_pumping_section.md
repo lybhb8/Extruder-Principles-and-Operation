@@ -9,7 +9,7 @@ $$
 其中A和B是取决于螺杆与口模尺寸的常数(方程(6.51)和(6.52))。就本章目的而言，为方便起见定义：
 
 $$
-\begin{array}{r l} B ^ {\prime} & = B Z \\ & = \frac {b h ^ {3}}{1 2} \end{array}\tag{D.1}
+B ^ {\prime} = B Z \quad = \frac {b h ^ {3}}{1 2}\tag{D.1}
 $$
 
 方程(6.50)变为：
@@ -47,13 +47,13 @@ $$
 于是：
 
 $$
-\begin{array}{r l} \frac {1}{Q} \frac {\mathrm{d} q}{\mathrm{d} t} & = \frac {\mathrm{d}}{\mathrm{d} t} \left(\frac {K Z + B ^ {\prime}}{K Z} \cdot \frac {K (Z + \mathrm{d} z)}{K (Z + \mathrm{d} z) + B ^ {\prime}}\right) \\ & = \frac {K Z + B ^ {\prime}}{K Z} \cdot \frac {\mathrm{d}}{\mathrm{d} t} \left(\frac {K (Z + \mathrm{d} z)}{K (Z + \mathrm{d} z) + B ^ {\prime}}\right) \\ & = \frac {K Z + B ^ {\prime}}{K Z} \cdot \frac {\mathrm{d}}{\mathrm{d} t} \left(1 - \frac {B ^ {\prime}}{K (Z + \mathrm{d} z) + B ^ {\prime}}\right) \\ & = \frac {K Z + B ^ {\prime}}{K Z} \left(\frac {B ^ {\prime} K}{(K (Z + \mathrm{d} z) + B ^ {\prime}) ^ {2}}\right) \frac {\mathrm{d} (\mathrm{d} z)}{\mathrm{d} t} \end{array}\tag{D.7}
+\frac {1}{Q} \frac {\mathrm{d} q}{\mathrm{d} t} = \frac {\mathrm{d}}{\mathrm{d} t} \left(\frac {K Z + B ^ {\prime}}{K Z} \cdot \frac {K (Z + \mathrm{d} z)}{K (Z + \mathrm{d} z) + B ^ {\prime}}\right) = \frac {K Z + B ^ {\prime}}{K Z} \cdot \frac {\mathrm{d}}{\mathrm{d} t} \left(\frac {K (Z + \mathrm{d} z)}{K (Z + \mathrm{d} z) + B ^ {\prime}}\right) = \frac {K Z + B ^ {\prime}}{K Z} \cdot \frac {\mathrm{d}}{\mathrm{d} t} \left(1 - \frac {B ^ {\prime}}{K (Z + \mathrm{d} z) + B ^ {\prime}}\right) = \frac {K Z + B ^ {\prime}}{K Z} \left(\frac {B ^ {\prime} K}{(K (Z + \mathrm{d} z) + B ^ {\prime}) ^ {2}}\right) \frac {\mathrm{d} (\mathrm{d} z)}{\mathrm{d} t}\tag{D.7}
 $$
 
 当dz/Z较小时：
 
 $$
-\begin{array}{r l} \frac {1}{Q} \cdot \frac {\mathrm{d} q}{\mathrm{d} t} & \simeq \frac {B ^ {\prime}}{Z (K Z + B ^ {\prime})} \cdot \frac {\mathrm{d} (\mathrm{d} z)}{\mathrm{d} t} \\ & = \frac {1}{Z \left(\frac {K Z}{B ^ {\prime}} + 1\right)} \cdot \frac {\mathrm{d} (\mathrm{d} z)}{\mathrm{d} t} \end{array}\tag{D.8}
+\frac {1}{Q} \cdot \frac {\mathrm{d} q}{\mathrm{d} t} \simeq \frac {B ^ {\prime}}{Z (K Z + B ^ {\prime})} \cdot \frac {\mathrm{d} (\mathrm{d} z)}{\mathrm{d} t} = \frac {1}{Z \left(\frac {K Z}{B ^ {\prime}} + 1\right)} \cdot \frac {\mathrm{d} (\mathrm{d} z)}{\mathrm{d} t}\tag{D.8}
 $$
 
 代入 $B'$ 后：

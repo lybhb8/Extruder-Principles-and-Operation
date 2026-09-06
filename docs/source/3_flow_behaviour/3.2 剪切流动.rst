@@ -168,7 +168,7 @@
 
 综合:
 
-        :math:`\int_{0}^{h}\mathbf{d}V=-\frac{1}{\eta}\cdot\frac{\mathbf{d}P}{\mathbf{d}L}\int_{0}^{h}y\,\mathbf{d}y` ``-                      (3.28)``
+        :math:`\int_{0}^{h}\mathrm{d}V=-\frac{1}{\eta}\cdot\frac{\mathrm{d}P}{\mathrm{d}L}\int_{0}^{h}y\,\mathrm{d}y` ``-                      (3.28)``
 
 给:
 
@@ -184,7 +184,7 @@
 
 得出抛物线速度曲线（在 :math:`T` 方向上均匀）。
 
-在距离中心 :math:`\pmb{h}` 处，厚度为 :math:`\mathbf{d}h`
+在距离中心 :math:`\pmb{h}` 处，厚度为 :math:`\mathrm{d}h`
 的薄片中的体积流量为：
 
 和总体积流量：
@@ -197,7 +197,7 @@
 
 壁面剪切率为
 
-:math:`\mathbf{d}P={\frac{12\eta Q\,\mathrm{d}L}{T H^{3}}}` ``-                      (3.34)``
+:math:`\mathrm{d}P={\frac{12\eta Q\,\mathrm{d}L}{T H^{3}}}` ``-                      (3.34)``
 
 :math:`\begin{array}{l}{\dot{\gamma}_{X}=-\frac{X}{\eta}\cdot\frac{\mathrm{d}P}{\mathrm{d}L}}\\ {\quad=-\frac{H}{2\eta}\cdot\frac{\mathrm{d}P}{\mathrm{d}L}}\\ {\quad=\frac{6Q}{T H^{2}}}\end{array}` ``-                      (3.35)``
 
@@ -305,7 +305,7 @@
 时，流速分别降低 :math:`14.3%` 和 :math:`23.9%`\ 。对于这两个
 :math:`\pmb{n}` 值，平均流速的降低比例与圆形毛细管相同。
 
-这些计算对实际挤压模具公差的影响将在第 5
+这些计算对实际挤压模头公差的影响将在第 5
 章中讨论。除了毛细管内的压力损失外，还经常会有入口损失，特别是方形入口模头，在低剪切速率下，入口损失可能相当于增加
 :math:`4L/R` 至 :math:`6L/R`
 的模头长度，在较高剪切速率下，入口损失会增加；这将在第 3.5 节中讨论。
@@ -325,7 +325,7 @@ Dulmage
 (Strain energy in shear)
 
 参考图3.6，考虑平行于剪切应力方向并以速度w移动的层厚。然后，作用在该层与速度为
-:math:`w+\mathbf{d}w` 的相邻层之间的界面上的剪切力为：
+:math:`w+\mathrm{d}w` 的相邻层之间的界面上的剪切力为：
 
 .. math::
 
@@ -337,14 +337,14 @@ Dulmage
 .. math::
 
 
-   [(w+\mathbf{d}w)-w]t\tag{3.53}
+   [(w+\mathrm{d}w)-w]t\tag{3.53}
 
 在时间 :math:`t` 内完成的工作：
 
 .. math::
 
 
-   F t[(w+\mathbf{d}w)-w]=\tau x z\,t\,\,\mathrm{d}w\tag{3.54}
+   F t[(w+\mathrm{d}w)-w]=\tau x z\,t\,\,\mathrm{d}w\tag{3.54}
 
 但薄片的体积为 :math:`x z\,{\mathsf{d}}y` ，因此单位体积在 :math:`t`
 时间内所做的功为：
@@ -373,7 +373,7 @@ Dulmage
 .. math::
 
 
-   {\mathrm{Strain~energy~per~unit~volume}}={\frac{\eta W^{2}}{h^{2}}}\,\mathbf{W}\,\mathbf{m}^{-3}\tag{3.58}
+   {\mathrm{Strain~energy~per~unit~volume}}={\frac{\eta W^{2}}{h^{2}}}\,\mathrm{W}\,\mathrm{m}^{-3}\tag{3.58}
 
 or
 
@@ -397,7 +397,7 @@ or
    \dot{\gamma}_{r}=-\frac{\mathrm{d}P}{\mathrm{d}L}\,\cdot\,\frac{r}{2\eta}\tag{3.61}
 
 然后，对于牛顿流体，结合方程（3.57）和（3.61），环空 :math:`r` 到
-:math:`r+\mathbf{d}r` 的应变能为：
+:math:`r+\mathrm{d}r` 的应变能为：
 
 .. math::
 
@@ -420,7 +420,7 @@ or
 
    \begin{array}{r l}{{\mathrm{Total~strain~energy}=\frac{8\eta L Q^{2}}{\pi R^{4}}}}\\ &{\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,=Q\,\mathrm{d}P\mathrm{~(in~circular~capillary)}}\end{array}
 
-其中 :math:`\mathbf{d}P` 是长度 :math:`L` 上的压降。
+其中 :math:`\mathrm{d}P` 是长度 :math:`L` 上的压降。
 
 同样，在无限狭缝中，根据方程式（3.26）：
 
@@ -450,9 +450,9 @@ or
 
  :math:`\begin{array}{r l}&{\mathrm{Total~strain~energy}=\frac{12\eta Q^{2}L}{T H^{3}}}\\ &{\qquad\qquad\qquad\qquad\qquad=Q\,\mathrm{d}P\,\mathrm{~(in~infinite~slit)}}\end{array}` ``-            (3.67)``
 
-其中\ :math:`\mathbf{d}P`\ 是长度\ :math:`\pmb{L}`\ 的压降。
+其中\ :math:`\mathrm{d}P`\ 是长度\ :math:`\pmb{L}`\ 的压降。
 
-由方程（3.65）给出的宽狭缝中局部应变能的分布也绘制在图3.9中。下面的例子说明了应变能量和粘性加热的数量级。在直径为\ :math:`100\,\mathrm{mm}`\ 的挤出机螺杆中，通道宽度为\ :math:`100\,\mathrm{mm}`\ ，转速为\ :math:`1\,\mathbf{rps},`\ 速度约为\ :math:`0.3\,\mathbf{m}\,\mathbf{s}^{-1}`
+由方程（3.65）给出的宽狭缝中局部应变能的分布也绘制在图3.9中。下面的例子说明了应变能量和粘性加热的数量级。在直径为\ :math:`100\,\mathrm{mm}`\ 的挤出机螺杆中，通道宽度为\ :math:`100\,\mathrm{mm}`\ ，转速为\ :math:`1\,\mathrm{rps},`\ 速度约为\ :math:`0.3\,\mathrm{m}\,\mathrm{s}^{-1}`
 。如果通道深度为10mm，剪切速率W/h约为\ :math:`0.3/0.01=30\,\mathrm{s}^{-1}`
 。
 
@@ -466,7 +466,7 @@ or
 .. math::
 
 
-   \begin{array}{r l}{\mathrm{Strain\ energy}=\eta\stackrel{.}{\gamma}^{2}}&{}\\ {=10^{3}\times30^{2}}\\ {}&{=9\times10^{5}\,\mathbf{W\,m}^{-3}}\end{array}
+   \begin{array}{r l}{\mathrm{Strain\ energy}=\eta\stackrel{.}{\gamma}^{2}}&{}\\ {=10^{3}\times30^{2}}\\ {}&{=9\times10^{5}\,\mathrm{W\,m}^{-3}}\end{array}
 
 及
 
@@ -482,7 +482,7 @@ or
 
    \begin{array}{r}{\mathrm{Strain\ energy\ per\ turn}=9\times10^{5}\times3\times10^{-4}}\\ {=2.7\times10^{2}\,\mathrm{W}\qquad\qquad\qquad}\end{array}
 
-根据表4.1，密度和比热为 :math:`750\,\mathbf{kg}\,\mathbf{m}^{-3}` and
+根据表4.1，密度和比热为 :math:`750\,\mathrm{kg}\,\mathrm{m}^{-3}` and
 :math:`2500\,\bar{{\bf J}}\,\bar{{\bf k}}{\bf g}^{-1}\,{\bf K}^{-1}` ,
 加热速率为：
 
@@ -491,7 +491,7 @@ or
 
    \begin{array}{l}{\displaystyle\frac{\mathrm{d}T}{\mathrm{d}t}\,{=}\,\frac{9\times10^{5}}{750\times2500}}\\ {\displaystyle\simeq0.5^{\circ}\mathrm{C\,s}^{-1}}\end{array}
 
-在毛细管中，假设一个直径为\ :math:`5\,\mathrm{mm}`\ 、长为\ :math:`10\,\mathrm{mm}`\ 的模具，并测量流速。\ :math:`Q^{-}\,{=}\,0.1\times\,\mathrm{i}0^{-4}\,\mathrm{m}^{3}\,\mathrm{s}^{-1}`\ ，牛顿粘度为\ :math:`10^{3}\,\mathrm{N}\,\mathrm{s}\,\mathrm{m}^{-2}`
+在毛细管中，假设一个直径为\ :math:`5\,\mathrm{mm}`\ 、长为\ :math:`10\,\mathrm{mm}`\ 的模头，并测量流速。\ :math:`Q^{-}\,{=}\,0.1\times\,\mathrm{i}0^{-4}\,\mathrm{m}^{3}\,\mathrm{s}^{-1}`\ ，牛顿粘度为\ :math:`10^{3}\,\mathrm{N}\,\mathrm{s}\,\mathrm{m}^{-2}`
 
 .. math::
 
@@ -550,7 +550,7 @@ or
 
 为了将这些剪切应变能与纵向流动中的剪切应变能进行比较，考虑一个直径从\ :math:`50\,\mathrm{mm}`\ 减小到
 :math:`5\,\mathrm{mm}`\ 、长度为\ :math:`20\,\mathrm{mm}`
-的模具入口——一个尖锐的锥形，以夸大纵向分量。显然，由于平均剪切速率较低，锥形入口的剪切应变能将小于毛细管。现在
+的模头入口——一个尖锐的锥形，以夸大纵向分量。显然，由于平均剪切速率较低，锥形入口的剪切应变能将小于毛细管。现在
 
 .. math::
 
@@ -597,16 +597,16 @@ or
 .. math::
 
 
-   \begin{array}{c}{{\Lambda\dot{\varepsilon}^{2}=3\times10^{3}\times3.518^{2}}}\\ {{=37.1\times10^{3}\,\mathbf{W\,m}^{-3}}}\end{array}
+   \begin{array}{c}{{\Lambda\dot{\varepsilon}^{2}=3\times10^{3}\times3.518^{2}}}\\ {{=37.1\times10^{3}\,\mathrm{W\,m}^{-3}}}\end{array}
 
-请注意，模具中的剪切应变能约为该拉伸能的\ :math:`10^{4}`\ 倍。存储在锥度中的拉伸能为：
+请注意，模头中的剪切应变能约为该拉伸能的\ :math:`10^{4}`\ 倍。存储在锥度中的拉伸能为：
 
 .. math::
 
 
-   37.1\times10^{3}\times13.09\times10^{-6}=0.486\,\mathbf{W}
+   37.1\times10^{3}\times13.09\times10^{-6}=0.486\,\mathrm{W}
 
-大部分能量以弹性方式储存，并在模具出口处通过弹性恢复释放，从而在长度上产生横向膨胀和收缩。然而，如果这种能量通过平行通道中的内摩擦消散，例如在非常长的模具中，温度上升的速度将为
+大部分能量以弹性方式储存，并在模头出口处通过弹性恢复释放，从而在长度上产生横向膨胀和收缩。然而，如果这种能量通过平行通道中的内摩擦消散，例如在非常长的模头中，温度上升的速度将为
 
 .. math::
 
