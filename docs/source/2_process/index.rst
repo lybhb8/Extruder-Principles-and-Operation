@@ -15,6 +15,8 @@
 挤出机还具有许多其他功能，这些功能或主要或附带地用于各种专门用途。挤出机基本上适用于连续操作，但在许多吹塑机和大多数注塑机中被广泛用于间歇操作。在这种模式下，挤出机的性能出奇地好，但必须考虑到本手册所介绍的因素之外的其他因素；前者不易用分析方法表示。挤出机还具有许多其他功能，这些功能主要或附带地用于各种专门用途。挤出机基本上适用于连续操作，但在许多吹塑机和大多数注塑机中，它被广泛用于间歇操作。在这种模式下，挤出机的性能出奇地好，但必须考虑到本手册所介绍的因素之外的其他因素；前者不易用分析方法表示。
 
 
+.. _table-2-1:
+
 表 2.1 用于挤出的热塑性塑料 
 
 
@@ -73,8 +75,8 @@
      - plasticized (flexible) polyvinyl chloride 
 
    * - HIPS
-      - 高抗冲聚苯乙烯（橡胶增韧）
-      - high impact polystyrene (rubber-toughened) 
+     - 高抗冲聚苯乙烯（橡胶增韧）
+     - high impact polystyrene (rubber-toughened) 
 
 
    * - 半结晶性塑料：
@@ -90,16 +92,16 @@
      - ethylene vinyl acetate copolymer  
 
    * - PA
-      - 聚酰胺（尼龙）
-      - polyamide (nylon)  
+     - 聚酰胺（尼龙）
+     - polyamide (nylon)  
 
    * - PETP
      - 聚对苯二甲酸乙二醇酯（饱和聚酯）
      - polyethylene terephthalate (saturated polyester) 
  
    * - PBTP 
-      - 聚对苯二甲酸丁二醇酯
-      - polybutylene terephthalate 
+     - 聚对苯二甲酸丁二醇酯
+     - polybutylene terephthalate 
 
    * - LDPE
      - 低密度聚乙烯
@@ -110,8 +112,8 @@
      - linear low density polyethylene 
 
    * - HDPE
-      - 高密度聚乙烯
-      - high density polyethylene
+     - 高密度聚乙烯
+     - high density polyethylene
 
    * - PP
      - 聚丙烯（均聚物和共聚物）

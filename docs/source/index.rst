@@ -39,3 +39,5 @@ M. J. 史蒂文斯 J. A. 科瓦斯
    appendix_a/index
    appendix_d/index
    references/index
+   index_chapters/Index
+   index_chapters/Afterword

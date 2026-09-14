@@ -201,6 +201,8 @@
 
 :math:`\begin{array}{l}{\dot{\gamma}_{X}=-\frac{X}{\eta}\cdot\frac{\mathrm{d}P}{\mathrm{d}L}}\\ {\quad=-\frac{H}{2\eta}\cdot\frac{\mathrm{d}P}{\mathrm{d}L}}\\ {\quad=\frac{6Q}{T H^{2}}}\end{array}` ``-                      (3.35)``
 
+.. _table-3-1:
+
 表 3.1 流量方程汇总表
 
 .. figure:: /images/table3.1.png
@@ -431,9 +433,8 @@ or
 
 
 .. figure:: /images/d205e3d614757d8440b1012e68f7f1f65fe7a5358f80faa624f1d5be97585780.jpg
-
-     :width: 80%
-     :align: center
+   :width: 80%
+   :align: center
 
 层流h至h+dh的应变能为：
 
